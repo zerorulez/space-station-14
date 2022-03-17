@@ -1,0 +1,161 @@
+- type: entity
+  parent: BaseMagazinePistol
+  id: BaseMagazinePistol9x19mm
+  name: Base Magazine for Pistol (9x19mm 10 Rnds)
+  abstract: true
+  components:
+    - type: Sprite
+      netsync: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Pistol/9x19mm.rsi
+      layers:
+        - state: base
+          map: [ "enum.RangedBarrelVisualLayers.Base" ]
+        - state: mag-6
+          map: [ "enum.RangedBarrelVisualLayers.WitnessHoles" ]
+    - type: MagazineVisuals
+      witnessHolesCount: 6
+      witnessHoles:
+        3: mag-1
+        5: mag-2
+        7: mag-3
+        9: mag-4
+        12: mag-5
+        15: mag-6
+
+- type: entity
+  parent: BaseMagazinePistol9x19mm
+  id: MagazinePistol9x19mmEmpty
+  name: Pistol Magazine (9x19mm Empty)
+  components:
+    - type: Sprite
+      netsync: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Pistol/9x19mm.rsi
+      layers:
+        - state: base
+          map: [ "enum.RangedBarrelVisualLayers.Base" ]
+    - type: Magazine
+      magazineType: Pistol
+      caliber: 9x19mm
+      capacity: 15
+
+- type: entity
+  parent: BaseMagazinePistol9x19mm
+  id: MagazinePistol9x19mmFMJ
+  name: Pistol Magazine (9x19mm FMG 15 Rnds)
+  abstract: true
+  components:
+    - type: Magazine
+      magazineType: Pistol
+      caliber: 9x19mm
+      fillWith:
+        CartridgePistol9x19mmFMJ: 15
+      capacity: 15
+
+- type: entity
+  parent: BaseMagazinePistol9x19mm
+  id: MagazinePistol9x19mmHollowPoint
+  name: Pistol Magazine (9x19mm Hollow Point 15 Rnds )
+  abstract: true
+  components:
+    - type: Sprite
+      netsync: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Pistol/9x19mm.rsi
+      layers:
+        - state: base
+          map: [ "enum.RangedBarrelVisualLayers.Base" ]
+        - state: mag-1
+          map: [ "enum.RangedBarrelVisualLayers.WitnessHoles"]
+    - type: Magazine
+      magazineType: Pistol
+      caliber: 9x19mm
+      fillWith:
+        CartridgePistol9x19mmHollowPoint: 15
+      capacity: 15
+
+- type: entity
+  parent: BaseMagazinePistol9x19mm
+  id: MagazinePistol9x19mmLead
+  name: Pistol Magazine (9x19mm Lead 15 Rnds)
+  abstract: true
+  components:
+    - type: Sprite
+      netsync: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Pistol/9x19mm.rsi
+      layers:
+        - state: base
+          map: [ "enum.RangedBarrelVisualLayers.Base" ]
+        - state: mag-1
+          map: [ "enum.RangedBarrelVisualLayers.WitnessHoles"]
+    - type: Magazine
+      magazineType: Pistol
+      caliber: 9x19mm
+      fillWith:
+        CartridgePistol9x19mmLead: 15
+      capacity: 15
+
+- type: entity
+  parent: BaseMagazinePistol9x19mm
+  id: MagazinePistol9x19mmSilver
+  name: Pistol Magazine (9x19mm Silver 15 Rnds )
+  abstract: true
+  components:
+    - type: Sprite
+      netsync: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Pistol/9x19mm.rsi
+      layers:
+        - state: base
+          map: [ "enum.RangedBarrelVisualLayers.Base" ]
+        - state: mag-1
+          map: [ "enum.RangedBarrelVisualLayers.WitnessHoles"]
+    - type: Magazine
+      magazineType: Pistol
+      caliber: 9x19mm
+      fillWith:
+        CartridgePistol9x19mmSilver: 15
+      capacity: 15
+
+- type: entity
+  parent: BaseMagazinePistol9x19mm
+  id: MagazinePistol9x19mmPractice
+  name: Pistol Magazine (9x19mm Practice 15 Rnds )
+  abstract: true
+  components:
+    - type: Sprite
+      netsync: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Pistol/9x19mm.rsi
+      layers:
+        - state: base
+          map: [ "enum.RangedBarrelVisualLayers.Base" ]
+        - state: mag-1
+          map: [ "enum.RangedBarrelVisualLayers.WitnessHoles"]
+        - state: magtype-rubber
+          map: [ "enum.RangedBarrelVisualLayers.MagType" ]
+    - type: Magazine
+      magazineType: Pistol
+      caliber: 9x19mm
+      fillWith:
+        CartridgePistol9x19mmPractice: 15
+      capacity: 15
+
+- type: entity
+  parent: BaseMagazinePistol9x19mm
+  id: MagazinePistol9x19mmRubber
+  name: Pistol Magazine (9x19mm Rubber 15 Rnds )
+  abstract: true
+  components:
+    - type: Sprite
+      netsync: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Pistol/9x19mm.rsi
+      layers:
+        - state: base
+          map: [ "enum.RangedBarrelVisualLayers.Base" ]
+        - state: mag-1
+          map: [ "enum.RangedBarrelVisualLayers.WitnessHoles"]
+        - state: magtype-rubber
+          map: [ "enum.RangedBarrelVisualLayers.MagType" ]
+    - type: Magazine
+      magazineType: Pistol
+      caliber: 9x19mm
+      fillWith:
+        CartridgePistol9x19mmRubber: 15
+      capacity: 15

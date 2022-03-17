@@ -16,7 +16,7 @@ namespace Content.Server.Weapon.Ranged;
 
 public sealed partial class GunSystem
 {
-    private void OnRangedMagMapInit(EntityUid uid, RangedMagazineComponent component, MapInitEvent args)
+    private void OnRangedMagMapInit(EntityUid uid, MagazineComponent component, MapInitEvent args)
     {
         if (component.FillPrototype != null)
         {
@@ -26,7 +26,7 @@ public sealed partial class GunSystem
         UpdateRangedMagAppearance(component);
     }
 
-    private void OnRangedMagInit(EntityUid uid, RangedMagazineComponent component, ComponentInit args)
+    private void OnRangedMagInit(EntityUid uid, MagazineComponent component, ComponentInit args)
     {
         component.AmmoContainer = uid.EnsureContainer<Container>($"{component.GetType()}-magazine", out var existing);
 
@@ -50,7 +50,7 @@ public sealed partial class GunSystem
         }
     }
 
-    private void UpdateRangedMagAppearance(RangedMagazineComponent component)
+    private void UpdateRangedMagAppearance(MagazineComponent component)
     {
         if (!TryComp(component.Owner, out AppearanceComponent? appearanceComponent)) return;
 
@@ -58,7 +58,7 @@ public sealed partial class GunSystem
         appearanceComponent.SetData(AmmoVisuals.AmmoMax, component.Capacity);
     }
 
-    private void OnRangedMagUse(EntityUid uid, RangedMagazineComponent component, UseInHandEvent args)
+    private void OnRangedMagUse(EntityUid uid, MagazineComponent component, UseInHandEvent args)
     {
         if (args.Handled) return;
 
@@ -76,12 +76,12 @@ public sealed partial class GunSystem
         args.Handled = true;
     }
 
-    private void OnRangedMagExamine(EntityUid uid, RangedMagazineComponent component, ExaminedEvent args)
+    private void OnRangedMagExamine(EntityUid uid, MagazineComponent component, ExaminedEvent args)
     {
         args.PushMarkup(Loc.GetString("ranged-magazine-component-on-examine", ("magazineType", component.MagazineType),("caliber", component.Caliber)));
     }
 
-    private void OnRangedMagInteractUsing(EntityUid uid, RangedMagazineComponent component, InteractUsingEvent args)
+    private void OnRangedMagInteractUsing(EntityUid uid, MagazineComponent component, InteractUsingEvent args)
     {
         if (args.Handled) return;
 
@@ -89,7 +89,7 @@ public sealed partial class GunSystem
             args.Handled = true;
     }
 
-    public bool TryInsertAmmo(EntityUid user, EntityUid ammo, RangedMagazineComponent component)
+    public bool TryInsertAmmo(EntityUid user, EntityUid ammo, MagazineComponent component)
     {
         if (!TryComp(ammo, out AmmoComponent? ammoComponent))
         {
@@ -114,7 +114,7 @@ public sealed partial class GunSystem
         return true;
     }
 
-    public EntityUid? TakeAmmo(RangedMagazineComponent component)
+    public EntityUid? TakeAmmo(MagazineComponent component)
     {
         EntityUid? ammo = null;
         // If anything's spawned use that first, otherwise use the fill prototype as a fallback (if we have spawn count left)

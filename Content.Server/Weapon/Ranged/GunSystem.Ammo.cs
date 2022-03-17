@@ -13,13 +13,13 @@ public sealed partial class GunSystem
 {
     private void OnAmmoExamine(EntityUid uid, AmmoComponent component, ExaminedEvent args)
     {
-        var text = Loc.GetString("ammo-component-on-examine",("caliber", component.Caliber));
+        var text = Loc.GetString("ammo-component-on-examine",("caliber", component.Caliber!.ID));
         args.PushMarkup(text);
     }
 
     public EntityUid? TakeBullet(AmmoComponent component, EntityCoordinates spawnAt)
     {
-        if (component.AmmoIsProjectile)
+        if (!component.HasCasing)
         {
             return component.Owner;
         }

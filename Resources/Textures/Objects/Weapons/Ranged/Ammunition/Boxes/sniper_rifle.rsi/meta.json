@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from cev-eris at https://github.com/discordia-space/CEV-Eris/raw/89456d18dd3e7c330839121e3c6bc8c609700137/icons/obj/ammo.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "icon"
+    },
+    {
+      "name": "box-small"
+    },
+    {
+      "name": "box-small-cartridge"
+    },
+    {
+      "name": "box-small-flash"
+    },
+    {
+      "name": "box-small-high-velocity"
+    },
+    {
+      "name": "box-small-practice"
+    },
+    {
+      "name": "box-small-rubber"
+    },
+    {
+      "name": "box-large"
+    },
+    {
+      "name": "box-large-cartridge"
+    },
+    {
+      "name": "box-large-rubber"
+    }
+  ]
+}

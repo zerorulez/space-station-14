@@ -37,7 +37,8 @@ public sealed partial class GunSystem
 
     private void OnBoltExamine(EntityUid uid, BoltActionBarrelComponent component, ExaminedEvent args)
     {
-        args.PushMarkup(Loc.GetString("bolt-action-barrel-component-on-examine", ("caliber", component.Caliber)));
+        args.PushMarkup(Loc.GetString("bolt-action-barrel-component-on-examine",
+            ("caliber", component.Caliber)));
     }
 
     private void OnBoltFireAttempt(EntityUid uid, BoltActionBarrelComponent component, GunFireAttemptEvent args)
@@ -145,7 +146,7 @@ public sealed partial class GunSystem
             if (!component.ChamberContainer.Remove(chambered))
                 return false;
 
-            if (TryComp(chambered, out AmmoComponent? ammoComponent) && !ammoComponent.Caseless)
+            if (TryComp(chambered, out AmmoComponent? ammoComponent) && ammoComponent.HasCasing)
                 EjectCasing(chambered);
 
             return true;

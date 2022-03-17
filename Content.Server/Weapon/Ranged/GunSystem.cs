@@ -74,11 +74,11 @@ public sealed partial class GunSystem : EntitySystem
         SubscribeLocalEvent<AmmoBoxComponent, InteractHandEvent>(OnAmmoBoxInteractHand);
         SubscribeLocalEvent<AmmoBoxComponent, GetVerbsEvent<AlternativeVerb>>(OnAmmoBoxAltVerbs);
 
-        SubscribeLocalEvent<RangedMagazineComponent, ComponentInit>(OnRangedMagInit);
-        SubscribeLocalEvent<RangedMagazineComponent, MapInitEvent>(OnRangedMagMapInit);
-        SubscribeLocalEvent<RangedMagazineComponent, UseInHandEvent>(OnRangedMagUse);
-        SubscribeLocalEvent<RangedMagazineComponent, ExaminedEvent>(OnRangedMagExamine);
-        SubscribeLocalEvent<RangedMagazineComponent, InteractUsingEvent>(OnRangedMagInteractUsing);
+        SubscribeLocalEvent<MagazineComponent, ComponentInit>(OnRangedMagInit);
+        SubscribeLocalEvent<MagazineComponent, MapInitEvent>(OnRangedMagMapInit);
+        SubscribeLocalEvent<MagazineComponent, UseInHandEvent>(OnRangedMagUse);
+        SubscribeLocalEvent<MagazineComponent, ExaminedEvent>(OnRangedMagExamine);
+        SubscribeLocalEvent<MagazineComponent, InteractUsingEvent>(OnRangedMagInteractUsing);
 
         // Whenever I get around to refactoring guns this is all going to change.
         // Essentially the idea is

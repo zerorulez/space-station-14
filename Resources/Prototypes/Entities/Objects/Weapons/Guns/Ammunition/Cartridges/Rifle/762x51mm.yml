@@ -1,0 +1,82 @@
+- type: entity
+  parent: BaseCartridge
+  id: BaseCartridge762x51mm
+  name: Base Cartridge for 7.62x51mm (you shouldnt see this!)
+  abstract: true
+  components:
+    - type: Caliber
+      id: 7.62x51mm
+
+- type: entity
+  parent: BaseCartridge762x51mm
+  id: CartridgeRifle762x51mmFMJ
+  name: Rifle Cartridge (7.62x51mm FMJ)
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Rifle/762x51mm.rsi
+      layers:
+        - state: casing
+          map: [ "enum.CartridgeVisualLayers.Casing" ]
+        - state: projectile-fmj
+          map: [ "enum.CartridgeVisualLayers.TypeProjectile" ]
+    - type: Cartridge
+      damageTypes:
+        Blunt: 30
+        Piercing: 4
+
+- type: entity
+  parent: BaseCartridge762x51mm
+  id: CartridgeRifle762x51mmArmorPiercing
+  name: Rifle Cartridge (7.62x51mm Armor Piercing )
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Rifle/762x51mm.rsi
+      layers:
+        - state: casing
+          map: [ "enum.CartridgeVisualLayers.Casing" ]
+        - state: projectile-armor-piercing
+          map: [ "enum.CartridgeVisualLayers.TypeProjectile" ]
+    - type: Cartridge
+      damageTypes:
+        Blunt: 12
+        Piercing: 60
+
+- type: entity
+  parent: BaseCartridge762x51mm
+  id: CartridgeRifle762x51mmGreenTip
+  name: Rifle Cartridge (7.62x51mm Green Tip)
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Rifle/762x51mm.rsi
+      layers:
+        - state: casing
+          map: [ "enum.CartridgeVisualLayers.Casing" ]
+        - state: projectile-green-tip
+          map: [ "enum.CartridgeVisualLayers.TypeProjectile" ]
+    - type: Cartridge
+      damageTypes:
+        Blunt: 32
+
+- type: entity
+  parent: BaseCartridge762x51mm
+  id: CartridgeRifle762x51mmTracer
+  name: Rifle Cartridge (7.62x51mm Tracer)
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Rifle/762x51mm.rsi
+      layers:
+        - state: casing
+          map: [ "enum.CartridgeVisualLayers.Casing" ]
+        - state: projectile-tracer
+          map: [ "enum.CartridgeVisualLayers.TypeProjectile" ]
+    - type: Cartridge
+      damageTypes:
+        Blunt: 10

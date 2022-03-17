@@ -42,7 +42,7 @@ namespace Content.Server.Weapon.Ranged.Barrels.Components
 
                 if (MagazineContainer.ContainedEntity is {Valid: true} magazine)
                 {
-                    count += _entities.GetComponent<RangedMagazineComponent>(magazine).ShotsLeft;
+                    count += _entities.GetComponent<MagazineComponent>(magazine).ShotsLeft;
                 }
 
                 return count;
@@ -57,7 +57,7 @@ namespace Content.Server.Weapon.Ranged.Barrels.Components
                 var count = 1;
                 if (MagazineContainer.ContainedEntity is {Valid: true} magazine)
                 {
-                    count += _entities.GetComponent<RangedMagazineComponent>(magazine).Capacity;
+                    count += _entities.GetComponent<MagazineComponent>(magazine).Capacity;
                 }
 
                 return count;

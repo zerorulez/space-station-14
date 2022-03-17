@@ -1,0 +1,118 @@
+- type: entity
+  parent: BaseCartridge
+  id: BaseCartridge9x19mm
+  name: Base Cartridge for 9x19mm (you shouldnt see this!)
+  abstract: true
+  components:
+    - type: Caliber
+      id: 9x19mm
+
+- type: entity
+  parent: BaseCartridge9x19mm
+  id: CartridgePistol9x19mmFMJ
+  name: Pistol Cartridge (9x19mm FMJ)
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Pistol/9x19mm.rsi
+      layers:
+        - state: casing
+          map: [ "enum.CartridgeVisualLayers.Casing" ]
+        - state: projectile-fmj
+          map: [ "enum.CartridgeVisualLayers.TypeProjectile" ]
+    - type: Cartridge
+      damageTypes:
+        Blunt: 8
+        Piercing: 3
+
+- type: entity
+  parent: BaseCartridge9x19mm
+  id: CartridgePistol9x19mmHollowPoint
+  name: Pistol Cartridge (9x19mm Hollow Point)
+  components:
+    - type: Sprite
+    netsync: false
+    noRot: false
+    sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Pistol/9x19mm.rsi
+    layers:
+      - state: casing
+        map: [ "enum.CartridgeVisualLayers.Casing" ]
+      - state: projectile-hollow-point
+        map: [ "enum.CartridgeVisualLayers.TypeProjectile" ]
+    - type: Cartridge
+      damageTypes:
+        Blunt: 14
+        Piercing: 2
+
+- type: entity
+  parent: BaseCartridge9x19mm
+  id: CartridgePistol9x19mmLead
+  name: Pistol Cartridge (9x19mm Lead)
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Pistol/9x19mm.rsi
+      layers:
+        - state: casing
+          map: [ "enum.CartridgeVisualLayers.Casing" ]
+        - state: projectile-lead
+          map: [ "enum.CartridgeVisualLayers.TypeProjectile" ]
+    - type: Cartridge
+      damageTypes:
+        Blunt: 24
+
+- type: entity
+  parent: BaseCartridge9x19mm
+  id: CartridgePistol9x19mm
+  name: Pistol Cartridge (9x19mm Silver)
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Pistol/9x19mm.rsi
+      layers:
+        - state: casing
+          map: [ "enum.CartridgeVisualLayers.Casing" ]
+        - state: projectile-silver
+          map: [ "enum.CartridgeVisualLayers.TypeProjectile" ]
+    - type: Cartridge
+      damageTypes:
+        Blunt: 10 #TODO add silver damage types for Awooo stuff *heavy sweating*
+
+- type: entity
+  parent: BaseCartridge9x19mm
+  id: CartridgePistol9x19mmPractice
+  name: Pistol Cartridge (9x19mm Practice)
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Pistol/9x19mm.rsi
+      layers:
+        - state: casing
+          map: [ "enum.CartridgeVisualLayers.Casing" ]
+        - state: projectile-practice
+          map: [ "enum.CartridgeVisualLayers.TypeProjectile" ]
+    - type: Cartridge
+      damageTypes:
+        Blunt: 1
+
+- type: entity
+  parent: BaseCartridge9x19mm
+  id: CartridgePistol9x19mmRubber
+  name: Pistol Cartridge (9x19mm Rubber)
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Pistol/9x19mm.rsi
+      layers:
+        - state: casing
+          map: [ "enum.CartridgeVisualLayers.Casing" ]
+        - state: projectile-rubber
+          map: [ "enum.CartridgeVisualLayers.TypeProjectile" ]
+    - type: Cartridge
+      damageTypes:
+        Blunt: 4

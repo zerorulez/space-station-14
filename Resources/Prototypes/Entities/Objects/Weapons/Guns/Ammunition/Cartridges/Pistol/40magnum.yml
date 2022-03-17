@@ -1,0 +1,118 @@
+- type: entity
+  parent: BaseCartridge
+  id: BaseCartridge40Magnum
+  name: Base Cartridge for .40 Magnum (you shouldnt see this!)
+  abstract: true
+  components:
+    - type: Caliber
+      id: .40 Magnum
+
+- type: entity
+  parent: BaseCartridge40Magnum
+  id: CartridgePistol40MagnumFMJ
+  name: Pistol Cartridge (.40 Magnum FMJ)
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Pistol/40magnum.rsi
+      layers:
+        - state: casing
+          map: [ "enum.CartridgeVisualLayers.Casing" ]
+        - state: projectile-fmj
+          map: [ "enum.CartridgeVisualLayers.TypeProjectile" ]
+    - type: Cartridge
+      damageTypes:
+        Blunt: 12
+        Piercing: 4
+
+- type: entity
+  parent: BaseCartridge40Magnum
+  id: CartridgePistol40MagnumHollowPoint
+  name: Pistol Cartridge (.40 Magnum Hollow Point)
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Pistol/40magnum.rsi
+      layers:
+        - state: casing
+          map: [ "enum.CartridgeVisualLayers.Casing" ]
+        - state: projectile-hollow-point
+          map: [ "enum.CartridgeVisualLayers.TypeProjectile" ]
+    - type: Cartridge
+      damageTypes:
+        Blunt: 17
+        Piercing: 3
+
+- type: entity
+  parent: BaseCartridge40Magnum
+  id: CartridgePistol40MagnumLead
+  name: Pistol Cartridge (.40 Magnum Lead)
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Pistol/40magnum.rsi
+      layers:
+        - state: casing
+          map: [ "enum.CartridgeVisualLayers.Casing" ]
+        - state: projectile-lead
+          map: [ "enum.CartridgeVisualLayers.TypeProjectile" ]
+    - type: Cartridge
+      damageTypes:
+        Blunt: 10
+
+- type: entity
+  parent: BaseCartridge40Magnum
+  id: CartridgePistol40MagnumSilver
+  name: Pistol Cartridge (.40 Magnum Silver)
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Pistol/40magnum.rsi
+      layers:
+        - state: casing
+          map: [ "enum.CartridgeVisualLayers.Casing" ]
+        - state: projectile-silver
+          map: [ "enum.CartridgeVisualLayers.TypeProjectile" ]
+    - type: Cartridge
+      damageTypes:
+        Blunt: 10 #TODO add silver damage types for Awooo stuff *heavy sweating*
+
+- type: entity
+  parent: BaseCartridge40Magnum
+  id: CartridgePistol40MagnumPractice
+  name: Pistol Cartridge (.40 Magnum Practice)
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Pistol/40magnum.rsi
+      layers:
+        - state: casing
+          map: [ "enum.CartridgeVisualLayers.Casing" ]
+        - state: projectile-practice
+          map: [ "enum.CartridgeVisualLayers.TypeProjectile" ]
+    - type: Cartridge
+      damageTypes:
+        Blunt: 1
+
+- type: entity
+  parent: BaseCartridge40Magnum
+  id: CartridgePistol40MagnumRubber
+  name: Pistol Cartridge (.40 Magnum Rubber)
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Pistol/40magnum.rsi
+      layers:
+        - state: casing
+          map: [ "enum.CartridgeVisualLayers.Casing" ]
+        - state: projectile-rubber
+          map: [ "enum.CartridgeVisualLayers.TypeProjectile" ]
+    - type: Cartridge
+      damageTypes:
+        Blunt: 4

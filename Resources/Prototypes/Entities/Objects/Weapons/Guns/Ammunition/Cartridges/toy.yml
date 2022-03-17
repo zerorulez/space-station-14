@@ -1,11 +1,9 @@
 - type: entity
-  id: CartridgeCapBase
-  name: cartridge (cap)
   parent: BaseCartridge
+  id: BaseCartridgeCap
+  name: Base Cartridge For Caps (You shouldnt see this!)
   abstract: true
   components:
-  - type: Ammo
-    caliber: Cap
   - type: Sprite
     netsync: false
     noRot: false
@@ -13,11 +11,18 @@
     layers:
     - state: base
       map: ["enum.AmmoVisualLayers.Base"]
+  - type: Caliber
+    id: .055 Cap
 
 - type: entity
+  parent: BaseCartridgeCap
   id: CartridgeCap
-  name: cap gun cartridge
-  parent: CartridgeCapBase
+  name: Cap Gun Cartridge
   components:
-  - type: Ammo
-    projectile: BulletCap
+  - type: Sprite
+    netsync: false
+    sprite: Objects/Fun/toys.rsi
+    state: capbullet
+  - type: Cartridge
+    damagetype:
+      Blunt: 0

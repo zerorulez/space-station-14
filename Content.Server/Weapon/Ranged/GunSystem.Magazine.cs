@@ -127,7 +127,7 @@ public sealed partial class GunSystem
     {
         (int, int)? count = null;
         if (component.MagazineContainer.ContainedEntity is {Valid: true} magazine &&
-            TryComp(magazine, out RangedMagazineComponent? rangedMagazineComponent))
+            TryComp(magazine, out MagazineComponent? rangedMagazineComponent))
         {
             count = (rangedMagazineComponent.ShotsLeft, rangedMagazineComponent.Capacity);
         }
@@ -226,7 +226,7 @@ public sealed partial class GunSystem
 
         // Try and pull a round from the magazine to replace the chamber if possible
         var magazine = component.MagazineContainer.ContainedEntity;
-        var magComp = EntityManager.GetComponentOrNull<RangedMagazineComponent>(magazine);
+        var magComp = EntityManager.GetComponentOrNull<MagazineComponent>(magazine);
 
         if (magComp == null || TakeAmmo(magComp) is not {Valid: true} nextRound)
         {
@@ -235,7 +235,7 @@ public sealed partial class GunSystem
 
         component.ChamberContainer.Insert(nextRound);
 
-        if (component.AutoEjectMag && magazine != null && EntityManager.GetComponent<RangedMagazineComponent>(magazine.Value).ShotsLeft == 0)
+        if (component.AutoEjectMag && magazine != null && EntityManager.GetComponent<MagazineComponent>(magazine.Value).ShotsLeft == 0)
         {
             SoundSystem.Play(Filter.Pvs(component.Owner), component.SoundAutoEject.GetSound(), component.Owner, AudioParams.Default.WithVolume(-2));
 
@@ -333,7 +333,7 @@ public sealed partial class GunSystem
 
     public bool CanInsertMagazine(EntityUid user, EntityUid magazine, MagazineBarrelComponent component, bool quiet = true)
     {
-        if (!TryComp(magazine, out RangedMagazineComponent? magazineComponent))
+        if (!TryComp(magazine, out MagazineComponent? magazineComponent))
         {
             return false;
         }

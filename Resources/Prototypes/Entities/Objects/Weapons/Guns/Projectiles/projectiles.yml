@@ -310,12 +310,4 @@
   parent: BulletBase
   noSpawn: true
   components:
-  - type: Sprite
-    netsync: false
-    sprite: Objects/Fun/toys.rsi
-    state: capbullet
-  - type: Projectile
-    deleteOnCollide: true
-    damage:
-      types:
-        Piercing: 0
+

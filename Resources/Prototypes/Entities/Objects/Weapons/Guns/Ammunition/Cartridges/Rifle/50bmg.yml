@@ -1,0 +1,30 @@
+- type: entity
+  parent: BaseCartridge
+  id: BaseCartridgeRifle50BMG
+  name: Base Cartridge for .50 BMG (you shouldnt see this!)
+  abstract: true
+  components:
+    - type: Caliber
+      id: .50 BMG
+
+- type: entity
+  parent: BaseCartridgeRifle50BMG
+  id: CartridgeRifle50BMG
+  name: Rifle Cartridge (.50 BMG)
+  components:
+    - type: Cartridge
+      damageTypes:
+        Piercing: 70
+      velocity: 100f
+
+
+#- type: entity
+#  parent: BaseCartridgeAntiMaterial
+#  id: CartridgeAntiMaterialArmorPiercing
+#  name: Anti Material Cartridge (.60 Anti-Material Armor Piercing)
+#  components:
+#  - type: Cartridge
+#    damageTypes:
+#      Piercing: 700
+#    velocity: 1000f
+#  *Heavy Bolter Noises*

@@ -1,0 +1,28 @@
+- type: entity
+  parent: BaseItem
+  id: BaseMagazinePistol
+  name: Base Magazine for Pistols
+  abstract: true
+  components:
+    - type: Tag
+      tags:
+        - Magazine
+        - Recyclable
+    - type: Item
+      size: 2
+    - type: Recyclable
+
+
+- type: entity
+  parent: BaseItem
+  id: BaseMagazineRifle
+  name: Base Magazine for Rifles
+  abstract: true
+  components:
+    - type: Tag
+      tags:
+        - Magazine
+        - Recyclable
+    - type: Item
+      size: 4
+    - type: Recyclable

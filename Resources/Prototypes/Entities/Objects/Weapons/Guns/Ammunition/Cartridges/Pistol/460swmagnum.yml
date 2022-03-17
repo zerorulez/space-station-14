@@ -1,0 +1,118 @@
+- type: entity
+  parent: BaseCartridge
+  id: BaseCartridge460SWMagnum
+  name: Base Cartridge for .460 Smith & Wesson Magnum (you shouldnt see this!)
+  abstract: true
+  components:
+    - type: Caliber
+      id: .460 S&W
+
+- type: entity
+  parent: BaseCartridge460SWMagnum
+  id: CartridgePistol460SWMagnumFMJ
+  name: Pistol Cartridge (.460 S&W Magnum FMJ)
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Pistol/460swmagnum.rsi
+      layers:
+        - state: casing
+          map: [ "enum.CartridgeVisualLayers.Casing" ]
+        - state: projectile-fmj
+          map: [ "enum.CartridgeVisualLayers.TypeProjectile" ]
+    - type: Cartridge
+      damageTypes:
+        Blunt: 30
+        Piercing: 10
+
+- type: entity
+  parent: BaseCartridge460SWMagnum
+  id: CartridgePistol460SWMagnumHollowPoint
+  name: Pistol Cartridge (.460 S&W Magnum Hollow Point)
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Pistol/460swmagnum.rsi
+      layers:
+        - state: casing
+          map: [ "enum.CartridgeVisualLayers.Casing" ]
+        - state: projectile-hollow-point
+          map: [ "enum.CartridgeVisualLayers.TypeProjectile" ]
+    - type: Cartridge
+      damageTypes:
+        Blunt: 40
+        Piercing: 10
+
+- type: entity
+  parent: BaseCartridge460SWMagnum
+  id: CartridgePistol460SWMagnumLead
+  name: Pistol Cartridge (.460 S&W Magnum Lead)
+  components:
+    - type: Sprite
+    netsync: false
+    noRot: false
+    sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Pistol/460swmagnum.rsi
+    layers:
+      - state: casing
+        map: [ "enum.CartridgeVisualLayers.Casing" ]
+      - state: projectile-lead
+        map: [ "enum.CartridgeVisualLayers.TypeProjectile" ]
+      - type: Cartridge
+        damageTypes:
+          Blunt: 80
+
+- type: entity
+  parent: BaseCartridge460SWMagnum
+  id: CartridgePistol460SWMagnumSilver
+  name: Pistol Cartridge (.460 S&W Magnum Silver)
+  components:
+    - type: Sprite
+    netsync: false
+    noRot: false
+    sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Pistol/460swmagnum.rsi
+    layers:
+      - state: casing
+        map: [ "enum.CartridgeVisualLayers.Casing" ]
+      - state: projectile-silver
+        map: [ "enum.CartridgeVisualLayers.TypeProjectile" ]
+      - type: Cartridge
+        damageTypes:
+          Blunt: 20 #TODO add silver damage types for Awooo stuff *heavy sweating*
+
+- type: entity
+  parent: BaseCartridge460SWMagnum
+  id: CartridgePistol460SWMagnumPractice
+  name: Pistol Cartridge (.460 S&W Magnum Practice)
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Pistol/460swmagnum.rsi
+      layers:
+        - state: casing
+          map: [ "enum.CartridgeVisualLayers.Casing" ]
+        - state: projectile-practice
+          map: [ "enum.CartridgeVisualLayers.TypeProjectile" ]
+    - type: Cartridge
+      damageTypes:
+        Blunt: 5
+
+- type: entity
+  parent: BaseCartridge460SWMagnum
+  id: CartridgePistol460SWMagnumRubber
+  name: Pistol Cartridge (.460 S&W Magnum Rubber)
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Pistol/460swmagnum.rsi
+      layers:
+        - state: casing
+          map: [ "enum.CartridgeVisualLayers.Casing" ]
+        - state: projectile-rubber
+          map: [ "enum.CartridgeVisualLayers.TypeProjectile" ]
+    - type: Cartridge
+      damageTypes:
+        Blunt: 10

@@ -1,0 +1,117 @@
+- type: entity
+  parent: BaseCartridge
+  id: BaseCartridge45ACP
+  name: Base Cartridge for .45 ACP (You should not see this!)
+  abstract: true
+  components:
+    - type: Caliber
+      id: .45 ACP
+
+- type: entity
+  parent: BaseCartridge45ACP
+  id: CartridgePistol45ACPFMJ
+  name: Pistol Cartridge (.45 ACP FMJ)
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Pistol/45acp.rsi
+      layers:
+        - state: casing
+          map: [ "enum.CartridgeVisualLayers.Casing" ]
+        - state: projectile-fmj
+          map: [ "enum.CartridgeVisualLayers.TypeProjectile" ]
+    - type: Cartridge
+      damageTypes:
+        Blunt: 15
+        Piercing: 5
+
+- type: entity
+  parent: BaseCartridge45ACP
+  id: CartridgePistol45ACPHollowPoint
+  name: Pistol Cartridge (.45 ACP Hollow Point)
+          - type: Sprite
+          netsync: false
+          noRot: false
+          sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Pistol/45acp.rsi
+          layers:
+            - state: casing
+              map: [ "enum.CartridgeVisualLayers.Casing" ]
+            - state: projectile-hollow-point
+              map: [ "enum.CartridgeVisualLayers.TypeProjectile" ]
+          - type: Cartridge
+            damageTypes:
+              Blunt: 20
+              Piercing: 5
+
+- type: entity
+  parent: BaseCartridge45ACP
+  id: CartridgePistol45ACPLead
+  name: Pistol Cartridge (.45 ACP Lead)
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Pistol/45acp.rsi
+      layers:
+        - state: casing
+          map: [ "enum.CartridgeVisualLayers.Casing" ]
+        - state: projectile-lead
+          map: [ "enum.CartridgeVisualLayers.TypeProjectile" ]
+    - type: Cartridge
+      damageTypes:
+        Blunt: 40
+
+- type: entity
+  parent: BaseCartridge45ACP
+  id: CartridgePistol45ACPSilver
+  name: Pistol Cartridge (.45 ACP Silver)
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Pistol/45acp.rsi
+      layers:
+        - state: casing
+          map: [ "enum.CartridgeVisualLayers.Casing" ]
+        - state: projectile-silver
+          map: [ "enum.CartridgeVisualLayers.TypeProjectile" ]
+    - type: Cartridge
+      damageTypes:
+        Blunt: 40 #TODO add silver damage types for Awooo stuff *heavy sweating*
+
+- type: entity
+  parent: BaseCartridge45ACP
+  id: CartridgePistol45ACPPractice
+  name: Pistol Cartridge (.45 ACP Practice)
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Pistol/45acp.rsi
+      layers:
+        - state: casing
+          map: [ "enum.CartridgeVisualLayers.Casing" ]
+        - state: projectile-practice
+          map: [ "enum.CartridgeVisualLayers.TypeProjectile" ]
+    - type: Cartridge
+      damageTypes:
+        Blunt: 2
+
+- type: entity
+  parent: BaseCartridge45ACP
+  id: CartridgePistol45ACPRubber
+  name: Pistol Cartridge (.45 ACP Rubber)
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridge/Pistol/45acp.rsi
+      layers:
+        - state: casing
+          map: [ "enum.CartridgeVisualLayers.Casing" ]
+        - state: projectile-rubber
+          map: [ "enum.CartridgeVisualLayers.TypeProjectile" ]
+    - type: Cartridge
+      damageTypes:
+      Blunt: 4

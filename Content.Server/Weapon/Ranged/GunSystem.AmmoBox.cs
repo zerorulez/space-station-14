@@ -65,7 +65,7 @@ public sealed partial class GunSystem
             return;
         }
 
-        if (!TryComp(args.Used, out RangedMagazineComponent? rangedMagazine)) return;
+        if (!TryComp(args.Used, out MagazineComponent? rangedMagazine)) return;
 
         for (var i = 0; i < Math.Max(10, rangedMagazine.ShotsLeft); i++)
         {
@@ -102,8 +102,10 @@ public sealed partial class GunSystem
 
     private void OnAmmoBoxExamine(EntityUid uid, AmmoBoxComponent component, ExaminedEvent args)
     {
-        args.PushMarkup(Loc.GetString("ammo-box-component-on-examine-caliber-description", ("caliber", component.Caliber)));
-        args.PushMarkup(Loc.GetString("ammo-box-component-on-examine-remaining-ammo-description", ("ammoLeft", component.AmmoLeft),("capacity", component.Capacity)));
+        args.PushMarkup(Loc.GetString("ammo-box-component-on-examine-caliber-description",
+            ("caliber", component.Caliber!.ID)));
+        args.PushMarkup(Loc.GetString("ammo-box-component-on-examine-remaining-ammo-description",
+            ("ammoLeft", component.AmmoLeft),("capacity", component.Capacity)));
     }
 
     private void OnAmmoBoxMapInit(EntityUid uid, AmmoBoxComponent component, MapInitEvent args)

@@ -11,8 +11,6 @@ namespace Content.Client.Weapons.Ranged
         Base,
         BaseUnshaded,
         Bolt,
-        Mag,
-        MagUnshaded,
     }
 
     [RegisterComponent]

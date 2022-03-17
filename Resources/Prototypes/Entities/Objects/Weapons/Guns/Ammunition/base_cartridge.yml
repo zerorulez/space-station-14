@@ -1,0 +1,15 @@
+- type: entity
+  id: BaseCartridge
+  parent: BaseItem
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+    - Cartridge
+    - Recyclable
+  - type: Item
+    size: 1
+  - type: Recyclable
+  - type: Appearance
+    visuals:
+      - type: CartridgeVisualizer

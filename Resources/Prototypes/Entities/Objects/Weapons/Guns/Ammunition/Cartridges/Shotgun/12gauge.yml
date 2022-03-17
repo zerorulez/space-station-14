@@ -1,0 +1,207 @@
+- type: entity
+  parent: BaseCartridge
+  id: BaseCartridgeShotgun12Gauge
+  name: Base Cartridge for 12 Gauge Shotguns (You shouldnt see this!)
+  abstract: true
+  components:
+    - type: Caliber
+      id: 12 Gauge
+
+- type: entity
+  parent: BaseCartridgeShotgun12Gauge
+  id: CartridgeShotgun12GaugeBeanbag
+  name: Shotgun Shell (12 Gauge Beanbag)
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridges/Shotgun/12gauge.rsi
+      layers:
+        - state: brass
+          map: ["enum.CartridgeVisualizer.Head"]
+        - state: casing
+          map: [ "enum.CartridgeVisualizer.Casing" ]
+          color: 006200
+    - type: StunOnCollide
+      stunAmount: 5
+      knockdownAmount: 3
+    - type: Cartridge
+      damageTypes:
+        Blunt: 10
+      ejectSoundCollection:
+        collection: ShellEject
+
+- type: entity
+  parent: BaseCartridgeShotgun12Gauge
+  id: CartridgeShotgun12GaugeSlug
+  name: Shotgun Shell (12 Gauge Slug)
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridges/Shotgun/12gauge.rsi
+      layers:
+        - state: brass
+          map: [ "enum.CartridgeVisualizer.Head" ]
+        - state: casing
+          map: [ "enum.CartridgeVisualizer.Casing" ]
+        - state: type-slug
+            map: [ "enum.CartridgeVisualizer.TypeProjectile" ]
+    - type: Cartridge
+      projectileCount: 4
+      projectileSpread: 10
+      damageTypes:
+        Piercing: 13
+      ejectSoundCollection:
+        collection: ShellEject
+
+- type: entity
+  parent: BaseCartridgeShotgun12Gauge
+  id: CartridgeShotgun12GaugeFlare
+  name: Shotgun Shell (12 Gauge Flare)
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridges/Shotgun/12gauge.rsi
+      layers:
+        - state: brass
+          map: [ "enum.CartridgeVisualizer.Head" ]
+        - state: casing
+          map: [ "enum.CartridgeVisualizer.Casing" ]
+        - state: type-slug
+          map: [ "enum.CartridgeVisualizer.TypeProjectile" ]
+    - type: PointLight
+      enabled: true
+      color: "#FF8080"
+      radius: 15.0
+      energy: 9.0
+    - type: IgniteOnCollide
+      fireStacks: 4
+    - type: Cartridge
+      damageGroup:
+        Burn: 20
+      ejectSoundCollection:
+        collection: ShellEject
+
+- type: entity
+  parent: BaseCartridgeShotgun12Gauge
+  id: CartridgeShotgun12GaugeBuckshot
+  name: Shotgun Shell (12 Gauge Buckshot)
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridges/Shotgun/12gauge.rsi
+      layers:
+        - state: brass
+          map: [ "enum.CartridgeVisualizer.Head" ]
+        - state: casing
+          map: [ "enum.CartridgeVisualizer.Casing" ]
+          color: 920717
+    - type: Cartridge
+      projectileCount: 4
+      projectileSpread: 10
+      damageType:
+        Piercing: 7
+      ejectSoundCollection:
+        collection: ShellEject
+
+- type: entity
+  parent: BaseCartridgeShotgun12Gauge
+  id: CartridgeShotgun12GaugeFlash
+  name: Shotgun Shell (12 Gauge Flash)
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridges/Shotgun/12gauge.rsi
+      layers:
+        - state: brass
+          map: [ "enum.CartridgeVisualizer.Head" ]
+        - state: casing
+          map: [ "enum.CartridgeVisualizer.Casing" ]
+          color: 920717
+    - type: Cartridge
+      damageTypes:
+        Blunt: 3
+      ejectSoundCollection:
+        collection: ShellEject
+
+- type: entity
+  parent: BaseCartridgeShotgun12Gauge
+  id: CartridgeShotgun12GaugeIncendiary
+  name: Shotgun Shell (12 Gauge Incendiary)
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridges/Shotgun/12gauge.rsi
+      layers:
+        - state: brass
+          map: [ "enum.CartridgeVisualizer.Head" ]
+        - state: casing
+          map: [ "enum.CartridgeVisualizer.Casing" ]
+          color: 920717
+    - type: Cartridge
+      projectileCount: 6
+      projectileSpread: 125
+      damageGroup:
+        Burn: 10
+      ejectSoundCollection:
+        collection: ShellEject
+
+- type: entity
+  parent: BaseCartridgeShotgun12Gauge
+  id: CartridgeShotgun12GaugePractice
+  name: Shotgun Shell (12 Gauge Practice)
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridges/Shotgun/12gauge.rsi
+      layers:
+        - state: brass
+          map: [ "enum.CartridgeVisualizer.Head" ]
+        - state: casing
+          map: [ "enum.CartridgeVisualizer.Casing" ]
+        - state: type-practice
+          map: [ "enum.CartridgeVisualizer.TypeProjectile" ]
+    - type: Cartridge
+      damageType:
+        Blunt: 1
+      ejectSoundCollection:
+        collection: ShellEject
+
+- type: entity
+  parent: BaseCartridgeShotgun12Gauge
+  id: CartridgeShotgun12GaugeTranquilizer
+  name: Shotgun Shell (12 Gauge Tranquilizer)
+  components:
+    - type: Sprite
+      netsync: false
+      noRot: false
+      sprite: Objects/Weapons/Guns/Ammunition/Cartridges/Shotgun/12gauge.rsi
+      layers:
+        - state: brass
+          map: [ "enum.CartridgeVisualizer.Head" ]
+        - state: casing-chem
+          map: [ "enum.CartridgeVisualizer.Casing" ]
+    - type: ChemicalAmmo
+    - type: SolutionContainerManager
+      solutions:
+        ammo:
+          maxVol: 14
+    - type: RefillableSolution
+      solution: ammo
+    - type: DrainableSolution
+      solution: ammo
+    - type: SolutionTransfer
+      maxTransferAmount: 14
+    - type: InjectableSolution
+        solution: ammo
+    - type: Cartridge
+      damageType:
+        Blunt: 1
+      ejectSoundCollection:
+        collection: ShellEject

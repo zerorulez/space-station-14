@@ -46,7 +46,7 @@ jobs:
         username: root
         password: ${{ secrets.CENTCOMM_PASSWORD }}
         source: "release/${{ github.sha }}"
-        target: "/root/wizards-build-push/builds_dir/builds/"
+        target: "/var/www/html/builds/"
         strip_components: 1
 
     - name: Update manifest JSON

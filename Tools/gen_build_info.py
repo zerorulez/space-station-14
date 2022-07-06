@@ -20,10 +20,10 @@ SERVER_FILES = [
 ]
 
 VERSION = os.environ['GITHUB_SHA']
-FORK_ID = "wizards"
-BUILD_URL = f"https://cdn.centcomm.spacestation14.com/builds/wizards/builds/{{FORK_VERSION}}/{FILE}"
-MANIFEST_URL = f"https://cdn.centcomm.spacestation14.com/cdn/version/{{FORK_VERSION}}/manifest"
-MANIFEST_DOWNLOAD_URL = f"https://cdn.centcomm.spacestation14.com/cdn/version/{{FORK_VERSION}}/download"
+FORK_ID = "estacao_pirata"
+BUILD_URL = f"http://216.238.108.111/builds/{{FORK_VERSION}}/{FILE}"
+MANIFEST_URL = f"http://216.238.108.111/manifest.json"
+MANIFEST_DOWNLOAD_URL = f"http://216.238.108.111/manifest.json"
 
 def main() -> None:
     client_file = os.path.join("release", FILE)

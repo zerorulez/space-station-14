@@ -55,5 +55,5 @@ jobs:
         host: 216.238.108.111
         username: root
         password: ${{ secrets.CENTCOMM_PASSWORD }}
-        script: /root/wizards-build-push/push.ps1 ${{ github.sha }}
+        script: node /root/wizards-build-push/push.js ${{ github.sha }}
 

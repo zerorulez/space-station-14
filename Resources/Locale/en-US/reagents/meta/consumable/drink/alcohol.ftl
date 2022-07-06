@@ -49,6 +49,9 @@ reagent-desc-vermouth = Aromatized, fortified white wine flavored with various b
 reagent-name-vodka = vodka
 reagent-desc-vodka = Clear distilled alcoholic beverage that originates from Poland and Russia.
 
+reagent-name-cachaca = cachaça
+reagent-desc-cachaca = Clear distilled alcoholic beverage that originates from Brazil.
+
 reagent-name-whiskey = whiskey
 reagent-desc-whiskey = A type of distilled alcoholic beverage made from fermented grain mash.
 
@@ -243,3 +246,6 @@ reagent-desc-whiskey-soda = For the more refined griffon.
 
 reagent-name-white-russian = white russian
 reagent-desc-white-russian = That's just, like, your opinion, man...
+
+reagent-name-caipirinha = caipirinha
+reagent-desc-caipirinha = To watch a football game.

@@ -300,25 +300,41 @@
   - type: LatheVisuals
     idleState: icon
     runningState: icon
-  - type: LatheDatabase
-    static: true
-    recipes:
+  - type: ProtolatheDatabase
+    protolatherecipes:
       - Flash
-      - FlashPayload
       - Handcuffs
       - Stunbaton
       - RiotShield
       - CartridgePistol
-      - CartridgeMagnum
-      - CartridgePistolRubber
-      - CartridgeMagnumRubber
       - ShellShotgun
+      - CartridgeLightRifle
+      - CartridgeMagnum
       - ShellShotgunBeanbag
       - ShellShotgunFlare
-      - CartridgeLightRifle
+      - ShellShotgunFlash
+      - CartridgePistolRubber
+      - CartridgeMagnumRubber
       - CartridgeCaselessRifleRubber
       - CartridgeLightRifleRubber
-      - CartridgeRifleRubber
+      - CartridgeRifleRubber  #Everything below this is shared with other lathes
+      - FlashlightLantern
+      - Bucket
+      - MopItem
+      - SprayBottle
+      - FireExtinguisher
+      - LightTube
+      - LightBulb
+      - SheetSteel
+      - SheetGlass1
+      - SheetRGlass
+      - SheetPlastic
+      - CableStack
+      - CableMVStack
+      - CableHVStack
+      - TimerTrigger
+      - Signaller
+      - SignalTrigger
   - type: Machine
     board: SecurityTechFabCircuitboard
   - type: Lathe
@@ -351,9 +367,8 @@
   - type: LatheVisuals
     idleState: icon
     runningState: icon
-  - type: LatheDatabase
-    static: true
-    recipes:
+  - type: ProtolatheDatabase
+    protolatherecipes:
       - HandheldHealthAnalyzer
       - ClothingHandsGlovesLatex
       - ClothingHandsGlovesNitrile
@@ -372,7 +387,21 @@
       - CryostasisBeaker
       - Dropper
       - Syringe
-      - PillCanister
+      - PillCanister #Everything below this is shared with other lathes
+      - FlashlightLantern
+      - Bucket
+      - MopItem
+      - SprayBottle
+      - FireExtinguisher
+      - LightTube
+      - LightBulb
+      - SheetSteel
+      - SheetGlass1
+      - SheetRGlass
+      - SheetPlastic
+      - CableStack
+      - CableMVStack
+      - CableHVStack
   - type: Machine
     board: MedicalTechFabCircuitboard
 

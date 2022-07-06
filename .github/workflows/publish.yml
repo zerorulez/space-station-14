@@ -43,17 +43,17 @@ jobs:
       uses: appleboy/scp-action@master
       with:
         host: centcomm.spacestation14.io
-        username: wizards-build-push
+        username: root
         key: ${{ secrets.CENTCOMM_WIZARDS_BUILDS_PUSH_KEY }}
         source: "release/${{ github.sha }}"
-        target: "/home/wizards-build-push/builds_dir/builds/"
+        target: "/root/wizards-build-push/builds_dir/builds/"
         strip_components: 1
 
     - name: Update manifest JSON
       uses: appleboy/ssh-action@master
       with:
         host: centcomm.spacestation14.io
-        username: wizards-build-push
+        username: root
         key: ${{ secrets.CENTCOMM_WIZARDS_BUILDS_PUSH_KEY }}
-        script: /home/wizards-build-push/push.ps1 ${{ github.sha }}
+        script: /root/wizards-build-push/push.ps1 ${{ github.sha }}
 

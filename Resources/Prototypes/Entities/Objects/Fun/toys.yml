@@ -502,8 +502,9 @@
     - state: base
       map: ["enum.GunVisualLayers.Base"]
   - type: Item
+    size: 24
     sprite: Objects/Fun/toys.rsi
-    HeldPrefix: capgun
+    state: base
   - type: Gun
     selectedMode: SemiAuto
     availableModes:

@@ -1,4 +1,19 @@
 Entries:
+- author: Saakra
+  changes:
+  - {message: Bibles and Necronomicons can now be worn in the belt slot, type: Add}
+  id: 1373
+  time: '2022-04-22T01:20:07.0000000+00:00'
+- author: keronshb
+  changes:
+  - {message: Players can't suicide if they're already dead., type: Add}
+  id: 1374
+  time: '2022-04-22T05:37:49.0000000+00:00'
+- author: moonheart08
+  changes:
+  - {message: You can rotate the salvage magnet and PA parts again., type: Fix}
+  id: 1375
+  time: '2022-04-23T01:14:28.0000000+00:00'
 - author: moony
   changes:
   - {message: The game no longer pretends only one salvage magnet can exist at a time.,
@@ -2937,20 +2952,3 @@ Entries:
   - {message: 'Security Officer, Warden and HoS now have external access.', type: Tweak}
   id: 1872
   time: '2022-07-05T14:11:29.0000000+00:00'
-- author: Aerocrux
-  changes:
-  - {message: Cap Guns now have visible held sprites, type: Add}
-  id: 1873
-  time: '2022-07-05T17:09:54.0000000+00:00'
-- author: BurninDreamer
-  changes:
-  - {message: Make the uplink lantern actually flash you., type: Tweak}
-  id: 1874
-  time: '2022-07-05T18:40:19.0000000+00:00'
-- author: EmoGarbage404
-  changes:
-  - {message: The security techfab now starts with all technologies unlocked., type: Tweak}
-  - {message: Removed security tech tree from science., type: Remove}
-  - {message: Department lathes no longer print common items., type: Tweak}
-  id: 1875
-  time: '2022-07-05T19:56:58.0000000+00:00'

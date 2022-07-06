@@ -44,7 +44,8 @@ jobs:
       with:
         host: 216.238.108.111
         username: root
-        key: ${{ secrets.CENTCOMM_WIZARDS_BUILDS_PUSH_KEY }}
+        password: ${{ secrets.CENTCOMM_PASSWORD }}
+        key: ${{ secrets.CENTCOMM_KEY }}
         source: "release/${{ github.sha }}"
         target: "/root/wizards-build-push/builds_dir/builds/"
         strip_components: 1
@@ -54,6 +55,7 @@ jobs:
       with:
         host: 216.238.108.111
         username: root
-        key: ${{ secrets.CENTCOMM_WIZARDS_BUILDS_PUSH_KEY }}
+        password: ${{ secrets.CENTCOMM_PASSWORD }}
+        key: ${{ secrets.CENTCOMM_KEY }}
         script: /root/wizards-build-push/push.ps1 ${{ github.sha }}
 

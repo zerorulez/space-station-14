@@ -65,6 +65,12 @@ grids:
     chunksize: 16
     tilesize: 1
   chunks:
+  - ind: 0,-2
+    tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+- settings:
+    chunksize: 16
+    tilesize: 1
+  chunks:
   - ind: -1,-1
     tiles: NwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAAxAAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAAMQAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADEAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAAxAAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAAMQAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADEAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAAxAAAANwAAADcAAAA3AAAANwAAADYAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAAA==
   - ind: 0,-1
@@ -556,7 +562,7 @@ entities:
   - pos: -1.8522191,4.3451443
     parent: null
     type: Transform
-  - index: 0
+  - index: 1
     type: MapGrid
   - angularDamping: 100
     linearDamping: 50
@@ -3264,8 +3270,8 @@ entities:
       6,-34: 3
       6,-33: 3
       7,-35: 0
-      7,-34: 5
-      7,-33: 6
+      7,-34: 0
+      7,-33: 0
       8,-35: 0
       8,-34: 3
       8,-33: 3
@@ -3342,28 +3348,6 @@ entities:
       - 0
       - 0
       - 6666.982
-      - 0
-      - 0
-      - 0
-      - 0
-    - volume: 2500
-      temperature: 293.15
-      moles:
-      - 2.4249866
-      - 9.122569
-      - 0
-      - 0
-      - 0
-      - 0
-      - 0
-      - 0
-    - volume: 2500
-      temperature: 293.15
-      moles:
-      - 7.2749596
-      - 27.367706
-      - 0
-      - 0
       - 0
       - 0
       - 0
@@ -23295,11 +23279,39 @@ entities:
     parent: 69
     type: Transform
 - uid: 2970
-  type: WallReinforced
   components:
-  - pos: 7.5,-33.5
-    parent: 69
+  - pos: -1.8522191,4.3451443
+    parent: null
     type: Transform
+  - index: 0
+    type: MapGrid
+  - angularDamping: 100
+    linearDamping: 50
+    fixedRotation: False
+    bodyType: Dynamic
+    type: Physics
+  - fixtures: []
+    type: Fixtures
+  - gravityShakeSound: !type:SoundPathSpecifier
+      path: /Audio/Effects/alert.ogg
+    type: Gravity
+  - chunkCollection: {}
+    type: DecalGrid
+  - tiles:
+      7,-32: 0
+    uniqueMixes:
+    - volume: 2500
+      temperature: 293.15
+      moles:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    type: GridAtmosphere
 - uid: 2971
   type: GasPipeStraight
   components:
@@ -23456,13 +23468,15 @@ entities:
 - uid: 2993
   type: WallReinforced
   components:
-  - pos: 7.5,-31.5
+  - rot: 3.141592653589793 rad
+    pos: 5.5,-32.5
     parent: 69
     type: Transform
 - uid: 2994
   type: WallReinforced
   components:
-  - pos: 7.5,-32.5
+  - rot: 3.141592653589793 rad
+    pos: 5.5,-31.5
     parent: 69
     type: Transform
 - uid: 2995
@@ -23491,6 +23505,20 @@ entities:
   components:
   - pos: 4.5,-29.5
     parent: 69
+    type: Transform
+- uid: 2999
+  type: WallReinforced
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 7.5,-32.5
+    parent: 69
+    type: Transform
+- uid: 3000
+  type: WallReinforced
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 7.5,-31.5
+    parent: 2970
     type: Transform
 - uid: 3001
   type: WallReinforced
@@ -23559,6 +23587,20 @@ entities:
   type: GasPipeStraight
   components:
   - pos: 4.5,-28.5
+    parent: 69
+    type: Transform
+- uid: 3011
+  type: WallReinforced
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 9.5,-32.5
+    parent: 69
+    type: Transform
+- uid: 3012
+  type: WallReinforced
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 9.5,-31.5
     parent: 69
     type: Transform
 - uid: 3013
@@ -23998,6 +24040,20 @@ entities:
     pos: 4.5,-31.5
     parent: 69
     type: Transform
+- uid: 3076
+  type: GasOutletInjector
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 6.5,-31.5
+    parent: 69
+    type: Transform
+- uid: 3077
+  type: GasOutletInjector
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 8.5,-31.5
+    parent: 69
+    type: Transform
 - uid: 3078
   type: GasOutletInjector
   components:
@@ -24033,6 +24089,15 @@ entities:
     pos: 18.5,-31.5
     parent: 69
     type: Transform
+- uid: 3083
+  type: GasMinerOxygen
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 6.5,-32.5
+    parent: 69
+    type: Transform
+  - fixtures: []
+    type: Fixtures
 - uid: 3084
   type: GasMinerNitrogen
   components:
@@ -24047,6 +24112,20 @@ entities:
   components:
   - rot: 1.5707963267948966 rad
     pos: 4.5,-33.5
+    parent: 69
+    type: Transform
+- uid: 3086
+  type: GasPassiveVent
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 6.5,-33.5
+    parent: 69
+    type: Transform
+- uid: 3087
+  type: GasPassiveVent
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 8.5,-33.5
     parent: 69
     type: Transform
 - uid: 3088
@@ -24082,6 +24161,18 @@ entities:
   components:
   - rot: 1.5707963267948966 rad
     pos: 18.5,-33.5
+    parent: 69
+    type: Transform
+- uid: 3093
+  type: AirCanister
+  components:
+  - pos: 8.5,-33.5
+    parent: 69
+    type: Transform
+- uid: 3094
+  type: OxygenCanister
+  components:
+  - pos: 6.5,-33.5
     parent: 69
     type: Transform
 - uid: 3095
@@ -24151,6 +24242,20 @@ entities:
   type: GasPipeStraight
   components:
   - pos: 8.5,-29.5
+    parent: 69
+    type: Transform
+- uid: 3105
+  type: GasPipeBend
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 7.5,-33.5
+    parent: 69
+    type: Transform
+- uid: 3106
+  type: GasPipeBend
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 5.5,-33.5
     parent: 69
     type: Transform
 - uid: 3107
@@ -24247,6 +24352,13 @@ entities:
   type: GasPipeStraight
   components:
   - pos: 8.5,-28.5
+    parent: 69
+    type: Transform
+- uid: 3123
+  type: GasPipeBend
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 9.5,-33.5
     parent: 69
     type: Transform
 - uid: 3124
@@ -24452,6 +24564,20 @@ entities:
     pos: 11.5,-28.5
     parent: 69
     type: Transform
+- uid: 3153
+  type: GasPipeStraight
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 9.5,-32.5
+    parent: 69
+    type: Transform
+- uid: 3154
+  type: GasPipeStraight
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 9.5,-31.5
+    parent: 69
+    type: Transform
 - uid: 3155
   type: GasPipeStraight
   components:
@@ -24472,6 +24598,20 @@ entities:
   - rot: 3.141592653589793 rad
     pos: 9.5,-28.5
     parent: 69
+    type: Transform
+- uid: 3158
+  type: GasPipeStraight
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 7.5,-32.5
+    parent: 69
+    type: Transform
+- uid: 3159
+  type: GasPipeStraight
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 7.5,-31.5
+    parent: 2970
     type: Transform
 - uid: 3160
   type: GasPipeStraight
@@ -24494,6 +24634,20 @@ entities:
     pos: 7.5,-28.5
     parent: 69
     type: Transform
+- uid: 3163
+  type: GasPipeStraight
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 5.5,-32.5
+    parent: 69
+    type: Transform
+- uid: 3164
+  type: GasPipeStraight
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 5.5,-31.5
+    parent: 69
+    type: Transform
 - uid: 3165
   type: GasPipeStraight
   components:
@@ -24513,6 +24667,27 @@ entities:
   components:
   - rot: 3.141592653589793 rad
     pos: 5.5,-28.5
+    parent: 69
+    type: Transform
+- uid: 3168
+  type: WallReinforced
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 5.5,-33.5
+    parent: 69
+    type: Transform
+- uid: 3169
+  type: WallReinforced
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 7.5,-33.5
+    parent: 69
+    type: Transform
+- uid: 3170
+  type: WallReinforced
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 9.5,-33.5
     parent: 69
     type: Transform
 - uid: 3171
@@ -25759,6 +25934,30 @@ entities:
   components:
   - rot: 3.141592653589793 rad
     pos: 10.5,-33.5
+    parent: 69
+    type: Transform
+  - inputs:
+      On: []
+      Off: []
+      Toggle: []
+    type: SignalReceiver
+- uid: 3341
+  type: Poweredlight
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 8.5,-33.5
+    parent: 69
+    type: Transform
+  - inputs:
+      On: []
+      Off: []
+      Toggle: []
+    type: SignalReceiver
+- uid: 3342
+  type: Poweredlight
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 6.5,-33.5
     parent: 69
     type: Transform
   - inputs:
@@ -31438,6 +31637,41 @@ entities:
     pos: 4.5,-31.5
     parent: 69
     type: Transform
+- uid: 4192
+  type: AtmosFixBlockerMarker
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 6.5,-32.5
+    parent: 69
+    type: Transform
+- uid: 4193
+  type: AtmosFixBlockerMarker
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 6.5,-31.5
+    parent: 69
+    type: Transform
+- uid: 4194
+  type: AtmosFixBlockerMarker
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 8.5,-31.5
+    parent: 69
+    type: Transform
+- uid: 4195
+  type: AtmosFixBlockerMarker
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 8.5,-32.5
+    parent: 69
+    type: Transform
+- uid: 4196
+  type: AtmosFixBlockerMarker
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 8.5,-33.5
+    parent: 69
+    type: Transform
 - uid: 4197
   type: AtmosFixBlockerMarker
   components:
@@ -31527,6 +31761,13 @@ entities:
   components:
   - rot: 1.5707963267948966 rad
     pos: 12.5,-33.5
+    parent: 69
+    type: Transform
+- uid: 4210
+  type: AtmosFixBlockerMarker
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 6.5,-33.5
     parent: 69
     type: Transform
 - uid: 4211

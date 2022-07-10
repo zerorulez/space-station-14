@@ -65,6 +65,12 @@ grids:
     chunksize: 16
     tilesize: 1
   chunks:
+  - ind: 0,-2
+    tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+- settings:
+    chunksize: 16
+    tilesize: 1
+  chunks:
   - ind: -1,-1
     tiles: NwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAAxAAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAAMQAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADEAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAAxAAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAAMQAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADEAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAAxAAAANwAAADcAAAA3AAAANwAAADYAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAAA==
   - ind: 0,-1
@@ -556,7 +562,7 @@ entities:
   - pos: -1.8522191,4.3451443
     parent: null
     type: Transform
-  - index: 0
+  - index: 1
     type: MapGrid
   - angularDamping: 100
     linearDamping: 50
@@ -610,7 +616,7 @@ entities:
       2,-12: 0
       2,-11: 0
       2,-10: 0
-      2,-9: 2
+      2,-9: 0
       2,-8: 0
       2,-7: 0
       2,-6: 0
@@ -2993,7 +2999,7 @@ entities:
       3,-22: 0
       3,-21: 0
       3,-20: 0
-      4,-32: 3
+      4,-32: 2
       4,-31: 0
       4,-30: 0
       4,-29: 0
@@ -3019,7 +3025,7 @@ entities:
       5,-22: 0
       5,-21: 0
       5,-20: 0
-      6,-32: 3
+      6,-32: 2
       6,-31: 0
       6,-30: 0
       6,-29: 0
@@ -3045,7 +3051,7 @@ entities:
       7,-22: 0
       7,-21: 0
       7,-20: 0
-      8,-32: 3
+      8,-32: 2
       8,-31: 0
       8,-30: 0
       8,-29: 0
@@ -3071,7 +3077,7 @@ entities:
       9,-22: 0
       9,-21: 0
       9,-20: 0
-      10,-32: 3
+      10,-32: 2
       10,-31: 0
       10,-30: 0
       10,-29: 0
@@ -3097,7 +3103,7 @@ entities:
       11,-22: 0
       11,-21: 0
       11,-20: 0
-      12,-32: 4
+      12,-32: 3
       12,-31: 0
       12,-30: 0
       12,-29: 0
@@ -3121,7 +3127,7 @@ entities:
       13,-23: 0
       13,-22: 0
       13,-21: 0
-      14,-32: 3
+      14,-32: 2
       14,-31: 0
       14,-30: 0
       14,-29: 0
@@ -3156,7 +3162,7 @@ entities:
       26,17: 0
       26,18: 0
       26,19: 0
-      16,-32: 3
+      16,-32: 2
       16,-31: 0
       16,-30: 0
       16,-29: 0
@@ -3172,7 +3178,7 @@ entities:
       17,-27: 0
       17,-26: 0
       17,-25: 0
-      18,-32: 3
+      18,-32: 2
       18,-31: 0
       18,-30: 0
       18,-29: 0
@@ -3220,8 +3226,8 @@ entities:
       24,-24: 0
       25,-29: 0
       25,-28: 0
-      25,-27: 3
-      25,-26: 3
+      25,-27: 2
+      25,-26: 2
       25,-25: 0
       25,-24: 0
       26,-29: 0
@@ -3237,14 +3243,14 @@ entities:
       27,-25: 0
       27,-24: 0
       16,-35: 0
-      16,-34: 3
-      16,-33: 3
+      16,-34: 2
+      16,-33: 2
       17,-35: 0
       17,-34: 0
       17,-33: 0
       18,-35: 0
-      18,-34: 3
-      18,-33: 3
+      18,-34: 2
+      18,-33: 2
       19,-35: 0
       19,-34: 0
       19,-33: 0
@@ -3255,38 +3261,38 @@ entities:
       3,-34: 0
       3,-33: 0
       4,-35: 0
-      4,-34: 3
-      4,-33: 3
+      4,-34: 2
+      4,-33: 2
       5,-35: 0
       5,-34: 0
       5,-33: 0
       6,-35: 0
-      6,-34: 3
-      6,-33: 3
+      6,-34: 2
+      6,-33: 2
       7,-35: 0
-      7,-34: 5
-      7,-33: 6
+      7,-34: 0
+      7,-33: 0
       8,-35: 0
-      8,-34: 3
-      8,-33: 3
+      8,-34: 2
+      8,-33: 2
       9,-35: 0
       9,-34: 0
       9,-33: 0
       10,-35: 0
-      10,-34: 3
-      10,-33: 3
+      10,-34: 2
+      10,-33: 2
       11,-35: 0
       11,-34: 0
       11,-33: 0
       12,-35: 0
-      12,-34: 4
-      12,-33: 4
+      12,-34: 3
+      12,-33: 3
       13,-35: 0
       13,-34: 0
       13,-33: 0
       14,-35: 0
-      14,-34: 3
-      14,-33: 3
+      14,-34: 2
+      14,-33: 2
       15,-35: 0
       15,-34: 0
       15,-33: 0
@@ -3314,17 +3320,6 @@ entities:
       - 0
       - 0
     - volume: 2500
-      temperature: 278.6125
-      moles:
-      - 21.824879
-      - 82.10312
-      - 0
-      - 0
-      - 0
-      - 0
-      - 0
-      - 0
-    - volume: 2500
       temperature: 293.15
       moles:
       - 0
@@ -3342,28 +3337,6 @@ entities:
       - 0
       - 0
       - 6666.982
-      - 0
-      - 0
-      - 0
-      - 0
-    - volume: 2500
-      temperature: 293.15
-      moles:
-      - 2.4249866
-      - 9.122569
-      - 0
-      - 0
-      - 0
-      - 0
-      - 0
-      - 0
-    - volume: 2500
-      temperature: 293.15
-      moles:
-      - 7.2749596
-      - 27.367706
-      - 0
-      - 0
       - 0
       - 0
       - 0
@@ -6703,8 +6676,7 @@ entities:
 - uid: 601
   type: WallReinforced
   components:
-  - rot: 1.5707963267948966 rad
-    pos: 9.5,27.5
+  - pos: 8.5,27.5
     parent: 69
     type: Transform
 - uid: 602
@@ -6985,8 +6957,7 @@ entities:
 - uid: 646
   type: WallReinforced
   components:
-  - rot: 1.5707963267948966 rad
-    pos: 8.5,27.5
+  - pos: 9.5,27.5
     parent: 69
     type: Transform
 - uid: 647
@@ -23295,11 +23266,39 @@ entities:
     parent: 69
     type: Transform
 - uid: 2970
-  type: WallReinforced
   components:
-  - pos: 7.5,-33.5
-    parent: 69
+  - pos: -1.8522191,4.3451443
+    parent: null
     type: Transform
+  - index: 0
+    type: MapGrid
+  - angularDamping: 100
+    linearDamping: 50
+    fixedRotation: False
+    bodyType: Dynamic
+    type: Physics
+  - fixtures: []
+    type: Fixtures
+  - gravityShakeSound: !type:SoundPathSpecifier
+      path: /Audio/Effects/alert.ogg
+    type: Gravity
+  - chunkCollection: {}
+    type: DecalGrid
+  - tiles:
+      7,-32: 0
+    uniqueMixes:
+    - volume: 2500
+      temperature: 293.15
+      moles:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    type: GridAtmosphere
 - uid: 2971
   type: GasPipeStraight
   components:
@@ -23456,13 +23455,15 @@ entities:
 - uid: 2993
   type: WallReinforced
   components:
-  - pos: 7.5,-31.5
+  - rot: 3.141592653589793 rad
+    pos: 5.5,-32.5
     parent: 69
     type: Transform
 - uid: 2994
   type: WallReinforced
   components:
-  - pos: 7.5,-32.5
+  - rot: 3.141592653589793 rad
+    pos: 5.5,-31.5
     parent: 69
     type: Transform
 - uid: 2995
@@ -23491,6 +23492,20 @@ entities:
   components:
   - pos: 4.5,-29.5
     parent: 69
+    type: Transform
+- uid: 2999
+  type: WallReinforced
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 7.5,-32.5
+    parent: 69
+    type: Transform
+- uid: 3000
+  type: WallReinforced
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 7.5,-31.5
+    parent: 2970
     type: Transform
 - uid: 3001
   type: WallReinforced
@@ -23559,6 +23574,20 @@ entities:
   type: GasPipeStraight
   components:
   - pos: 4.5,-28.5
+    parent: 69
+    type: Transform
+- uid: 3011
+  type: WallReinforced
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 9.5,-32.5
+    parent: 69
+    type: Transform
+- uid: 3012
+  type: WallReinforced
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 9.5,-31.5
     parent: 69
     type: Transform
 - uid: 3013
@@ -23998,6 +24027,20 @@ entities:
     pos: 4.5,-31.5
     parent: 69
     type: Transform
+- uid: 3076
+  type: GasOutletInjector
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 6.5,-31.5
+    parent: 69
+    type: Transform
+- uid: 3077
+  type: GasOutletInjector
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 8.5,-31.5
+    parent: 69
+    type: Transform
 - uid: 3078
   type: GasOutletInjector
   components:
@@ -24033,6 +24076,15 @@ entities:
     pos: 18.5,-31.5
     parent: 69
     type: Transform
+- uid: 3083
+  type: GasMinerOxygen
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 6.5,-32.5
+    parent: 69
+    type: Transform
+  - fixtures: []
+    type: Fixtures
 - uid: 3084
   type: GasMinerNitrogen
   components:
@@ -24047,6 +24099,20 @@ entities:
   components:
   - rot: 1.5707963267948966 rad
     pos: 4.5,-33.5
+    parent: 69
+    type: Transform
+- uid: 3086
+  type: GasPassiveVent
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 6.5,-33.5
+    parent: 69
+    type: Transform
+- uid: 3087
+  type: GasPassiveVent
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 8.5,-33.5
     parent: 69
     type: Transform
 - uid: 3088
@@ -24082,6 +24148,18 @@ entities:
   components:
   - rot: 1.5707963267948966 rad
     pos: 18.5,-33.5
+    parent: 69
+    type: Transform
+- uid: 3093
+  type: AirCanister
+  components:
+  - pos: 8.5,-33.5
+    parent: 69
+    type: Transform
+- uid: 3094
+  type: OxygenCanister
+  components:
+  - pos: 6.5,-33.5
     parent: 69
     type: Transform
 - uid: 3095
@@ -24151,6 +24229,20 @@ entities:
   type: GasPipeStraight
   components:
   - pos: 8.5,-29.5
+    parent: 69
+    type: Transform
+- uid: 3105
+  type: GasPipeBend
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 7.5,-33.5
+    parent: 69
+    type: Transform
+- uid: 3106
+  type: GasPipeBend
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 5.5,-33.5
     parent: 69
     type: Transform
 - uid: 3107
@@ -24247,6 +24339,13 @@ entities:
   type: GasPipeStraight
   components:
   - pos: 8.5,-28.5
+    parent: 69
+    type: Transform
+- uid: 3123
+  type: GasPipeBend
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 9.5,-33.5
     parent: 69
     type: Transform
 - uid: 3124
@@ -24452,6 +24551,20 @@ entities:
     pos: 11.5,-28.5
     parent: 69
     type: Transform
+- uid: 3153
+  type: GasPipeStraight
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 9.5,-32.5
+    parent: 69
+    type: Transform
+- uid: 3154
+  type: GasPipeStraight
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 9.5,-31.5
+    parent: 69
+    type: Transform
 - uid: 3155
   type: GasPipeStraight
   components:
@@ -24472,6 +24585,20 @@ entities:
   - rot: 3.141592653589793 rad
     pos: 9.5,-28.5
     parent: 69
+    type: Transform
+- uid: 3158
+  type: GasPipeStraight
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 7.5,-32.5
+    parent: 69
+    type: Transform
+- uid: 3159
+  type: GasPipeStraight
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 7.5,-31.5
+    parent: 2970
     type: Transform
 - uid: 3160
   type: GasPipeStraight
@@ -24494,6 +24621,20 @@ entities:
     pos: 7.5,-28.5
     parent: 69
     type: Transform
+- uid: 3163
+  type: GasPipeStraight
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 5.5,-32.5
+    parent: 69
+    type: Transform
+- uid: 3164
+  type: GasPipeStraight
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 5.5,-31.5
+    parent: 69
+    type: Transform
 - uid: 3165
   type: GasPipeStraight
   components:
@@ -24513,6 +24654,27 @@ entities:
   components:
   - rot: 3.141592653589793 rad
     pos: 5.5,-28.5
+    parent: 69
+    type: Transform
+- uid: 3168
+  type: WallReinforced
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 5.5,-33.5
+    parent: 69
+    type: Transform
+- uid: 3169
+  type: WallReinforced
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 7.5,-33.5
+    parent: 69
+    type: Transform
+- uid: 3170
+  type: WallReinforced
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 9.5,-33.5
     parent: 69
     type: Transform
 - uid: 3171
@@ -25759,6 +25921,30 @@ entities:
   components:
   - rot: 3.141592653589793 rad
     pos: 10.5,-33.5
+    parent: 69
+    type: Transform
+  - inputs:
+      On: []
+      Off: []
+      Toggle: []
+    type: SignalReceiver
+- uid: 3341
+  type: Poweredlight
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 8.5,-33.5
+    parent: 69
+    type: Transform
+  - inputs:
+      On: []
+      Off: []
+      Toggle: []
+    type: SignalReceiver
+- uid: 3342
+  type: Poweredlight
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 6.5,-33.5
     parent: 69
     type: Transform
   - inputs:
@@ -31438,6 +31624,41 @@ entities:
     pos: 4.5,-31.5
     parent: 69
     type: Transform
+- uid: 4192
+  type: AtmosFixBlockerMarker
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 6.5,-32.5
+    parent: 69
+    type: Transform
+- uid: 4193
+  type: AtmosFixBlockerMarker
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 6.5,-31.5
+    parent: 69
+    type: Transform
+- uid: 4194
+  type: AtmosFixBlockerMarker
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 8.5,-31.5
+    parent: 69
+    type: Transform
+- uid: 4195
+  type: AtmosFixBlockerMarker
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 8.5,-32.5
+    parent: 69
+    type: Transform
+- uid: 4196
+  type: AtmosFixBlockerMarker
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 8.5,-33.5
+    parent: 69
+    type: Transform
 - uid: 4197
   type: AtmosFixBlockerMarker
   components:
@@ -31527,6 +31748,13 @@ entities:
   components:
   - rot: 1.5707963267948966 rad
     pos: 12.5,-33.5
+    parent: 69
+    type: Transform
+- uid: 4210
+  type: AtmosFixBlockerMarker
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 6.5,-33.5
     parent: 69
     type: Transform
 - uid: 4211

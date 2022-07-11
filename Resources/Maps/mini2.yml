@@ -23229,6 +23229,12 @@ entities:
   - pos: 15.5,16.5
     parent: 69
     type: Transform
+- uid: 2880
+  type: AirlockEngineering
+  components:
+  - pos: -14.5,-17.5
+    parent: 69
+    type: Transform
 - uid: 2881
   type: WallReinforced
   components:

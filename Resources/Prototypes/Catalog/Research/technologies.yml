@@ -28,6 +28,7 @@
     - Bucket
     - MopItem
     - SprayBottle
+    - BodyBag
 
 # Biological Technology Tree
 
@@ -315,6 +316,7 @@
   - IndustrialEngineering
   unlockedRecipes:
   - ThermomachineFreezerMachineCircuitBoard
+  - PortableScrubberMachineCircuitBoard
 
 # Avionics Circuitry Technology Tree
 
@@ -328,6 +330,7 @@
   requiredPoints: 10000
   requiredTechnologies:
     - IndustrialEngineering
+    - RoboticsTechnology
   unlockedRecipes:
     - ShuttleConsoleCircuitboard
     - Drone
@@ -452,6 +455,21 @@
     - MicroLaserStockPart
     - MicroManipulatorStockPart
     - ScanningModuleStockPart
+
+- type: technology
+  name: "robotics technology"
+  id: RoboticsTechnology
+  description: Robot parts.
+  icon:
+    sprite: Mobs/Silicon/Bots/honkbot.rsi
+    state: honkbot
+  requiredPoints: 10000
+  requiredTechnologies:
+    - CompactPowerTechnology
+  unlockedRecipes:
+    - ProximitySensor
+    - LeftArmBorg
+    - RightArmBorg
 
 # Bluespace Theory Technology Tree
 

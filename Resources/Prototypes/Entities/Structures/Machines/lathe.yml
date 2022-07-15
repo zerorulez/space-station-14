@@ -196,6 +196,9 @@
       - PowerCellSmall
       - PowerCellMedium
       - PowerCellHigh
+      - ProximitySensor
+      - LeftArmBorg
+      - RightArmBorg
   - type: ActivatableUI
     key: enum.LatheUiKey.Key #Yes only having 1 of them here doesn't break anything
   - type: ActivatableUIRequiresPower
@@ -237,6 +240,7 @@
       - SMESMachineCircuitboard
       - SubstationMachineCircuitboard
       - ThermomachineFreezerMachineCircuitBoard
+      - PortableScrubberMachineCircuitBoard
       - CloningPodMachineCircuitboard
       - MedicalScannerMachineCircuitboard
       - CrewMonitoringComputerCircuitboard
@@ -312,7 +316,6 @@
       - CartridgeMagnum
       - ShellShotgunBeanbag
       - ShellShotgunFlare
-      - ShellShotgunFlash
       - CartridgePistolRubber
       - CartridgeMagnumRubber
       - CartridgeCaselessRifleRubber
@@ -387,21 +390,8 @@
       - CryostasisBeaker
       - Dropper
       - Syringe
-      - PillCanister #Everything below this is shared with other lathes
-      - FlashlightLantern
-      - Bucket
-      - MopItem
-      - SprayBottle
-      - FireExtinguisher
-      - LightTube
-      - LightBulb
-      - SheetSteel
-      - SheetGlass1
-      - SheetRGlass
-      - SheetPlastic
-      - CableStack
-      - CableMVStack
-      - CableHVStack
+      - PillCanister
+      - BodyBag
   - type: Machine
     board: MedicalTechFabCircuitboard
 

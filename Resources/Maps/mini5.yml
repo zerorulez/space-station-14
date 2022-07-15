@@ -579,94 +579,94 @@ entities:
     type: Gravity
   - chunkCollection:
       -1,0:
-        0:
+        24:
+          color: '#FFFFFFFF'
+          id: LoadingArea
+          coordinates: -7.0002646,21.001753
+        25:
+          color: '#FFFFFFFF'
+          id: Bot
+          coordinates: -7.0158896,22.017378
+        26:
+          color: '#FFFFFFFF'
+          id: Bot
+          coordinates: -7.0158896,23.017378
+        27:
+          color: '#FFFFFFFF'
+          id: Bot
+          coordinates: -6.0002646,23.001753
+        16:
           angle: 4.71238898038469 rad
           color: '#FFFFFFFF'
           id: Bot
           coordinates: -17.992403,20.986128
-        1:
+        17:
           angle: 4.71238898038469 rad
           color: '#FFFFFFFF'
           id: Bot
           coordinates: -17.992403,20.017378
-        2:
+        18:
           angle: 4.71238898038469 rad
           color: '#FFFFFFFF'
           id: Bot
           coordinates: -17.008028,20.017378
-        3:
+        19:
           angle: 4.71238898038469 rad
           color: '#FFFFFFFF'
           id: Bot
           coordinates: -16.992403,21.017378
-        4:
-          color: '#FFFFFFFF'
-          id: LoadingArea
-          coordinates: -7.0002646,21.001753
-        5:
-          color: '#FFFFFFFF'
-          id: Bot
-          coordinates: -7.0158896,22.017378
-        6:
-          color: '#FFFFFFFF'
-          id: Bot
-          coordinates: -7.0158896,23.017378
-        7:
-          color: '#FFFFFFFF'
-          id: Bot
-          coordinates: -6.0002646,23.001753
       -1,-1:
-        8:
+        29:
           angle: 1.5707963267948966 rad
           color: '#FFFFFFFF'
           id: WarningLine
           coordinates: -15.007383,-17.011383
-        9:
+        30:
           angle: 1.5707963267948966 rad
           color: '#FFFFFFFF'
           id: WarningLine
           coordinates: -15.023008,-17.980133
-        10:
+        33:
           angle: 1.5707963267948966 rad
           color: '#FFFFFFFF'
           id: WarningLine
           coordinates: -28.54272,-18.036772
-        11:
+        35:
           angle: 1.5707963267948966 rad
           color: '#FFFFFFFF'
           id: WarningLine
           coordinates: -28.558346,-19.021147
-        12:
+        38:
           angle: 1.5707963267948966 rad
           color: '#FFFFFFFF'
           id: WarningLine
           coordinates: -28.54272,-19.989897
-        13:
+        39:
           angle: 1.5707963267948966 rad
           color: '#FFFFFFFF'
           id: WarningLine
           coordinates: -28.558346,-20.989897
-        14:
+        41:
           angle: 1.5707963267948966 rad
           color: '#FFFFFFFF'
           id: WarningLine
           coordinates: -28.54272,-22.005522
-        15:
+        42:
           angle: 1.5707963267948966 rad
           color: '#FFFFFFFF'
           id: WarningLine
           coordinates: -28.558346,-22.974272
       0,0:
-        16:
+        49:
           color: '#FFFFFFFF'
           id: WarningLine
           coordinates: 23.006552,22.774328
-        17:
+        52:
           color: '#FFFFFFFF'
           id: WarningLine
           coordinates: 23.990927,22.774328
       0,-1:
-        18:
+        54:
           color: '#FFFFFFFF'
           id: guy
           coordinates: 9.984089,-13.2447405
@@ -711,7 +711,7 @@ entities:
       2,-12: 0
       2,-11: 0
       2,-10: 0
-      2,-9: 2
+      2,-9: 0
       2,-8: 0
       2,-7: 0
       2,-6: 0
@@ -3094,7 +3094,7 @@ entities:
       3,-22: 0
       3,-21: 0
       3,-20: 0
-      4,-32: 3
+      4,-32: 2
       4,-31: 0
       4,-30: 0
       4,-29: 0
@@ -3120,7 +3120,7 @@ entities:
       5,-22: 0
       5,-21: 0
       5,-20: 0
-      6,-32: 3
+      6,-32: 2
       6,-31: 0
       6,-30: 0
       6,-29: 0
@@ -3146,7 +3146,7 @@ entities:
       7,-22: 0
       7,-21: 0
       7,-20: 0
-      8,-32: 3
+      8,-32: 2
       8,-31: 0
       8,-30: 0
       8,-29: 0
@@ -3172,7 +3172,7 @@ entities:
       9,-22: 0
       9,-21: 0
       9,-20: 0
-      10,-32: 3
+      10,-32: 2
       10,-31: 0
       10,-30: 0
       10,-29: 0
@@ -3198,7 +3198,7 @@ entities:
       11,-22: 0
       11,-21: 0
       11,-20: 0
-      12,-32: 4
+      12,-32: 3
       12,-31: 0
       12,-30: 0
       12,-29: 0
@@ -3222,7 +3222,7 @@ entities:
       13,-23: 0
       13,-22: 0
       13,-21: 0
-      14,-32: 3
+      14,-32: 2
       14,-31: 0
       14,-30: 0
       14,-29: 0
@@ -3257,7 +3257,7 @@ entities:
       26,17: 0
       26,18: 0
       26,19: 0
-      16,-32: 3
+      16,-32: 2
       16,-31: 0
       16,-30: 0
       16,-29: 0
@@ -3273,7 +3273,7 @@ entities:
       17,-27: 0
       17,-26: 0
       17,-25: 0
-      18,-32: 3
+      18,-32: 2
       18,-31: 0
       18,-30: 0
       18,-29: 0
@@ -3321,8 +3321,8 @@ entities:
       24,-24: 0
       25,-29: 0
       25,-28: 0
-      25,-27: 3
-      25,-26: 3
+      25,-27: 2
+      25,-26: 2
       25,-25: 0
       25,-24: 0
       26,-29: 0
@@ -3338,14 +3338,14 @@ entities:
       27,-25: 0
       27,-24: 0
       16,-35: 0
-      16,-34: 3
-      16,-33: 3
+      16,-34: 2
+      16,-33: 2
       17,-35: 0
       17,-34: 0
       17,-33: 0
       18,-35: 0
-      18,-34: 3
-      18,-33: 3
+      18,-34: 2
+      18,-33: 2
       19,-35: 0
       19,-34: 0
       19,-33: 0
@@ -3356,38 +3356,38 @@ entities:
       3,-34: 0
       3,-33: 0
       4,-35: 0
-      4,-34: 3
-      4,-33: 3
+      4,-34: 2
+      4,-33: 2
       5,-35: 0
       5,-34: 0
       5,-33: 0
       6,-35: 0
-      6,-34: 3
-      6,-33: 3
+      6,-34: 2
+      6,-33: 2
       7,-35: 0
       7,-34: 0
       7,-33: 0
       8,-35: 0
-      8,-34: 3
-      8,-33: 3
+      8,-34: 2
+      8,-33: 2
       9,-35: 0
       9,-34: 0
       9,-33: 0
       10,-35: 0
-      10,-34: 3
-      10,-33: 3
+      10,-34: 2
+      10,-33: 2
       11,-35: 0
       11,-34: 0
       11,-33: 0
       12,-35: 0
-      12,-34: 4
-      12,-33: 4
+      12,-34: 3
+      12,-33: 3
       13,-35: 0
       13,-34: 0
       13,-33: 0
       14,-35: 0
-      14,-34: 3
-      14,-33: 3
+      14,-34: 2
+      14,-33: 2
       15,-35: 0
       15,-34: 0
       15,-33: 0
@@ -3783,17 +3783,6 @@ entities:
       - 0
     - volume: 2500
       temperature: 235
-      moles:
-      - 21.824879
-      - 82.10312
-      - 0
-      - 0
-      - 0
-      - 0
-      - 0
-      - 0
-    - volume: 2500
-      temperature: 278.6125
       moles:
       - 21.824879
       - 82.10312
@@ -45123,96 +45112,6 @@ entities:
   type: RandomSpawner
   components:
   - pos: 9.4835,16.459015
-    parent: 69
-    type: Transform
-- uid: 5559
-  type: CableApcExtension
-  components:
-  - pos: -24.5,11.5
-    parent: 69
-    type: Transform
-- uid: 5560
-  type: CableApcExtension
-  components:
-  - pos: -23.5,11.5
-    parent: 69
-    type: Transform
-- uid: 5561
-  type: CableApcExtension
-  components:
-  - pos: -22.5,11.5
-    parent: 69
-    type: Transform
-- uid: 5562
-  type: CableApcExtension
-  components:
-  - pos: -21.5,11.5
-    parent: 69
-    type: Transform
-- uid: 5563
-  type: CableApcExtension
-  components:
-  - pos: -24.5,10.5
-    parent: 69
-    type: Transform
-- uid: 5564
-  type: CableApcExtension
-  components:
-  - pos: -24.5,9.5
-    parent: 69
-    type: Transform
-- uid: 5565
-  type: CableApcExtension
-  components:
-  - pos: -24.5,8.5
-    parent: 69
-    type: Transform
-- uid: 5566
-  type: CableApcExtension
-  components:
-  - pos: -24.5,7.5
-    parent: 69
-    type: Transform
-- uid: 5567
-  type: CableApcExtension
-  components:
-  - pos: -24.5,5.5
-    parent: 69
-    type: Transform
-- uid: 5568
-  type: CableApcExtension
-  components:
-  - pos: -24.5,6.5
-    parent: 69
-    type: Transform
-- uid: 5569
-  type: CableApcExtension
-  components:
-  - pos: -24.5,4.5
-    parent: 69
-    type: Transform
-- uid: 5570
-  type: CableApcExtension
-  components:
-  - pos: -24.5,2.5
-    parent: 69
-    type: Transform
-- uid: 5571
-  type: CableApcExtension
-  components:
-  - pos: -24.5,1.5
-    parent: 69
-    type: Transform
-- uid: 5572
-  type: CableApcExtension
-  components:
-  - pos: -24.5,0.5
-    parent: 69
-    type: Transform
-- uid: 5573
-  type: CableApcExtension
-  components:
-  - pos: -24.5,3.5
     parent: 69
     type: Transform
 ...

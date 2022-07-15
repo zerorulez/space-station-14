@@ -577,99 +577,7 @@ entities:
   - gravityShakeSound: !type:SoundPathSpecifier
       path: /Audio/Effects/alert.ogg
     type: Gravity
-  - chunkCollection:
-      -1,0:
-        0:
-          angle: 4.71238898038469 rad
-          color: '#FFFFFFFF'
-          id: Bot
-          coordinates: -17.992403,20.986128
-        1:
-          angle: 4.71238898038469 rad
-          color: '#FFFFFFFF'
-          id: Bot
-          coordinates: -17.992403,20.017378
-        2:
-          angle: 4.71238898038469 rad
-          color: '#FFFFFFFF'
-          id: Bot
-          coordinates: -17.008028,20.017378
-        3:
-          angle: 4.71238898038469 rad
-          color: '#FFFFFFFF'
-          id: Bot
-          coordinates: -16.992403,21.017378
-        4:
-          color: '#FFFFFFFF'
-          id: LoadingArea
-          coordinates: -7.0002646,21.001753
-        5:
-          color: '#FFFFFFFF'
-          id: Bot
-          coordinates: -7.0158896,22.017378
-        6:
-          color: '#FFFFFFFF'
-          id: Bot
-          coordinates: -7.0158896,23.017378
-        7:
-          color: '#FFFFFFFF'
-          id: Bot
-          coordinates: -6.0002646,23.001753
-      -1,-1:
-        8:
-          angle: 1.5707963267948966 rad
-          color: '#FFFFFFFF'
-          id: WarningLine
-          coordinates: -15.007383,-17.011383
-        9:
-          angle: 1.5707963267948966 rad
-          color: '#FFFFFFFF'
-          id: WarningLine
-          coordinates: -15.023008,-17.980133
-        10:
-          angle: 1.5707963267948966 rad
-          color: '#FFFFFFFF'
-          id: WarningLine
-          coordinates: -28.54272,-18.036772
-        11:
-          angle: 1.5707963267948966 rad
-          color: '#FFFFFFFF'
-          id: WarningLine
-          coordinates: -28.558346,-19.021147
-        12:
-          angle: 1.5707963267948966 rad
-          color: '#FFFFFFFF'
-          id: WarningLine
-          coordinates: -28.54272,-19.989897
-        13:
-          angle: 1.5707963267948966 rad
-          color: '#FFFFFFFF'
-          id: WarningLine
-          coordinates: -28.558346,-20.989897
-        14:
-          angle: 1.5707963267948966 rad
-          color: '#FFFFFFFF'
-          id: WarningLine
-          coordinates: -28.54272,-22.005522
-        15:
-          angle: 1.5707963267948966 rad
-          color: '#FFFFFFFF'
-          id: WarningLine
-          coordinates: -28.558346,-22.974272
-      0,0:
-        16:
-          color: '#FFFFFFFF'
-          id: WarningLine
-          coordinates: 23.006552,22.774328
-        17:
-          color: '#FFFFFFFF'
-          id: WarningLine
-          coordinates: 23.990927,22.774328
-      0,-1:
-        18:
-          color: '#FFFFFFFF'
-          id: guy
-          coordinates: 9.984089,-13.2447405
+  - chunkCollection: {}
     type: DecalGrid
   - tiles:
       -1,-9: 0
@@ -1555,7 +1463,7 @@ entities:
       1,0: 0
       1,1: 0
       1,2: 0
-      1,3: 0
+      1,3: 3
       1,4: 0
       1,5: 0
       1,6: 0
@@ -1571,7 +1479,7 @@ entities:
       2,0: 0
       2,1: 0
       2,2: 0
-      2,3: 0
+      2,3: 4
       2,4: 0
       2,5: 0
       2,6: 0
@@ -2000,8 +1908,8 @@ entities:
       -16,-18: 0
       -15,-20: 0
       -15,-19: 0
-      -15,-18: 0
-      -15,-17: 0
+      -15,-18: 5
+      -15,-17: 6
       -14,-20: 0
       -14,-19: 0
       -14,-18: 0
@@ -3081,8 +2989,8 @@ entities:
       2,-24: 0
       2,-23: 0
       2,-22: 0
-      3,-32: 0
-      3,-31: 0
+      3,-32: 7
+      3,-31: 8
       3,-30: 0
       3,-29: 0
       3,-28: 0
@@ -3133,7 +3041,7 @@ entities:
       6,-22: 0
       6,-21: 0
       6,-20: 0
-      7,-32: 0
+      7,-32: 3
       7,-31: 0
       7,-30: 0
       7,-29: 0
@@ -3198,7 +3106,7 @@ entities:
       11,-22: 0
       11,-21: 0
       11,-20: 0
-      12,-32: 4
+      12,-32: 9
       12,-31: 0
       12,-30: 0
       12,-29: 0
@@ -3320,7 +3228,7 @@ entities:
       24,-25: 0
       24,-24: 0
       25,-29: 0
-      25,-28: 0
+      25,-28: 10
       25,-27: 3
       25,-26: 3
       25,-25: 0
@@ -3353,25 +3261,25 @@ entities:
       20,-34: 0
       20,-33: 0
       3,-35: 0
-      3,-34: 0
-      3,-33: 0
-      4,-35: 0
+      3,-34: 6
+      3,-33: 11
+      4,-35: 6
       4,-34: 3
       4,-33: 3
-      5,-35: 0
+      5,-35: 12
       5,-34: 0
       5,-33: 0
       6,-35: 0
       6,-34: 3
       6,-33: 3
       7,-35: 0
-      7,-34: 0
-      7,-33: 0
+      7,-34: 3
+      7,-33: 3
       8,-35: 0
       8,-34: 3
       8,-33: 3
       9,-35: 0
-      9,-34: 0
+      9,-34: 3
       9,-33: 0
       10,-35: 0
       10,-34: 3
@@ -3380,8 +3288,8 @@ entities:
       11,-34: 0
       11,-33: 0
       12,-35: 0
-      12,-34: 4
-      12,-33: 4
+      12,-34: 9
+      12,-33: 9
       13,-35: 0
       13,-34: 0
       13,-33: 0
@@ -3391,384 +3299,384 @@ entities:
       15,-35: 0
       15,-34: 0
       15,-33: 0
-      28,7: 0
-      28,8: 0
-      28,9: 0
-      28,10: 0
-      28,11: 0
-      29,7: 0
-      29,8: 0
-      29,9: 0
-      29,10: 0
-      29,11: 0
-      29,12: 0
-      29,14: 0
-      30,7: 0
-      30,8: 0
-      30,9: 0
-      30,10: 0
-      30,11: 0
-      30,12: 0
-      30,13: 0
-      30,14: 0
-      31,7: 0
-      31,8: 0
-      31,9: 0
-      31,10: 0
-      31,11: 0
-      31,12: 0
-      31,13: 0
-      31,14: 0
-      -25,10: 0
-      -25,11: 0
-      -24,10: 0
-      -24,11: 0
-      32,7: 0
-      32,8: 0
-      32,9: 0
-      32,10: 0
-      32,11: 0
-      32,12: 0
-      32,13: 0
-      32,14: 0
-      33,13: 0
-      -26,17: 0
-      -26,21: 0
-      -16,-25: 0
-      -16,-24: 0
-      -16,-23: 0
-      -16,-22: 0
-      -16,-21: 0
-      -16,-17: 0
-      -21,-25: 0
-      -21,-24: 0
-      -21,-23: 0
-      -21,-22: 0
-      -21,-21: 0
-      -21,-20: 0
-      -21,-19: 0
-      -21,-18: 0
-      -21,-17: 0
-      -20,-25: 0
-      -20,-24: 0
-      -20,-23: 0
-      -20,-22: 0
-      -20,-21: 0
-      -20,-20: 0
-      -20,-19: 0
-      -20,-18: 0
-      -20,-17: 0
-      -19,-25: 0
-      -19,-24: 0
-      -19,-23: 0
-      -19,-22: 0
-      -19,-21: 0
-      -19,-20: 0
-      -19,-19: 0
-      -19,-18: 0
-      -19,-17: 0
-      -18,-25: 0
-      -18,-24: 0
-      -18,-23: 0
-      -18,-22: 0
-      -18,-21: 0
-      -18,-20: 0
-      -18,-19: 0
-      -18,-18: 0
-      -18,-17: 0
-      -17,-25: 0
-      -17,-24: 0
-      -17,-23: 0
-      -17,-22: 0
-      -17,-21: 0
-      -17,-20: 0
-      -17,-19: 0
-      -17,-18: 0
-      -17,-17: 0
-      -19,27: 0
-      -19,28: 0
-      -19,29: 0
-      -19,30: 0
-      -19,31: 0
-      -18,27: 0
-      -18,28: 0
-      -18,29: 0
-      -18,30: 0
-      -18,31: 0
-      -17,27: 0
-      -17,28: 0
-      -17,29: 0
-      -17,30: 0
-      -17,31: 0
-      -16,27: 0
-      -16,28: 0
-      -16,29: 0
-      -16,30: 0
-      -16,31: 0
-      -15,27: 0
-      -15,28: 0
-      -15,29: 0
-      -15,30: 0
-      -15,31: 0
-      -14,27: 0
-      -14,28: 0
-      -14,29: 0
-      -14,30: 0
-      -14,31: 0
-      -13,27: 0
-      -13,28: 0
-      -13,29: 0
-      -13,30: 0
-      -13,31: 0
-      -12,27: 0
-      -12,28: 0
-      -12,29: 0
-      -12,30: 0
-      -12,31: 0
-      -15,32: 0
-      -15,33: 0
-      -14,32: 0
-      -14,33: 0
-      -13,32: 0
-      -13,33: 0
-      -29,-16: 0
-      -29,-15: 0
-      -29,-14: 0
-      -28,-16: 0
-      -28,-15: 0
-      -28,-14: 0
-      -27,-16: 0
-      -27,-15: 0
-      -27,-14: 0
-      -26,-16: 0
-      -26,-15: 0
-      -26,-14: 0
-      -25,-16: 0
-      -25,-15: 0
-      -25,-14: 0
-      -24,-16: 0
-      -24,-15: 0
-      -24,-14: 0
-      -23,-16: 0
-      -23,-15: 0
-      -23,-14: 0
-      -22,-16: 0
-      -22,-15: 0
-      -22,-14: 0
-      -29,-25: 0
-      -29,-24: 0
-      -29,-23: 0
-      -29,-22: 0
-      -29,-21: 0
-      -29,-20: 0
-      -29,-19: 0
-      -29,-18: 0
-      -29,-17: 0
-      -28,-25: 0
-      -28,-24: 0
-      -28,-23: 0
-      -28,-22: 0
-      -28,-21: 0
-      -28,-20: 0
-      -28,-19: 0
-      -28,-18: 0
-      -28,-17: 0
-      -27,-25: 0
-      -27,-24: 0
-      -27,-23: 0
-      -27,-22: 0
-      -27,-21: 0
-      -27,-20: 0
-      -27,-19: 0
-      -27,-18: 0
-      -27,-17: 0
-      -26,-25: 0
-      -26,-24: 0
-      -26,-23: 0
-      -26,-22: 0
-      -26,-21: 0
-      -26,-20: 0
-      -26,-19: 0
-      -26,-18: 0
-      -26,-17: 0
-      -25,-25: 0
-      -25,-24: 0
-      -25,-23: 0
-      -25,-22: 0
-      -25,-21: 0
-      -25,-20: 0
-      -25,-19: 0
-      -25,-18: 0
-      -25,-17: 0
-      -24,-25: 0
-      -24,-24: 0
-      -24,-23: 0
-      -24,-22: 0
-      -24,-21: 0
-      -24,-20: 0
-      -24,-19: 0
-      -24,-18: 0
-      -24,-17: 0
-      -23,-23: 0
-      -23,-22: 0
-      -23,-21: 0
-      -23,-20: 0
-      -23,-19: 0
-      -23,-18: 0
-      -23,-17: 0
-      -22,-23: 0
-      -22,-22: 0
-      -22,-21: 0
-      -22,-20: 0
-      -22,-19: 0
-      -22,-18: 0
-      -22,-17: 0
-      -32,-16: 0
-      -32,-15: 0
-      -32,-14: 0
-      -32,-13: 0
-      -31,-16: 0
-      -31,-15: 0
-      -30,-16: 0
-      -30,-15: 0
-      -32,-27: 0
-      -32,-26: 0
-      -32,-25: 0
-      -32,-24: 0
-      -32,-23: 0
-      -32,-22: 0
-      -32,-21: 0
-      -32,-20: 0
-      -32,-19: 0
-      -32,-18: 0
-      -32,-17: 0
-      -31,-24: 0
-      -31,-20: 0
-      -30,-24: 0
-      -30,-20: 0
-      -47,-16: 0
-      -46,-16: 0
-      -46,-15: 0
-      -46,-14: 0
-      -46,-13: 0
-      -45,-16: 0
-      -45,-13: 0
-      -44,-16: 0
-      -44,-13: 0
-      -43,-16: 0
-      -43,-15: 0
-      -43,-14: 0
-      -43,-13: 0
-      -42,-16: 0
-      -42,-13: 0
-      -41,-16: 0
-      -41,-13: 0
-      -40,-16: 0
-      -40,-13: 0
-      -39,-16: 0
-      -39,-15: 0
-      -39,-14: 0
-      -39,-13: 0
-      -38,-16: 0
-      -38,-13: 0
-      -37,-16: 0
-      -37,-13: 0
-      -36,-16: 0
-      -36,-13: 0
-      -35,-16: 0
-      -35,-15: 0
-      -35,-14: 0
-      -35,-13: 0
-      -34,-16: 0
-      -34,-13: 0
-      -33,-16: 0
-      -33,-13: 0
-      -47,-24: 0
-      -47,-20: 0
-      -46,-27: 0
-      -46,-26: 0
-      -46,-25: 0
-      -46,-24: 0
-      -46,-23: 0
-      -46,-22: 0
-      -46,-21: 0
-      -46,-20: 0
-      -46,-19: 0
-      -46,-18: 0
-      -46,-17: 0
-      -45,-27: 0
-      -45,-24: 0
-      -45,-20: 0
-      -44,-27: 0
-      -44,-24: 0
-      -44,-20: 0
-      -43,-27: 0
-      -43,-26: 0
-      -43,-25: 0
-      -43,-24: 0
-      -43,-23: 0
-      -43,-22: 0
-      -43,-21: 0
-      -43,-20: 0
-      -43,-19: 0
-      -43,-18: 0
-      -43,-17: 0
-      -42,-27: 0
-      -42,-24: 0
-      -42,-20: 0
-      -41,-27: 0
-      -41,-24: 0
-      -41,-20: 0
-      -40,-27: 0
-      -40,-24: 0
-      -40,-20: 0
-      -39,-27: 0
-      -39,-26: 0
-      -39,-25: 0
-      -39,-24: 0
-      -39,-23: 0
-      -39,-22: 0
-      -39,-21: 0
-      -39,-20: 0
-      -39,-19: 0
-      -39,-18: 0
-      -39,-17: 0
-      -38,-27: 0
-      -38,-24: 0
-      -38,-20: 0
-      -37,-27: 0
-      -37,-24: 0
-      -37,-20: 0
-      -36,-27: 0
-      -36,-24: 0
-      -36,-20: 0
-      -35,-27: 0
-      -35,-26: 0
-      -35,-25: 0
-      -35,-24: 0
-      -35,-23: 0
-      -35,-22: 0
-      -35,-21: 0
-      -35,-20: 0
-      -35,-19: 0
-      -35,-18: 0
-      -35,-17: 0
-      -34,-27: 0
-      -34,-24: 0
-      -34,-20: 0
-      -33,-27: 0
-      -33,-24: 0
-      -33,-20: 0
-      3,31: 0
-      4,31: 0
-      5,30: 0
-      5,31: 0
-      3,32: 0
-      3,33: 0
-      4,32: 0
-      4,33: 0
-      5,32: 0
-      5,33: 0
+      28,7: 3
+      28,8: 10
+      28,9: 10
+      28,10: 13
+      28,11: 3
+      29,7: 3
+      29,8: 3
+      29,9: 3
+      29,10: 3
+      29,11: 3
+      29,12: 3
+      29,14: 3
+      30,7: 3
+      30,8: 3
+      30,9: 3
+      30,10: 3
+      30,11: 3
+      30,12: 3
+      30,13: 3
+      30,14: 3
+      31,7: 3
+      31,8: 3
+      31,9: 3
+      31,10: 3
+      31,11: 3
+      31,12: 3
+      31,13: 3
+      31,14: 3
+      -25,10: 3
+      -25,11: 3
+      -24,10: 3
+      -24,11: 3
+      32,7: 3
+      32,8: 3
+      32,9: 3
+      32,10: 3
+      32,11: 3
+      32,12: 3
+      32,13: 3
+      32,14: 3
+      33,13: 3
+      -26,17: 3
+      -26,21: 3
+      -16,-25: 3
+      -16,-24: 3
+      -16,-23: 3
+      -16,-22: 3
+      -16,-21: 3
+      -16,-17: 3
+      -21,-25: 3
+      -21,-24: 3
+      -21,-23: 3
+      -21,-22: 3
+      -21,-21: 3
+      -21,-20: 3
+      -21,-19: 3
+      -21,-18: 3
+      -21,-17: 3
+      -20,-25: 3
+      -20,-24: 3
+      -20,-23: 3
+      -20,-22: 3
+      -20,-21: 3
+      -20,-20: 3
+      -20,-19: 3
+      -20,-18: 3
+      -20,-17: 3
+      -19,-25: 3
+      -19,-24: 3
+      -19,-23: 3
+      -19,-22: 3
+      -19,-21: 3
+      -19,-20: 3
+      -19,-19: 3
+      -19,-18: 3
+      -19,-17: 3
+      -18,-25: 3
+      -18,-24: 3
+      -18,-23: 3
+      -18,-22: 3
+      -18,-21: 3
+      -18,-20: 3
+      -18,-19: 3
+      -18,-18: 3
+      -18,-17: 3
+      -17,-25: 3
+      -17,-24: 3
+      -17,-23: 3
+      -17,-22: 3
+      -17,-21: 3
+      -17,-20: 3
+      -17,-19: 3
+      -17,-18: 3
+      -17,-17: 3
+      -19,27: 3
+      -19,28: 3
+      -19,29: 3
+      -19,30: 3
+      -19,31: 3
+      -18,27: 3
+      -18,28: 3
+      -18,29: 3
+      -18,30: 3
+      -18,31: 3
+      -17,27: 3
+      -17,28: 3
+      -17,29: 3
+      -17,30: 3
+      -17,31: 3
+      -16,27: 3
+      -16,28: 3
+      -16,29: 3
+      -16,30: 3
+      -16,31: 3
+      -15,27: 3
+      -15,28: 3
+      -15,29: 3
+      -15,30: 3
+      -15,31: 3
+      -14,27: 3
+      -14,28: 3
+      -14,29: 3
+      -14,30: 3
+      -14,31: 3
+      -13,27: 3
+      -13,28: 3
+      -13,29: 3
+      -13,30: 3
+      -13,31: 3
+      -12,27: 3
+      -12,28: 3
+      -12,29: 3
+      -12,30: 3
+      -12,31: 3
+      -15,32: 3
+      -15,33: 3
+      -14,32: 3
+      -14,33: 3
+      -13,32: 3
+      -13,33: 3
+      -29,-16: 3
+      -29,-15: 3
+      -29,-14: 3
+      -28,-16: 3
+      -28,-15: 3
+      -28,-14: 3
+      -27,-16: 3
+      -27,-15: 3
+      -27,-14: 3
+      -26,-16: 3
+      -26,-15: 3
+      -26,-14: 3
+      -25,-16: 3
+      -25,-15: 3
+      -25,-14: 3
+      -24,-16: 3
+      -24,-15: 3
+      -24,-14: 3
+      -23,-16: 3
+      -23,-15: 3
+      -23,-14: 3
+      -22,-16: 3
+      -22,-15: 3
+      -22,-14: 3
+      -29,-25: 3
+      -29,-24: 3
+      -29,-23: 3
+      -29,-22: 3
+      -29,-21: 3
+      -29,-20: 3
+      -29,-19: 3
+      -29,-18: 3
+      -29,-17: 3
+      -28,-25: 3
+      -28,-24: 3
+      -28,-23: 3
+      -28,-22: 3
+      -28,-21: 3
+      -28,-20: 3
+      -28,-19: 3
+      -28,-18: 3
+      -28,-17: 3
+      -27,-25: 3
+      -27,-24: 3
+      -27,-23: 3
+      -27,-22: 3
+      -27,-21: 3
+      -27,-20: 3
+      -27,-19: 3
+      -27,-18: 3
+      -27,-17: 3
+      -26,-25: 3
+      -26,-24: 3
+      -26,-23: 3
+      -26,-22: 3
+      -26,-21: 3
+      -26,-20: 3
+      -26,-19: 3
+      -26,-18: 3
+      -26,-17: 3
+      -25,-25: 3
+      -25,-24: 3
+      -25,-23: 3
+      -25,-22: 3
+      -25,-21: 3
+      -25,-20: 3
+      -25,-19: 3
+      -25,-18: 3
+      -25,-17: 3
+      -24,-25: 3
+      -24,-24: 3
+      -24,-23: 3
+      -24,-22: 3
+      -24,-21: 3
+      -24,-20: 3
+      -24,-19: 3
+      -24,-18: 3
+      -24,-17: 3
+      -23,-23: 3
+      -23,-22: 3
+      -23,-21: 3
+      -23,-20: 3
+      -23,-19: 3
+      -23,-18: 3
+      -23,-17: 3
+      -22,-23: 3
+      -22,-22: 3
+      -22,-21: 3
+      -22,-20: 3
+      -22,-19: 3
+      -22,-18: 3
+      -22,-17: 3
+      -32,-16: 3
+      -32,-15: 3
+      -32,-14: 3
+      -32,-13: 3
+      -31,-16: 3
+      -31,-15: 3
+      -30,-16: 3
+      -30,-15: 3
+      -32,-27: 3
+      -32,-26: 3
+      -32,-25: 3
+      -32,-24: 3
+      -32,-23: 3
+      -32,-22: 3
+      -32,-21: 3
+      -32,-20: 3
+      -32,-19: 3
+      -32,-18: 3
+      -32,-17: 3
+      -31,-24: 3
+      -31,-20: 3
+      -30,-24: 3
+      -30,-20: 3
+      -47,-16: 3
+      -46,-16: 3
+      -46,-15: 3
+      -46,-14: 3
+      -46,-13: 3
+      -45,-16: 3
+      -45,-13: 3
+      -44,-16: 3
+      -44,-13: 3
+      -43,-16: 3
+      -43,-15: 3
+      -43,-14: 3
+      -43,-13: 3
+      -42,-16: 3
+      -42,-13: 3
+      -41,-16: 3
+      -41,-13: 3
+      -40,-16: 3
+      -40,-13: 3
+      -39,-16: 3
+      -39,-15: 3
+      -39,-14: 3
+      -39,-13: 3
+      -38,-16: 3
+      -38,-13: 3
+      -37,-16: 3
+      -37,-13: 3
+      -36,-16: 3
+      -36,-13: 3
+      -35,-16: 3
+      -35,-15: 3
+      -35,-14: 3
+      -35,-13: 3
+      -34,-16: 3
+      -34,-13: 3
+      -33,-16: 3
+      -33,-13: 3
+      -47,-24: 3
+      -47,-20: 3
+      -46,-27: 3
+      -46,-26: 3
+      -46,-25: 3
+      -46,-24: 3
+      -46,-23: 3
+      -46,-22: 3
+      -46,-21: 3
+      -46,-20: 3
+      -46,-19: 3
+      -46,-18: 3
+      -46,-17: 3
+      -45,-27: 3
+      -45,-24: 3
+      -45,-20: 3
+      -44,-27: 3
+      -44,-24: 3
+      -44,-20: 3
+      -43,-27: 3
+      -43,-26: 3
+      -43,-25: 3
+      -43,-24: 3
+      -43,-23: 3
+      -43,-22: 3
+      -43,-21: 3
+      -43,-20: 3
+      -43,-19: 3
+      -43,-18: 3
+      -43,-17: 3
+      -42,-27: 3
+      -42,-24: 3
+      -42,-20: 3
+      -41,-27: 3
+      -41,-24: 3
+      -41,-20: 3
+      -40,-27: 3
+      -40,-24: 3
+      -40,-20: 3
+      -39,-27: 3
+      -39,-26: 3
+      -39,-25: 3
+      -39,-24: 3
+      -39,-23: 3
+      -39,-22: 3
+      -39,-21: 3
+      -39,-20: 3
+      -39,-19: 3
+      -39,-18: 3
+      -39,-17: 3
+      -38,-27: 3
+      -38,-24: 3
+      -38,-20: 3
+      -37,-27: 3
+      -37,-24: 3
+      -37,-20: 3
+      -36,-27: 3
+      -36,-24: 3
+      -36,-20: 3
+      -35,-27: 3
+      -35,-26: 3
+      -35,-25: 3
+      -35,-24: 3
+      -35,-23: 3
+      -35,-22: 3
+      -35,-21: 3
+      -35,-20: 3
+      -35,-19: 3
+      -35,-18: 3
+      -35,-17: 3
+      -34,-27: 3
+      -34,-24: 3
+      -34,-20: 3
+      -33,-27: 3
+      -33,-24: 3
+      -33,-20: 3
+      3,31: 3
+      4,31: 3
+      5,30: 3
+      5,31: 3
+      3,32: 3
+      3,33: 3
+      4,32: 3
+      4,33: 3
+      5,32: 3
+      5,33: 3
     uniqueMixes:
     - volume: 2500
       temperature: 293.15
@@ -3817,10 +3725,109 @@ entities:
     - volume: 2500
       temperature: 293.15
       moles:
+      - 16.36866
+      - 61.57734
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 293.15
+      moles:
+      - 19.399893
+      - 72.98055
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 293.15
+      moles:
+      - 14.549919
+      - 54.735413
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 293.15
+      moles:
+      - 11.316605
+      - 42.57199
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 293.15
+      moles:
+      - 18.32212
+      - 68.92608
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 293.15
+      moles:
       - 0
       - 0
       - 0
       - 6666.982
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 293.15
+      moles:
+      - 10.912439
+      - 41.05156
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 293.15
+      moles:
+      - 12.124933
+      - 45.612846
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 293.15
+      moles:
+      - 18.187399
+      - 68.419266
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - volume: 2500
+      temperature: 293.15
+      moles:
+      - 8.18433
+      - 30.78867
+      - 0
+      - 0
       - 0
       - 0
       - 0
@@ -10525,12 +10532,19 @@ entities:
     parent: 69
     type: Transform
 - uid: 1121
-  type: SurveillanceCameraSupply
+  type: PoweredlightLED
   components:
-  - rot: -1.5707963267948966 rad
-    pos: -11.5,20.5
+  - rot: 1.5707963267948966 rad
+    pos: -13.5,-10.5
     parent: 69
     type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - inputs:
+      On: []
+      Off: []
+      Toggle: []
+    type: SignalReceiver
 - uid: 1122
   type: APCBasic
   components:
@@ -13953,7 +13967,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 1617
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 1.5707963267948966 rad
     pos: -2.5,11.5
@@ -20022,7 +20036,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 2462
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 3.141592653589793 rad
     pos: -12.5,-19.5
@@ -21915,10 +21929,9 @@ entities:
     parent: 69
     type: Transform
 - uid: 2703
-  type: AirlockExternalGlassShuttleEmergencyLocked
+  type: AirlockGlassShuttle
   components:
-  - rot: -1.5707963267948966 rad
-    pos: -24.5,8.5
+  - pos: -24.5,8.5
     parent: 69
     type: Transform
   - fixtures:
@@ -21948,10 +21961,9 @@ entities:
       id: docking
     type: Fixtures
 - uid: 2704
-  type: AirlockExternalGlassShuttleEmergencyLocked
+  type: AirlockGlassShuttle
   components:
-  - rot: -1.5707963267948966 rad
-    pos: -24.5,2.5
+  - pos: -24.5,0.5
     parent: 69
     type: Transform
   - fixtures:
@@ -22244,11 +22256,19 @@ entities:
     parent: 69
     type: Transform
 - uid: 2744
-  type: SurveillanceCameraMedical
+  type: PoweredlightLED
   components:
-  - pos: 24.5,6.5
+  - rot: 1.5707963267948966 rad
+    pos: -3.5,-15.5
     parent: 69
     type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - inputs:
+      On: []
+      Off: []
+      Toggle: []
+    type: SignalReceiver
 - uid: 2745
   type: PoweredlightLED
   components:
@@ -23396,12 +23416,19 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 2905
-  type: PlasticFlapsAirtightClear
+  type: PoweredlightLED
   components:
   - rot: -1.5707963267948966 rad
-    pos: -22.5,18.5
+    pos: 18.5,20.5
     parent: 69
     type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - inputs:
+      On: []
+      Off: []
+      Toggle: []
+    type: SignalReceiver
 - uid: 2906
   type: PoweredlightLED
   components:
@@ -23580,13 +23607,13 @@ entities:
     parent: 69
     type: Transform
 - uid: 2927
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - pos: 23.5,21.5
     parent: 69
     type: Transform
 - uid: 2928
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - pos: 24.5,21.5
     parent: 69
@@ -23606,7 +23633,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 2931
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - pos: 21.5,25.5
     parent: 69
@@ -24067,52 +24094,37 @@ entities:
     parent: 69
     type: Transform
 - uid: 2993
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 1.5707963267948966 rad
     pos: 6.5,-33.5
     parent: 69
     type: Transform
 - uid: 2994
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 1.5707963267948966 rad
     pos: 8.5,-33.5
     parent: 69
     type: Transform
 - uid: 2995
-  type: AirlockExternalGlassShuttleEmergencyLocked
+  type: PoweredSmallLight
   components:
-  - rot: -1.5707963267948966 rad
-    pos: -24.5,10.5
+  - pos: 1.5,28.5
     parent: 69
     type: Transform
-  - fixtures:
-    - shape: !type:PolygonShape
-        vertices:
-        - 0.49,-0.49
-        - 0.49,0.49
-        - -0.49,0.49
-        - -0.49,-0.49
-      mask:
-      - Impassable
-      - MidImpassable
-      - HighImpassable
-      - LowImpassable
-      - InteractImpassable
-      layer:
-      - MidImpassable
-      - HighImpassable
-      - BulletImpassable
-      - InteractImpassable
-      - Opaque
-      mass: 100
-    - shape: !type:PhysShapeCircle
-        position: 0,-0.5
-        radius: 0.2
-      hard: False
-      id: docking
-    type: Fixtures
+  - enabled: False
+    type: AmbientSound
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+  - inputs:
+      On: []
+      Off: []
+      Toggle: []
+    type: SignalReceiver
 - uid: 2996
   type: WallReinforced
   components:
@@ -24727,7 +24739,7 @@ entities:
   - fixtures: []
     type: Fixtures
 - uid: 3085
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 1.5707963267948966 rad
     pos: 4.5,-33.5
@@ -24748,35 +24760,35 @@ entities:
     parent: 69
     type: Transform
 - uid: 3088
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 1.5707963267948966 rad
     pos: 10.5,-33.5
     parent: 69
     type: Transform
 - uid: 3089
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 1.5707963267948966 rad
     pos: 12.5,-33.5
     parent: 69
     type: Transform
 - uid: 3090
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 1.5707963267948966 rad
     pos: 14.5,-33.5
     parent: 69
     type: Transform
 - uid: 3091
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 1.5707963267948966 rad
     pos: 16.5,-33.5
     parent: 69
     type: Transform
 - uid: 3092
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 1.5707963267948966 rad
     pos: 18.5,-33.5
@@ -25346,7 +25358,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 3176
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 3.141592653589793 rad
     pos: 20.5,-30.5
@@ -25552,14 +25564,14 @@ entities:
         uid: 1385
     type: SignalTransmitter
 - uid: 3205
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: -1.5707963267948966 rad
     pos: 25.5,-26.5
     parent: 69
     type: Transform
 - uid: 3206
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 3.141592653589793 rad
     pos: 25.5,-25.5
@@ -26408,7 +26420,7 @@ entities:
   - color: '#990000FF'
     type: AtmosPipeColor
 - uid: 3327
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: -1.5707963267948966 rad
     pos: 8.5,-20.5
@@ -27143,7 +27155,7 @@ entities:
   - color: '#990000FF'
     type: AtmosPipeColor
 - uid: 3414
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 3.141592653589793 rad
     pos: 13.5,-0.5
@@ -27211,7 +27223,7 @@ entities:
   - color: '#990000FF'
     type: AtmosPipeColor
 - uid: 3422
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 1.5707963267948966 rad
     pos: 18.5,9.5
@@ -27356,7 +27368,7 @@ entities:
   - color: '#0055CCFF'
     type: AtmosPipeColor
 - uid: 3441
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 1.5707963267948966 rad
     pos: 21.5,5.5
@@ -27365,7 +27377,7 @@ entities:
   - color: '#0055CCFF'
     type: AtmosPipeColor
 - uid: 3442
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: -1.5707963267948966 rad
     pos: 24.5,2.5
@@ -27489,7 +27501,7 @@ entities:
   - color: '#990000FF'
     type: AtmosPipeColor
 - uid: 3456
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 3.141592653589793 rad
     pos: 14.5,-5.5
@@ -27516,7 +27528,7 @@ entities:
   - color: '#990000FF'
     type: AtmosPipeColor
 - uid: 3459
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 1.5707963267948966 rad
     pos: 1.5,-10.5
@@ -27525,7 +27537,7 @@ entities:
   - color: '#0055CCFF'
     type: AtmosPipeColor
 - uid: 3460
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: -1.5707963267948966 rad
     pos: 6.5,-9.5
@@ -27710,7 +27722,7 @@ entities:
   - color: '#990000FF'
     type: AtmosPipeColor
 - uid: 3482
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: -1.5707963267948966 rad
     pos: 6.5,-3.5
@@ -28275,7 +28287,7 @@ entities:
   - color: '#0055CCFF'
     type: AtmosPipeColor
 - uid: 3548
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 1.5707963267948966 rad
     pos: 10.5,8.5
@@ -28525,7 +28537,7 @@ entities:
   - color: '#0055CCFF'
     type: AtmosPipeColor
 - uid: 3576
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 3.141592653589793 rad
     pos: 22.5,14.5
@@ -28657,7 +28669,7 @@ entities:
   - color: '#0055CCFF'
     type: AtmosPipeColor
 - uid: 3591
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: -1.5707963267948966 rad
     pos: 24.5,17.5
@@ -28873,7 +28885,7 @@ entities:
   - color: '#990000FF'
     type: AtmosPipeColor
 - uid: 3615
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 3.141592653589793 rad
     pos: 15.5,19.5
@@ -28882,7 +28894,7 @@ entities:
   - color: '#0055CCFF'
     type: AtmosPipeColor
 - uid: 3616
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: -1.5707963267948966 rad
     pos: 20.5,22.5
@@ -29097,7 +29109,7 @@ entities:
   - color: '#990000FF'
     type: AtmosPipeColor
 - uid: 3641
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 3.141592653589793 rad
     pos: 3.5,12.5
@@ -29106,7 +29118,7 @@ entities:
   - color: '#0055CCFF'
     type: AtmosPipeColor
 - uid: 3642
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: -1.5707963267948966 rad
     pos: 4.5,15.5
@@ -29141,7 +29153,7 @@ entities:
   - color: '#990000FF'
     type: AtmosPipeColor
 - uid: 3646
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: -1.5707963267948966 rad
     pos: -14.5,15.5
@@ -29150,7 +29162,7 @@ entities:
   - color: '#0055CCFF'
     type: AtmosPipeColor
 - uid: 3647
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: -1.5707963267948966 rad
     pos: 10.5,20.5
@@ -29177,7 +29189,7 @@ entities:
   - color: '#990000FF'
     type: AtmosPipeColor
 - uid: 3650
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 3.141592653589793 rad
     pos: 5.5,19.5
@@ -29438,7 +29450,7 @@ entities:
   - color: '#0055CCFF'
     type: AtmosPipeColor
 - uid: 3680
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: -1.5707963267948966 rad
     pos: 10.5,24.5
@@ -29482,7 +29494,7 @@ entities:
   - color: '#990000FF'
     type: AtmosPipeColor
 - uid: 3685
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - pos: 5.5,28.5
     parent: 69
@@ -29538,7 +29550,7 @@ entities:
   - color: '#990000FF'
     type: AtmosPipeColor
 - uid: 3692
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - pos: 1.5,25.5
     parent: 69
@@ -29653,7 +29665,7 @@ entities:
   - color: '#990000FF'
     type: AtmosPipeColor
 - uid: 3705
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - pos: -1.5,33.5
     parent: 69
@@ -29723,7 +29735,7 @@ entities:
   - color: '#990000FF'
     type: AtmosPipeColor
 - uid: 3713
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - pos: -8.5,1.5
     parent: 69
@@ -29731,7 +29743,7 @@ entities:
   - color: '#0055CCFF'
     type: AtmosPipeColor
 - uid: 3714
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 1.5707963267948966 rad
     pos: -2.5,22.5
@@ -30553,7 +30565,7 @@ entities:
   - color: '#0055CCFF'
     type: AtmosPipeColor
 - uid: 3809
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: -1.5707963267948966 rad
     pos: -10.5,20.5
@@ -30894,7 +30906,7 @@ entities:
   - color: '#990000FF'
     type: AtmosPipeColor
 - uid: 3850
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 1.5707963267948966 rad
     pos: -21.5,2.5
@@ -30947,7 +30959,7 @@ entities:
   - color: '#990000FF'
     type: AtmosPipeColor
 - uid: 3856
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - pos: -11.5,4.5
     parent: 69
@@ -30955,7 +30967,7 @@ entities:
   - color: '#0055CCFF'
     type: AtmosPipeColor
 - uid: 3857
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - pos: -15.5,5.5
     parent: 69
@@ -30963,7 +30975,7 @@ entities:
   - color: '#0055CCFF'
     type: AtmosPipeColor
 - uid: 3858
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 3.141592653589793 rad
     pos: -15.5,-3.5
@@ -31854,7 +31866,7 @@ entities:
   - color: '#0055CCFF'
     type: AtmosPipeColor
 - uid: 3961
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: -1.5707963267948966 rad
     pos: 1.5,-13.5
@@ -32153,7 +32165,7 @@ entities:
   - color: '#990000FF'
     type: AtmosPipeColor
 - uid: 3995
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - pos: 19.5,4.5
     parent: 69
@@ -32242,7 +32254,7 @@ entities:
   - color: '#990000FF'
     type: AtmosPipeColor
 - uid: 4005
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - pos: 2.5,1.5
     parent: 69
@@ -32322,7 +32334,7 @@ entities:
   - color: '#0055CCFF'
     type: AtmosPipeColor
 - uid: 4014
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 1.5707963267948966 rad
     pos: -6.5,6.5
@@ -32331,7 +32343,7 @@ entities:
   - color: '#0055CCFF'
     type: AtmosPipeColor
 - uid: 4015
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 1.5707963267948966 rad
     pos: -6.5,9.5
@@ -32421,7 +32433,7 @@ entities:
   - color: '#990000FF'
     type: AtmosPipeColor
 - uid: 4025
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 3.141592653589793 rad
     pos: 7.5,12.5
@@ -32497,7 +32509,7 @@ entities:
   - color: '#990000FF'
     type: AtmosPipeColor
 - uid: 4034
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 1.5707963267948966 rad
     pos: 1.5,20.5
@@ -32781,7 +32793,7 @@ entities:
   - color: '#0055CCFF'
     type: AtmosPipeColor
 - uid: 4066
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - pos: -15.5,22.5
     parent: 69
@@ -32815,7 +32827,7 @@ entities:
   - color: '#990000FF'
     type: AtmosPipeColor
 - uid: 4070
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 3.141592653589793 rad
     pos: -9.5,12.5
@@ -32858,7 +32870,7 @@ entities:
   - color: '#990000FF'
     type: AtmosPipeColor
 - uid: 4075
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 3.141592653589793 rad
     pos: -15.5,12.5
@@ -33013,7 +33025,7 @@ entities:
   - color: '#990000FF'
     type: AtmosPipeColor
 - uid: 4093
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 1.5707963267948966 rad
     pos: -15.5,-12.5
@@ -33078,7 +33090,7 @@ entities:
   - color: '#0055CCFF'
     type: AtmosPipeColor
 - uid: 4101
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - pos: -6.5,-11.5
     parent: 69
@@ -33335,7 +33347,7 @@ entities:
   - color: '#0055CCFF'
     type: AtmosPipeColor
 - uid: 4131
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 1.5707963267948966 rad
     pos: -6.5,-6.5
@@ -33361,7 +33373,7 @@ entities:
   - color: '#990000FF'
     type: AtmosPipeColor
 - uid: 4134
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 1.5707963267948966 rad
     pos: -2.5,-11.5
@@ -33370,7 +33382,7 @@ entities:
   - color: '#0055CCFF'
     type: AtmosPipeColor
 - uid: 4135
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 3.141592653589793 rad
     pos: 1.5,-16.5
@@ -34109,10 +34121,9 @@ entities:
     parent: 69
     type: Transform
 - uid: 4241
-  type: AirlockExternalGlassShuttleEmergencyLocked
+  type: AirlockGlassShuttle
   components:
-  - rot: -1.5707963267948966 rad
-    pos: -24.5,0.5
+  - pos: -24.5,10.5
     parent: 69
     type: Transform
   - fixtures:
@@ -34142,12 +34153,37 @@ entities:
       id: docking
     type: Fixtures
 - uid: 4242
-  type: SurveillanceCameraEngineering
+  type: AirlockGlassShuttle
   components:
-  - rot: -1.5707963267948966 rad
-    pos: -13.5,-14.5
+  - pos: -24.5,2.5
     parent: 69
     type: Transform
+  - fixtures:
+    - shape: !type:PolygonShape
+        vertices:
+        - 0.49,-0.49
+        - 0.49,0.49
+        - -0.49,0.49
+        - -0.49,-0.49
+      mask:
+      - Impassable
+      - MidImpassable
+      - HighImpassable
+      - LowImpassable
+      - InteractImpassable
+      layer:
+      - MidImpassable
+      - HighImpassable
+      - BulletImpassable
+      - InteractImpassable
+      - Opaque
+      mass: 100
+    - shape: !type:PhysShapeCircle
+        position: 0,-0.5
+        radius: 0.2
+      hard: False
+      id: docking
+    type: Fixtures
 - uid: 4243
   type: ReinforcedWindow
   components:
@@ -34422,7 +34458,7 @@ entities:
   - color: '#990000FF'
     type: AtmosPipeColor
 - uid: 4270
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: -1.5707963267948966 rad
     pos: 30.5,9.5
@@ -34431,7 +34467,7 @@ entities:
   - color: '#0055CCFF'
     type: AtmosPipeColor
 - uid: 4271
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 3.141592653589793 rad
     pos: 25.5,8.5
@@ -35255,7 +35291,7 @@ entities:
   - color: '#990000FF'
     type: AtmosPipeColor
 - uid: 4379
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: -1.5707963267948966 rad
     pos: -14.5,29.5
@@ -35763,7 +35799,7 @@ entities:
   - color: '#990000FF'
     type: AtmosPipeColor
 - uid: 4438
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 1.5707963267948966 rad
     pos: -19.5,25.5
@@ -38237,7 +38273,7 @@ entities:
   - color: '#0055CCFF'
     type: AtmosPipeColor
 - uid: 4817
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 3.141592653589793 rad
     pos: -22.5,-21.5
@@ -38279,7 +38315,7 @@ entities:
   - color: '#0055CCFF'
     type: AtmosPipeColor
 - uid: 4822
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - pos: -22.5,-14.5
     parent: 69
@@ -38327,7 +38363,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 4826
-  type: GasVentPump
+  type: GasPassiveVent
   components:
   - rot: 3.141592653589793 rad
     pos: -16.5,-18.5
@@ -42861,12 +42897,24 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 5267
-  type: SurveillanceCameraSecurity
+  type: PoweredSmallLight
   components:
-  - rot: -1.5707963267948966 rad
-    pos: 3.5,22.5
+  - rot: 3.141592653589793 rad
+    pos: 3.5,-12.5
     parent: 69
     type: Transform
+  - enabled: False
+    type: AmbientSound
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+  - inputs:
+      On: []
+      Off: []
+      Toggle: []
+    type: SignalReceiver
 - uid: 5268
   type: PoweredSmallLight
   components:
@@ -44360,19 +44408,43 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 5459
-  type: SurveillanceCameraScience
+  type: PoweredSmallLight
   components:
   - rot: 3.141592653589793 rad
-    pos: 19.5,18.5
+    pos: -18.5,25.5
     parent: 69
     type: Transform
+  - enabled: False
+    type: AmbientSound
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+  - inputs:
+      On: []
+      Off: []
+      Toggle: []
+    type: SignalReceiver
 - uid: 5460
-  type: PlasticFlapsAirtightClear
+  type: PoweredSmallLight
   components:
-  - rot: -1.5707963267948966 rad
-    pos: -25.5,18.5
+  - rot: 3.141592653589793 rad
+    pos: -13.5,25.5
     parent: 69
     type: Transform
+  - enabled: False
+    type: AmbientSound
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+  - inputs:
+      On: []
+      Off: []
+      Toggle: []
+    type: SignalReceiver
 - uid: 5461
   type: PoweredSmallLight
   components:
@@ -44393,12 +44465,24 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 5462
-  type: SignDirectionalBridge
+  type: PoweredSmallLight
   components:
   - rot: 3.141592653589793 rad
-    pos: -0.5010538,17.794802
+    pos: 25.5,13.5
     parent: 69
     type: Transform
+  - enabled: False
+    type: AmbientSound
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+  - inputs:
+      On: []
+      Off: []
+      Toggle: []
+    type: SignalReceiver
 - uid: 5463
   type: PoweredSmallLight
   components:
@@ -44418,19 +44502,42 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 5464
-  type: SignDirectionalSci
+  type: PoweredSmallLight
+  components:
+  - pos: 0.5,-12.5
+    parent: 69
+    type: Transform
+  - enabled: False
+    type: AmbientSound
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+  - inputs:
+      On: []
+      Off: []
+      Toggle: []
+    type: SignalReceiver
+- uid: 5465
+  type: PoweredSmallLight
   components:
   - rot: 1.5707963267948966 rad
-    pos: -0.5010538,17.576052
+    pos: -6.5,-2.5
     parent: 69
     type: Transform
-- uid: 5465
-  type: SignDirectionalSec
-  components:
-  - rot: 3.141592653589793 rad
-    pos: -0.5166788,17.357302
-    parent: 69
-    type: Transform
+  - enabled: False
+    type: AmbientSound
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+  - inputs:
+      On: []
+      Off: []
+      Toggle: []
+    type: SignalReceiver
 - uid: 5466
   type: PoweredSmallLight
   components:
@@ -44949,270 +45056,6 @@ entities:
   type: CableMV
   components:
   - pos: -13.5,-18.5
-    parent: 69
-    type: Transform
-- uid: 5531
-  type: SignDirectionalEng
-  components:
-  - pos: -0.5166788,13.7909565
-    parent: 69
-    type: Transform
-- uid: 5532
-  type: SignDirectionalEng
-  components:
-  - pos: -0.4541788,-0.693912
-    parent: 69
-    type: Transform
-- uid: 5533
-  type: SignDirectionalBridge
-  components:
-  - rot: 3.141592653589793 rad
-    pos: -0.4541788,-0.49078703
-    parent: 69
-    type: Transform
-- uid: 5534
-  type: SignDirectionalHydro
-  components:
-  - rot: 1.5707963267948966 rad
-    pos: -0.4541788,-0.27203703
-    parent: 69
-    type: Transform
-- uid: 5535
-  type: SignDirectionalMed
-  components:
-  - rot: 1.5707963267948966 rad
-    pos: -0.47607088,3.3270497
-    parent: 69
-    type: Transform
-- uid: 5536
-  type: SignDirectionalSci
-  components:
-  - rot: 3.141592653589793 rad
-    pos: 11.468971,3.3201246
-    parent: 69
-    type: Transform
-- uid: 5537
-  type: SignDirectionalEvac
-  components:
-  - rot: -1.5707963267948966 rad
-    pos: -0.5120797,13.587757
-    parent: 69
-    type: Transform
-- uid: 5538
-  type: SignDirectionalEvac
-  components:
-  - rot: -1.5707963267948966 rad
-    pos: -0.47448826,3.535747
-    parent: 69
-    type: Transform
-- uid: 5539
-  type: PottedPlantRandom
-  components:
-  - pos: -11.496038,-9.473927
-    parent: 69
-    type: Transform
-- uid: 5540
-  type: PottedPlantRandom
-  components:
-  - pos: -15.501057,-4.4630694
-    parent: 69
-    type: Transform
-- uid: 5541
-  type: PottedPlantRandom
-  components:
-  - pos: -16.511734,6.435405
-    parent: 69
-    type: Transform
-- uid: 5542
-  type: PottedPlantRandom
-  components:
-  - pos: -14.542984,12.60136
-    parent: 69
-    type: Transform
-- uid: 5543
-  type: PottedPlantRandom
-  components:
-  - pos: -8.511734,12.648235
-    parent: 69
-    type: Transform
-- uid: 5544
-  type: PottedPlantRandom
-  components:
-  - pos: -17.561594,18.521776
-    parent: 69
-    type: Transform
-- uid: 5545
-  type: PottedPlantRandom
-  components:
-  - pos: -10.5674515,22.553026
-    parent: 69
-    type: Transform
-- uid: 5546
-  type: PottedPlantRandom
-  components:
-  - pos: 7.5153546,24.462173
-    parent: 69
-    type: Transform
-- uid: 5547
-  type: PottedPlantRandom
-  components:
-  - pos: 0.45293546,31.465055
-    parent: 69
-    type: Transform
-- uid: 5548
-  type: PottedPlantRandom
-  components:
-  - pos: 17.455572,-2.4535651
-    parent: 69
-    type: Transform
-- uid: 5549
-  type: PottedPlantRandom
-  components:
-  - pos: 23.533697,-2.4691901
-    parent: 69
-    type: Transform
-- uid: 5550
-  type: PottedPlantRandom
-  components:
-  - pos: -21.57987,7.497882
-    parent: 69
-    type: Transform
-- uid: 5551
-  type: PottedPlantRandom
-  components:
-  - pos: -21.626745,3.513507
-    parent: 69
-    type: Transform
-- uid: 5552
-  type: PottedPlantRandom
-  components:
-  - pos: -20.490898,16.460726
-    parent: 69
-    type: Transform
-- uid: 5553
-  type: RandomSpawner
-  components:
-  - pos: 0.55041695,-1.5066681
-    parent: 69
-    type: Transform
-- uid: 5554
-  type: RandomSpawner
-  components:
-  - pos: -6.4808373,-4.319168
-    parent: 69
-    type: Transform
-- uid: 5555
-  type: RandomSpawner
-  components:
-  - pos: -2.0322337,-15.399414
-    parent: 69
-    type: Transform
-- uid: 5556
-  type: RandomSpawner
-  components:
-  - pos: 14.641388,-2.5027852
-    parent: 69
-    type: Transform
-- uid: 5557
-  type: RandomSpawner
-  components:
-  - pos: 22.38554,13.507029
-    parent: 69
-    type: Transform
-- uid: 5558
-  type: RandomSpawner
-  components:
-  - pos: 9.4835,16.459015
-    parent: 69
-    type: Transform
-- uid: 5559
-  type: CableApcExtension
-  components:
-  - pos: -24.5,11.5
-    parent: 69
-    type: Transform
-- uid: 5560
-  type: CableApcExtension
-  components:
-  - pos: -23.5,11.5
-    parent: 69
-    type: Transform
-- uid: 5561
-  type: CableApcExtension
-  components:
-  - pos: -22.5,11.5
-    parent: 69
-    type: Transform
-- uid: 5562
-  type: CableApcExtension
-  components:
-  - pos: -21.5,11.5
-    parent: 69
-    type: Transform
-- uid: 5563
-  type: CableApcExtension
-  components:
-  - pos: -24.5,10.5
-    parent: 69
-    type: Transform
-- uid: 5564
-  type: CableApcExtension
-  components:
-  - pos: -24.5,9.5
-    parent: 69
-    type: Transform
-- uid: 5565
-  type: CableApcExtension
-  components:
-  - pos: -24.5,8.5
-    parent: 69
-    type: Transform
-- uid: 5566
-  type: CableApcExtension
-  components:
-  - pos: -24.5,7.5
-    parent: 69
-    type: Transform
-- uid: 5567
-  type: CableApcExtension
-  components:
-  - pos: -24.5,5.5
-    parent: 69
-    type: Transform
-- uid: 5568
-  type: CableApcExtension
-  components:
-  - pos: -24.5,6.5
-    parent: 69
-    type: Transform
-- uid: 5569
-  type: CableApcExtension
-  components:
-  - pos: -24.5,4.5
-    parent: 69
-    type: Transform
-- uid: 5570
-  type: CableApcExtension
-  components:
-  - pos: -24.5,2.5
-    parent: 69
-    type: Transform
-- uid: 5571
-  type: CableApcExtension
-  components:
-  - pos: -24.5,1.5
-    parent: 69
-    type: Transform
-- uid: 5572
-  type: CableApcExtension
-  components:
-  - pos: -24.5,0.5
-    parent: 69
-    type: Transform
-- uid: 5573
-  type: CableApcExtension
-  components:
-  - pos: -24.5,3.5
     parent: 69
     type: Transform
 ...

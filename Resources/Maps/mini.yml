@@ -66,7 +66,7 @@ grids:
     tilesize: 1
   chunks:
   - ind: -1,-1
-    tiles: NwAAADcAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADcAAAA3AAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADcAAAA3AAAANwAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAA3AAAANwAAADcAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAANwAAADcAAAA3AAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADcAAAA3AAAANwAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAA3AAAANwAAADcAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAANwAAADYAAAA3AAAAMQAAADcAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAANwAAADEAAAAxAAAAMQAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAAxAAAAMQAAADEAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAAMQAAADEAAAAxAAAANwAAADcAAAAxAAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADEAAAAxAAAAMQAAADcAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADcAAAA3AAAANwAAADcAAAAxAAAAMQAAADEAAAA3AAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAA3AAAANwAAADcAAAA3AAAAMQAAADEAAAAxAAAANwAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAANwAAADcAAAA3AAAANwAAADEAAAAxAAAAMQAAADcAAAAxAAAAMQAAADEAAAAxAAAANwAAADEAAAAxAAAAMQAAADcAAAA3AAAANwAAADcAAAAxAAAAMQAAADEAAAA3AAAAMQAAADEAAAAxAAAAMQAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAAMQAAADEAAAAxAAAANwAAAA==
+    tiles: NwAAADcAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADcAAAA3AAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADcAAAA3AAAANwAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAA3AAAANwAAADcAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAANwAAADcAAAA3AAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADcAAAA3AAAANwAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAA3AAAANwAAADcAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAANwAAADYAAAA3AAAAMQAAADcAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAANwAAADEAAAAxAAAAMQAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAAxAAAAMQAAADEAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAAMQAAADEAAAAxAAAANwAAADcAAAAxAAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADEAAAAxAAAAMQAAADcAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADcAAAA3AAAANwAAADEAAAAxAAAAMQAAADEAAAA3AAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAA3AAAANwAAADcAAAAxAAAAMQAAADEAAAAxAAAANwAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAANwAAADcAAAA3AAAANwAAADEAAAAxAAAAMQAAADcAAAAxAAAAMQAAADEAAAAxAAAANwAAADEAAAAxAAAAMQAAADcAAAA3AAAANwAAADcAAAAxAAAAMQAAADEAAAA3AAAAMQAAADEAAAAxAAAAMQAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAAMQAAADEAAAAxAAAANwAAAA==
   - ind: 0,-1
     tiles: MQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAANwAAADYAAAAAAAAAAAAAADcAAAA3AAAANwAAADcAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADcAAAA2AAAANgAAAAAAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAAJQAAACUAAAAlAAAAJQAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAACUAAAAlAAAAJQAAACUAAAAgAAAAIAAAADcAAAAmAAAAJgAAACYAAAAmAAAAJgAAACYAAAAmAAAAJgAAACYAAAAlAAAAJQAAACUAAAAlAAAAIAAAACAAAAA3AAAAJgAAACYAAAAmAAAAJgAAACYAAAAmAAAAJgAAACYAAAAmAAAAJQAAACUAAAAlAAAAJQAAACAAAAAgAAAAJgAAACYAAAAmAAAAJgAAACYAAAAmAAAAJgAAACYAAAAmAAAANwAAACUAAAAlAAAAJQAAACUAAAA3AAAANwAAADcAAAA3AAAANwAAACYAAAA3AAAANwAAABoAAAAaAAAAGgAAADcAAAAlAAAAJQAAACUAAAAlAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAA3AAAAJQAAACUAAAAlAAAAJQAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAACUAAAAlAAAAJQAAACUAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAADcAAAAlAAAAJQAAACUAAAAlAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAxAAAAJQAAACUAAAAlAAAAJQAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAANwAAADEAAAAxAAAAMQAAADEAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAADcAAAAxAAAAMQAAADEAAAAxAAAANwAAADcAAAAaAAAAGgAAABoAAAAaAAAAGgAAADcAAAA3AAAANwAAADcAAAA3AAAAMQAAADEAAAAxAAAAMQAAAA==
   - ind: 1,-1
@@ -3890,6 +3890,71 @@ entities:
       -21,32: 11
       -20,32: 11
       -19,32: 11
+      0,-25: 11
+      0,-24: 11
+      0,-23: 11
+      0,-22: 11
+      0,-21: 11
+      0,-20: 11
+      1,-25: 11
+      1,-24: 11
+      1,-23: 11
+      1,-22: 11
+      1,-21: 11
+      -10,-25: 11
+      -10,-24: 11
+      -10,-23: 11
+      -9,-25: 11
+      -9,-24: 11
+      -9,-23: 11
+      -9,-22: 11
+      -8,-25: 11
+      -8,-24: 11
+      -8,-23: 11
+      -8,-22: 11
+      -8,-21: 11
+      -7,-25: 11
+      -7,-24: 11
+      -7,-23: 11
+      -7,-22: 11
+      -7,-21: 11
+      -7,-20: 11
+      -6,-25: 11
+      -6,-24: 11
+      -6,-23: 11
+      -6,-22: 11
+      -6,-21: 11
+      -6,-20: 11
+      -5,-25: 11
+      -5,-24: 11
+      -5,-23: 11
+      -5,-22: 11
+      -5,-21: 11
+      -5,-20: 11
+      -4,-25: 11
+      -4,-24: 11
+      -4,-23: 11
+      -4,-22: 11
+      -4,-21: 11
+      -4,-20: 11
+      -3,-25: 11
+      -3,-24: 11
+      -3,-23: 11
+      -3,-22: 11
+      -3,-21: 11
+      -3,-20: 11
+      -2,-25: 11
+      -2,-24: 11
+      -2,-23: 11
+      -2,-22: 11
+      -2,-21: 11
+      -2,-20: 11
+      -1,-25: 11
+      -1,-24: 11
+      -1,-23: 11
+      -1,-22: 11
+      -1,-21: 11
+      -1,-20: 11
     uniqueMixes:
     - volume: 2500
       temperature: 293.15
@@ -4105,15 +4170,11 @@ entities:
     parent: 69
     type: Transform
 - uid: 79
-  type: DrinkCachacaBottleFull
+  type: AirlockMedicalGlassLocked
   components:
-  - pos: 7.445953,-2.698204
+  - pos: 23.5,3.5
     parent: 69
     type: Transform
-  - canCollide: False
-    type: Physics
-  - solution: drink
-    type: DrainableSolution
 - uid: 80
   type: WindoorKitchenHydroponicsLocked
   components:
@@ -6193,7 +6254,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 415
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: -5.5,-10.5
@@ -6386,7 +6447,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 444
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 1.5707963267948966 rad
     pos: -3.5,11.5
@@ -6599,7 +6660,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 476
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: -1.5,5.5
@@ -6613,7 +6674,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 477
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 1.5707963267948966 rad
     pos: 16.5,10.5
@@ -10116,7 +10177,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 1014
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: -5.5,-15.5
@@ -10130,7 +10191,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 1015
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 1.5707963267948966 rad
     pos: -13.5,-13.5
@@ -10607,7 +10668,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 1092
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: -15.5,-13.5
@@ -10815,7 +10876,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 1123
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: -13.5,-17.5
@@ -11188,7 +11249,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 1167
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: -18.5,0.5
@@ -11252,7 +11313,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 1176
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - pos: -4.5,2.5
     parent: 69
@@ -12774,7 +12835,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 1405
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: -9.5,18.5
@@ -12788,7 +12849,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 1406
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - pos: -11.5,22.5
     parent: 69
@@ -12801,7 +12862,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 1407
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: -13.5,21.5
@@ -12815,7 +12876,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 1408
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - pos: -16.5,23.5
     parent: 69
@@ -12828,7 +12889,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 1409
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: -18.5,18.5
@@ -12842,7 +12903,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 1410
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 1.5707963267948966 rad
     pos: -21.5,20.5
@@ -13724,7 +13785,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 1540
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: -13.5,4.5
@@ -13738,7 +13799,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 1541
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - pos: -16.5,7.5
     parent: 69
@@ -13847,7 +13908,7 @@ entities:
   - canCollide: False
     type: Physics
 - uid: 1554
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: -15.5,-4.5
@@ -13861,7 +13922,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 1555
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - pos: -10.5,-1.5
     parent: 69
@@ -13874,7 +13935,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 1556
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: -8.5,-4.5
@@ -14289,7 +14350,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 1623
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: -12.5,12.5
@@ -14303,7 +14364,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 1624
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 1.5707963267948966 rad
     pos: -16.5,11.5
@@ -14317,7 +14378,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 1625
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 1.5707963267948966 rad
     pos: -10.5,11.5
@@ -14331,7 +14392,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 1626
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: -5.5,12.5
@@ -14550,7 +14611,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 1658
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - pos: 7.5,6.5
     parent: 69
@@ -14563,7 +14624,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 1659
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - pos: 10.5,6.5
     parent: 69
@@ -17658,7 +17719,7 @@ entities:
       ItemCabinet: !type:ContainerSlot {}
     type: ContainerContainer
 - uid: 2166
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - pos: 1.5,6.5
     parent: 69
@@ -17671,7 +17732,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 2167
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - pos: 3.5,6.5
     parent: 69
@@ -17696,7 +17757,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 2170
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: -6.5,8.5
@@ -17710,7 +17771,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 2171
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: -8.5,4.5
@@ -17724,7 +17785,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 2172
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - pos: -5.5,6.5
     parent: 69
@@ -17961,7 +18022,7 @@ entities:
       ItemCabinet: !type:ContainerSlot {}
     type: ContainerContainer
 - uid: 2201
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 1.5707963267948966 rad
     pos: 12.5,-6.5
@@ -17975,7 +18036,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 2202
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: 16.5,-9.5
@@ -18268,7 +18329,7 @@ entities:
   - canCollide: False
     type: Physics
 - uid: 2230
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: 1.5,-9.5
@@ -18282,7 +18343,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 2231
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 1.5707963267948966 rad
     pos: 3.5,-9.5
@@ -18296,7 +18357,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 2232
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: 10.5,-8.5
@@ -18499,7 +18560,7 @@ entities:
   - solution: drink
     type: DrainableSolution
 - uid: 2258
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - pos: 2.5,-1.5
     parent: 69
@@ -18512,7 +18573,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 2259
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: 4.5,-6.5
@@ -18526,7 +18587,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 2260
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: 10.5,-2.5
@@ -18561,7 +18622,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 2264
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: 10.5,11.5
@@ -18575,7 +18636,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 2265
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 1.5707963267948966 rad
     pos: 6.5,11.5
@@ -18589,7 +18650,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 2266
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: 4.5,11.5
@@ -18603,7 +18664,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 2267
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 1.5707963267948966 rad
     pos: 0.5,11.5
@@ -19132,7 +19193,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 2329
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - pos: 0.5,26.5
     parent: 69
@@ -19145,7 +19206,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 2330
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - pos: 5.5,26.5
     parent: 69
@@ -19158,7 +19219,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 2331
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: 3.5,18.5
@@ -19172,7 +19233,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 2332
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: 7.5,23.5
@@ -19714,7 +19775,7 @@ entities:
   - canCollide: False
     type: Physics
 - uid: 2392
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: 1.5,21.5
@@ -20104,7 +20165,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 2441
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: -1.5,30.5
@@ -20118,7 +20179,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 2442
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: 1.5,31.5
@@ -20132,7 +20193,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 2443
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 1.5707963267948966 rad
     pos: -6.5,32.5
@@ -20917,7 +20978,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 2542
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 1.5707963267948966 rad
     pos: 16.5,17.5
@@ -20973,7 +21034,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 2550
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - pos: 3.5,32.5
     parent: 69
@@ -21508,7 +21569,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 2624
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 1.5707963267948966 rad
     pos: 16.5,4.5
@@ -21522,7 +21583,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 2625
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: 22.5,4.5
@@ -21536,7 +21597,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 2626
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: 26.5,3.5
@@ -21550,21 +21611,13 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 2627
-  type: PoweredlightLED
+  type: AirlockMedicalGlassLocked
   components:
-  - rot: -1.5707963267948966 rad
-    pos: 26.5,9.5
+  - pos: 22.5,6.5
     parent: 69
     type: Transform
-  - powerLoad: 0
-    type: ApcPowerReceiver
-  - inputs:
-      On: []
-      Off: []
-      Toggle: []
-    type: SignalReceiver
 - uid: 2628
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 1.5707963267948966 rad
     pos: 21.5,8.5
@@ -21793,7 +21846,7 @@ entities:
         ents: []
     type: ContainerContainer
 - uid: 2653
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: 18.5,21.5
@@ -21949,7 +22002,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 2673
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: 21.5,13.5
@@ -21963,7 +22016,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 2674
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: 22.5,-2.5
@@ -21977,7 +22030,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 2675
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - pos: 18.5,0.5
     parent: 69
@@ -21990,7 +22043,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 2676
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 1.5707963267948966 rad
     pos: 12.5,-0.5
@@ -22243,7 +22296,7 @@ entities:
       id: docking
     type: Fixtures
 - uid: 2705
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: -18.5,4.5
@@ -22263,7 +22316,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 2707
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: -18.5,11.5
@@ -22439,7 +22492,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 2735
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 1.5707963267948966 rad
     pos: -3.5,-0.5
@@ -22512,7 +22565,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 2745
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: -1.5,-6.5
@@ -22526,7 +22579,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 2746
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: 1.5,0.5
@@ -23619,7 +23672,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 2904
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 1.5707963267948966 rad
     pos: 12.5,20.5
@@ -23640,7 +23693,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 2906
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: 20.5,16.5
@@ -23654,7 +23707,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 2907
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 1.5707963267948966 rad
     pos: 24.5,16.5
@@ -23668,7 +23721,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 2908
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 1.5707963267948966 rad
     pos: 20.5,21.5
@@ -23682,7 +23735,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 2909
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 1.5707963267948966 rad
     pos: 23.5,21.5
@@ -26634,7 +26687,7 @@ entities:
   - color: '#0055CCFF'
     type: AtmosPipeColor
 - uid: 3328
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - pos: 1.5,-15.5
     parent: 69
@@ -26647,7 +26700,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 3329
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - pos: 5.5,-14.5
     parent: 69
@@ -26660,7 +26713,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 3330
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: 11.5,-18.5
@@ -26674,7 +26727,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 3331
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 1.5707963267948966 rad
     pos: 4.5,-21.5
@@ -26688,7 +26741,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 3332
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: 13.5,-24.5
@@ -26702,7 +26755,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 3333
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - pos: 17.5,-25.5
     parent: 69
@@ -26715,7 +26768,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 3334
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 1.5707963267948966 rad
     pos: 3.5,-26.5
@@ -26729,7 +26782,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 3335
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: 21.5,-27.5
@@ -26743,7 +26796,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 3336
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: 18.5,-33.5
@@ -26757,7 +26810,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 3337
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: 16.5,-33.5
@@ -26771,7 +26824,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 3338
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: 14.5,-33.5
@@ -26785,7 +26838,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 3339
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: 12.5,-33.5
@@ -26799,7 +26852,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 3340
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: 10.5,-33.5
@@ -26837,7 +26890,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 3343
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: 4.5,-33.5
@@ -26851,7 +26904,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 3344
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: 3.5,-29.5
@@ -26865,7 +26918,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 3345
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: 7.5,-29.5
@@ -26879,7 +26932,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 3346
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: 11.5,-29.5
@@ -26893,7 +26946,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 3347
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: 15.5,-29.5
@@ -26907,7 +26960,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 3348
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: 19.5,-29.5
@@ -27167,7 +27220,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 3389
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: 11.5,-14.5
@@ -34273,7 +34326,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 4234
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 1.5707963267948966 rad
     pos: 29.5,9.5
@@ -34789,7 +34842,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 4291
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: -19.5,-23.5
@@ -35235,7 +35288,7 @@ entities:
       paper_label: !type:ContainerSlot {}
     type: ContainerContainer
 - uid: 4352
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - pos: -17.5,-16.5
     parent: 69
@@ -35248,7 +35301,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 4353
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: -15.5,-23.5
@@ -38490,7 +38543,7 @@ entities:
   - color: '#0055CCFF'
     type: AtmosPipeColor
 - uid: 4823
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - pos: -22.5,-14.5
     parent: 69
@@ -38503,7 +38556,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 4824
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - pos: -25.5,-17.5
     parent: 69
@@ -38516,7 +38569,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 4825
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: -22.5,-21.5
@@ -38561,7 +38614,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 4830
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: 25.5,2.5
@@ -43005,7 +43058,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 5263
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: 6.5,-33.5
@@ -43019,7 +43072,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 5264
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: 8.5,-33.5
@@ -43222,7 +43275,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 5282
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 1.5707963267948966 rad
     pos: -3.5,-8.5
@@ -43236,7 +43289,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 5283
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: -1.5,-14.5
@@ -43250,7 +43303,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 5284
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: -16.5,14.5
@@ -43264,7 +43317,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 5285
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: -18.5,5.5
@@ -43278,7 +43331,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 5286
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - pos: -9.5,16.5
     parent: 69
@@ -43297,7 +43350,7 @@ entities:
     parent: 69
     type: Transform
 - uid: 5288
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 1.5707963267948966 rad
     pos: -3.5,27.5
@@ -43311,7 +43364,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 5289
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: -1.5,20.5
@@ -43325,7 +43378,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 5290
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - pos: 0.5,16.5
     parent: 69
@@ -43338,7 +43391,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 5291
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - pos: 7.5,16.5
     parent: 69
@@ -43351,7 +43404,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 5292
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - pos: 14.5,16.5
     parent: 69
@@ -43364,7 +43417,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 5293
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 1.5707963267948966 rad
     pos: 12.5,9.5
@@ -43376,7 +43429,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 5294
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: 14.5,6.5
@@ -43390,7 +43443,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 5295
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: 9.5,0.5
@@ -43404,7 +43457,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 5296
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: 1.5,0.5
@@ -43418,7 +43471,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 5297
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: -8.5,0.5
@@ -43432,7 +43485,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 5298
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: -14.5,27.5
@@ -43683,7 +43736,7 @@ entities:
         uid: 4313
     type: SignalReceiver
 - uid: 5331
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: -1.5,-1.5
@@ -43697,9 +43750,9 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 5332
-  type: AirlockMedicalGlass
+  type: AirlockMedicalGlassLocked
   components:
-  - pos: 23.5,3.5
+  - pos: 22.5,1.5
     parent: 69
     type: Transform
 - uid: 5333
@@ -44700,7 +44753,7 @@ entities:
         uid: 4273
     type: SignalTransmitter
 - uid: 5477
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: -1.5707963267948966 rad
     pos: 23.5,0.5
@@ -44714,7 +44767,7 @@ entities:
       Toggle: []
     type: SignalReceiver
 - uid: 5478
-  type: PoweredlightLED
+  type: Poweredlight
   components:
   - rot: 3.141592653589793 rad
     pos: 17.5,-2.5
@@ -44746,17 +44799,24 @@ entities:
     parent: 69
     type: Transform
 - uid: 5482
-  type: AirlockMedicalGlass
+  type: AirlockChemistryLocked
   components:
   - pos: 20.5,5.5
     parent: 69
     type: Transform
 - uid: 5483
-  type: AirlockMedicalGlass
+  type: Poweredlight
   components:
-  - pos: 22.5,6.5
+  - pos: 26.5,11.5
     parent: 69
     type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - inputs:
+      On: []
+      Off: []
+      Toggle: []
+    type: SignalReceiver
 - uid: 5484
   type: CableApcExtension
   components:
@@ -44764,27 +44824,21 @@ entities:
     parent: 69
     type: Transform
 - uid: 5485
-  type: AirlockMedicalGlass
+  type: AirlockMedicalGlassLocked
   components:
   - pos: 20.5,9.5
     parent: 69
     type: Transform
 - uid: 5486
-  type: AirlockMedicalGlass
+  type: AirlockMedicalGlassLocked
   components:
-  - pos: 21.5,1.5
+  - pos: 28.5,10.5
     parent: 69
     type: Transform
 - uid: 5487
-  type: AirlockMedicalGlass
+  type: AirlockMedicalGlassLocked
   components:
-  - pos: 22.5,1.5
-    parent: 69
-    type: Transform
-- uid: 5488
-  type: AirlockMedicalGlass
-  components:
-  - pos: 28.5,10.5
+  - pos: 21.5,1.5
     parent: 69
     type: Transform
 - uid: 5489

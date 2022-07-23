@@ -21,9 +21,9 @@ SERVER_FILES = [
 
 VERSION = os.environ['GITHUB_SHA']
 FORK_ID = "estacao_pirata"
-BUILD_URL = f"http://223.238.185.238/static/{{FORK_VERSION}}/{FILE}"
-MANIFEST_URL = f"http://223.238.185.238/cdn/version/{{FORK_VERSION}}/manifest"
-MANIFEST_DOWNLOAD_URL = f"http://223.238.185.238/cdn/version/{{FORK_VERSION}}/download"
+BUILD_URL = f"http://23.238.185.238/static/{{FORK_VERSION}}/{FILE}"
+MANIFEST_URL = f"http://23.238.185.238/cdn/version/{{FORK_VERSION}}/manifest"
+MANIFEST_DOWNLOAD_URL = f"http://23.238.185.238/cdn/version/{{FORK_VERSION}}/download"
 
 def main() -> None:
     client_file = os.path.join("release", FILE)

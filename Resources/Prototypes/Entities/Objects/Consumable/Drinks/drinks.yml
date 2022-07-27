@@ -2101,7 +2101,7 @@
   parent: DrinkGlassBase
   id: DrinkRamen
   name: cup ramen
-  description: Just add 10ml water, self heats! A taste that reminds you of your school years.
+  description: Just add 10ml boiling water. A taste that reminds you of your school years.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2122,7 +2122,7 @@
   parent: DrinkRamen
   id: DrinkHellRamen
   name: hell ramen
-  description: Just add 10ml water, self heats! Super spicy flavor.
+  description: Just add 10ml boiling water. Super spicy flavor.
   components:
   - type: SolutionContainerManager
     solutions:

@@ -1,5 +1,5 @@
 - type: entity
-  parent: UniformSchoolgirlRed
+  parent: ClothingUniformBase
   id: UniformSchoolgirlBlue
   name: blue schoolgirl uniform
   components:

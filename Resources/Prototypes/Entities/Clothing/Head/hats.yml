@@ -1,5 +1,16 @@
 - type: entity
   parent: ClothingHeadBase
+  id: ClothingHeadMailCarrier
+  name: mail carrier's hat
+  description: Smells like a good pension.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/mailman.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/mailman.rsi
+
+- type: entity
+  parent: ClothingHeadBase
   id: ClothingHeadHatBeaverHat
   name: beaver hat
   description: 'Gentlemen?'

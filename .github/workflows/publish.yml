@@ -34,8 +34,8 @@ jobs:
 
     - name: Shuffle files around
       run: |
-        mkdir "release/${{ github.sha }}"
-        mv release/*.zip "release/${{ github.sha }}"
+        sudo mkdir "release/${{ github.sha }}"
+        sudo mv release/*.zip "release/${{ github.sha }}"
     - name: Upload files to centcomm
       uses: appleboy/scp-action@master
       with:

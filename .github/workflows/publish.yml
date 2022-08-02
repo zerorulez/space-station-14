@@ -39,9 +39,9 @@ jobs:
     - name: Upload files to centcomm
       uses: appleboy/scp-action@master
       with:
-        host: 23.238.185.238
-        username: root
-        password: ${{ secrets.CENTCOMM_PASSWORD }}
+        host: 144.22.227.85
+        username: ubuntu
+        key : ${{ secrets.CENTCOMM_KEY }}
         source: "release/${{ github.sha }}"
         target: "/var/www/html/builds/"
         strip_components: 1
@@ -49,7 +49,7 @@ jobs:
     - name: Update manifest JSON
       uses: appleboy/ssh-action@master
       with:
-        host: 23.238.185.238
-        username: root
-        password: ${{ secrets.CENTCOMM_PASSWORD }}
+        host: 144.22.227.85
+        username: ubuntu
+        key : ${{ secrets.CENTCOMM_KEY }}
         script: node /root/wizards-build-push/builds_dir/push.js ${{ github.sha }}

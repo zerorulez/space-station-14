@@ -371,8 +371,19 @@ entities:
   - pos: -11.418642,18.704296
     parent: 852
     type: Transform
+  - unspawnedCount: 12
+    type: BallisticAmmoProvider
   - canCollide: False
     type: Physics
+<<<<<<< HEAD
+=======
+  - containers:
+      storagebase: !type:Container
+        ents: []
+      ballistic-ammo: !type:Container
+        ents: []
+    type: ContainerContainer
+>>>>>>> master
 - uid: 26
   type: WallSolid
   components:
@@ -540,8 +551,19 @@ entities:
   - pos: -11.418642,18.548046
     parent: 852
     type: Transform
+  - unspawnedCount: 12
+    type: BallisticAmmoProvider
   - canCollide: False
     type: Physics
+<<<<<<< HEAD
+=======
+  - containers:
+      storagebase: !type:Container
+        ents: []
+      ballistic-ammo: !type:Container
+        ents: []
+    type: ContainerContainer
+>>>>>>> master
 - uid: 47
   type: Grille
   components:
@@ -1301,6 +1323,8 @@ entities:
 - uid: 149
   type: AirlockCaptainLocked
   components:
+  - name: Captain's Bathroom
+    type: MetaData
   - pos: 12.5,25.5
     parent: 852
     type: Transform
@@ -4562,6 +4586,8 @@ entities:
   - pos: 10.372139,23.658413
     parent: 852
     type: Transform
+  - heldPrefix: off
+    type: Item
   - canCollide: False
     type: Physics
 - uid: 491
@@ -4965,6 +4991,8 @@ entities:
   - pos: 22.50832,-12.354015
     parent: 852
     type: Transform
+  - heldPrefix: off
+    type: Item
   - canCollide: False
     type: Physics
 - uid: 547
@@ -5432,6 +5460,8 @@ entities:
 - uid: 609
   type: AirlockJanitorLocked
   components:
+  - name: Janitor Closet
+    type: MetaData
   - pos: -22.5,9.5
     parent: 852
     type: Transform
@@ -5518,12 +5548,16 @@ entities:
 - uid: 622
   type: AirlockScienceGlassLocked
   components:
+  - name: Science
+    type: MetaData
   - pos: 0.5,-20.5
     parent: 852
     type: Transform
 - uid: 623
   type: AirlockScienceGlassLocked
   components:
+  - name: Science
+    type: MetaData
   - pos: 0.5,-19.5
     parent: 852
     type: Transform
@@ -5765,16 +5799,9 @@ entities:
     parent: 852
     type: Transform
 - uid: 658
-  type: DisposalJunction
   components:
-  - rot: 1.5707963267948966 rad
-    pos: -32.5,3.5
-    parent: 852
-    type: Transform
-  - containers:
-      DisposalJunction: !type:Container
-        ents: []
-    type: ContainerContainer
+  - index: 4
+    type: Map
 - uid: 659
   type: WallSolid
   components:
@@ -6266,6 +6293,8 @@ entities:
 - uid: 731
   type: AirlockCaptainLocked
   components:
+  - name: Captain's Bedroom
+    type: MetaData
   - pos: 9.5,25.5
     parent: 852
     type: Transform
@@ -7230,7 +7259,7 @@ entities:
   components:
   - name: Saltern Station
     type: MetaData
-  - parent: null
+  - parent: 658
     type: Transform
   - index: 0
     type: MapGrid
@@ -20862,6 +20891,8 @@ entities:
   - pos: -0.442379,13.650292
     parent: 852
     type: Transform
+  - heldPrefix: off
+    type: Item
   - canCollide: False
     type: Physics
 - uid: 1419
@@ -21355,6 +21386,8 @@ entities:
 - uid: 1494
   type: AirlockCaptainGlassLocked
   components:
+  - name: Captain's Office
+    type: MetaData
   - pos: 5.5,25.5
     parent: 852
     type: Transform
@@ -23819,6 +23852,8 @@ entities:
 - uid: 1852
   type: AirlockHeadOfPersonnelLocked
   components:
+  - name: 'Head Of Personnel '
+    type: MetaData
   - pos: 6.5,17.5
     parent: 852
     type: Transform
@@ -25935,6 +25970,8 @@ entities:
   - pos: 7.643837,18.677101
     parent: 852
     type: Transform
+  - heldPrefix: off
+    type: Item
   - canCollide: False
     type: Physics
 - uid: 2156
@@ -40061,6 +40098,8 @@ entities:
   - pos: -30.54503,-5.3981686
     parent: 852
     type: Transform
+  - heldPrefix: off
+    type: Item
   - canCollide: False
     type: Physics
 - uid: 4093
@@ -40081,6 +40120,8 @@ entities:
   - pos: -30.466906,-1.5231686
     parent: 852
     type: Transform
+  - heldPrefix: off
+    type: Item
   - canCollide: False
     type: Physics
 - uid: 4096
@@ -40557,6 +40598,8 @@ entities:
     pos: -21.5,10.5
     parent: 852
     type: Transform
+  - solution: bucket
+    type: Drink
 - uid: 4155
   type: CarpetGreen
   components:
@@ -40729,6 +40772,8 @@ entities:
   - pos: 0.41178536,-5.2814264
     parent: 852
     type: Transform
+  - heldPrefix: off
+    type: Item
   - canCollide: False
     type: Physics
 - uid: 4179
@@ -46198,6 +46243,8 @@ entities:
   - pos: 37.66952,-0.30827445
     parent: 852
     type: Transform
+  - heldPrefix: off
+    type: Item
   - canCollide: False
     type: Physics
 - uid: 4926
@@ -55071,6 +55118,8 @@ entities:
   - pos: -7.462167,20.657312
     parent: 852
     type: Transform
+  - heldPrefix: off
+    type: Item
   - canCollide: False
     type: Physics
 - uid: 6023
@@ -60083,6 +60132,8 @@ entities:
   - pos: -0.4371283,-29.28531
     parent: 852
     type: Transform
+  - heldPrefix: off
+    type: Item
   - canCollide: False
     type: Physics
 - uid: 6696
@@ -61657,11 +61708,15 @@ entities:
   - fixtures: []
     type: Fixtures
 - uid: 6931
-  type: OxygenCanister
+  type: DisposalYJunction
   components:
-  - pos: 24.5,15.5
+  - pos: -32.5,3.5
     parent: 852
     type: Transform
+  - containers:
+      DisposalJunction: !type:Container
+        ents: []
+    type: ContainerContainer
 - uid: 6932
   type: Rack
   components:
@@ -63173,6 +63228,8 @@ entities:
   - pos: 6.5934343,24.65432
     parent: 852
     type: Transform
+  - heldPrefix: off
+    type: Item
   - canCollide: False
     type: Physics
 - uid: 7150
@@ -64401,6 +64458,8 @@ entities:
   - pos: 11.433,-31.299496
     parent: 852
     type: Transform
+  - heldPrefix: off
+    type: Item
   - canCollide: False
     type: Physics
 - uid: 7320
@@ -64822,6 +64881,8 @@ entities:
   - pos: -4.4252543,-22.444613
     parent: 852
     type: Transform
+  - heldPrefix: off
+    type: Item
   - canCollide: False
     type: Physics
 - uid: 7373
@@ -66316,9 +66377,17 @@ entities:
     parent: 852
     type: Transform
 - uid: 7568
+<<<<<<< HEAD
   type: MailTeleporter
   components:
   - pos: 15.5,12.5
+=======
+  type: VendingMachineSalvage
+  components:
+  - name: Salvage Equipment
+    type: MetaData
+  - pos: 24.5,15.5
+>>>>>>> master
     parent: 852
     type: Transform
 - uid: 7569
@@ -67841,6 +67910,8 @@ entities:
 - uid: 7786
   type: AirlockSecurityGlassLocked
   components:
+  - name: Perma
+    type: MetaData
   - pos: -14.5,10.5
     parent: 852
     type: Transform
@@ -68125,6 +68196,8 @@ entities:
   - pos: 8.54651,-28.293444
     parent: 852
     type: Transform
+  - heldPrefix: off
+    type: Item
   - canCollide: False
     type: Physics
 - uid: 7827
@@ -68307,6 +68380,8 @@ entities:
   - pos: 26.628683,-25.257757
     parent: 852
     type: Transform
+  - heldPrefix: off
+    type: Item
   - canCollide: False
     type: Physics
 - uid: 7853
@@ -71833,7 +71908,7 @@ entities:
 - uid: 8370
   components:
   - pos: -4.0828176,-36.69003
-    parent: null
+    parent: 658
     type: Transform
   - index: 1
     type: MapGrid
@@ -71870,7 +71945,7 @@ entities:
 - uid: 8374
   components:
   - pos: 16.442314,-37.900513
-    parent: null
+    parent: 658
     type: Transform
   - index: 2
     type: MapGrid
@@ -71930,7 +72005,7 @@ entities:
 - uid: 8381
   components:
   - pos: 38.86631,-37.97411
-    parent: null
+    parent: 658
     type: Transform
   - index: 3
     type: MapGrid
@@ -71949,7 +72024,7 @@ entities:
 - uid: 8382
   components:
   - pos: 44.788185,-37.833485
-    parent: null
+    parent: 658
     type: Transform
   - index: 4
     type: MapGrid
@@ -72451,6 +72526,8 @@ entities:
   - pos: -1.4903483,1.69441
     parent: 852
     type: Transform
+  - heldPrefix: off
+    type: Item
   - canCollide: False
     type: Physics
 - uid: 8448
@@ -72627,6 +72704,8 @@ entities:
   - pos: -24.455732,-23.21139
     parent: 852
     type: Transform
+  - heldPrefix: off
+    type: Item
   - canCollide: False
     type: Physics
 - uid: 8477
@@ -74183,6 +74262,8 @@ entities:
   - pos: -36.511345,-29.258835
     parent: 852
     type: Transform
+  - heldPrefix: off
+    type: Item
   - canCollide: False
     type: Physics
 - uid: 8726
@@ -75093,6 +75174,8 @@ entities:
 - uid: 8833
   type: AirlockCommandGlassLocked
   components:
+  - name: Bridge
+    type: MetaData
   - pos: 3.5,22.5
     parent: 852
     type: Transform
@@ -75512,6 +75595,8 @@ entities:
   - pos: 26.48231,1.5389521
     parent: 852
     type: Transform
+  - solution: bucket
+    type: Drink
 - uid: 8882
   type: SurveillanceCameraSecurity
   components:
@@ -75948,6 +76033,8 @@ entities:
   - pos: -18.636322,-4.1902304
     parent: 852
     type: Transform
+  - heldPrefix: off
+    type: Item
   - canCollide: False
     type: Physics
 - uid: 8942
@@ -77089,6 +77176,8 @@ entities:
     pos: -21.5,8.5
     parent: 852
     type: Transform
+  - solution: bucket
+    type: Drink
   - containers:
       storagebase: !type:Container
         ents: []
@@ -77101,6 +77190,8 @@ entities:
   - pos: -21.319218,10.682958
     parent: 852
     type: Transform
+  - solution: bucket
+    type: Drink
 - uid: 9097
   type: WaterCooler
   components:
@@ -77458,6 +77549,8 @@ entities:
   - pos: 14.479344,-6.1264844
     parent: 852
     type: Transform
+  - heldPrefix: off
+    type: Item
   - toggleAction:
       icon: Objects/Tools/flashlight.rsi/flashlight.png
       iconOn: Objects/Tools/flashlight.rsi/flashlight-on.png

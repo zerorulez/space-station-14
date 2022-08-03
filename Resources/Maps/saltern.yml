@@ -375,15 +375,12 @@ entities:
     type: BallisticAmmoProvider
   - canCollide: False
     type: Physics
-<<<<<<< HEAD
-=======
   - containers:
       storagebase: !type:Container
         ents: []
       ballistic-ammo: !type:Container
         ents: []
     type: ContainerContainer
->>>>>>> master
 - uid: 26
   type: WallSolid
   components:
@@ -555,15 +552,12 @@ entities:
     type: BallisticAmmoProvider
   - canCollide: False
     type: Physics
-<<<<<<< HEAD
-=======
   - containers:
       storagebase: !type:Container
         ents: []
       ballistic-ammo: !type:Container
         ents: []
     type: ContainerContainer
->>>>>>> master
 - uid: 47
   type: Grille
   components:
@@ -66377,17 +66371,11 @@ entities:
     parent: 852
     type: Transform
 - uid: 7568
-<<<<<<< HEAD
-  type: MailTeleporter
-  components:
-  - pos: 15.5,12.5
-=======
   type: VendingMachineSalvage
   components:
   - name: Salvage Equipment
     type: MetaData
   - pos: 24.5,15.5
->>>>>>> master
     parent: 852
     type: Transform
 - uid: 7569

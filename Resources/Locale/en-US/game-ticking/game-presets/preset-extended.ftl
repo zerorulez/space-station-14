@@ -1,2 +1,2 @@
-extended-title = Extended
-extended-description = No antagonists, have fun!
+extended-title = Extensa
+extended-description = Sem antagonistas, se divirta!

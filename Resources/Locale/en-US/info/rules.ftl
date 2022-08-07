@@ -1,5 +1,5 @@
-﻿# Rules
+# Rules
 
-ui-rules-header = SS14 Official Server Rules
-ui-rules-accept = I have read and agree to follow the rules
-ui-rules-wait = The accept button will be enabled after {$time} seconds.
+ui-rules-header = SS14 Regras Oficiais do Servidor
+ui-rules-accept = Eu li e concordo em seguir as regras.
+ui-rules-wait = O botão aceitar estará ativado após {$time} segundos.

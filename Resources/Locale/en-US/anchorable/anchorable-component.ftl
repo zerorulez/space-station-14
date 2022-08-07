@@ -1,2 +1,2 @@
-anchorable-anchored = Anchored
-anchorable-unanchored = Unanchored
+anchorable-anchored = Fixo
+anchorable-unanchored = Solto

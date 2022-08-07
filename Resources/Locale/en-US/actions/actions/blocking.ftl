@@ -1,12 +1,10 @@
-﻿action-name-blocking = Block
-action-description-blocking = Raise or lower your shield.
+action-name-blocking = Bloquear
+action-description-blocking = Levantar ou abaixar seu escudo.
 
-action-popup-blocking-user = You raise your {$shield}!
-action-popup-blocking-disabling-user = You lower your {$shield}!
+action-popup-blocking-user = Você levanta seu {$shield}!
+action-popup-blocking-disabling-user = Você abaixa seu {$shield}!
 
-action-popup-blocking-other = {CAPITALIZE(THE($blockerName))} raises {POSS-ADJ($blockerName)} {$shield}!
-action-popup-blocking-disabling-other = {CAPITALIZE(THE($blockerName))} lowers {POSS-ADJ($blockerName)} {$shield}!
+action-popup-blocking-other = {$blockerName} levanta {$shield} dele(a)!
+action-popup-blocking-disabling-other = {$blockerName} abaixa {$shield} dele(a)!
 
-action-popup-blocking-user-cant-block = You tried to raise your shield, but it was no use.
-action-popup-blocking-user-too-close = There's no room here to block. Try moving a bit!
-
+action-popup-blocking-user-cant-block = A gravidade aqui te previne de bloquear.

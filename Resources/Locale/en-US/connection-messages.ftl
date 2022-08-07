@@ -1,13 +1,13 @@
-﻿whitelist-not-whitelisted = You are not whitelisted.
+whitelist-not-whitelisted = Você não está na whitelist.
 
-command-whitelistadd-description = Adds the player with the given username to the server whitelist.
+command-whitelistadd-description = Adiciona o jogador na whitelist.
 command-whitelistadd-help = whitelistadd <username>
 
-command-whitelistremove-description = Removes the player with the given username from the server whitelist.
+command-whitelistremove-description = Remove o jogador da whitelist.
 command-whitelistremove-help = whitelistremove <username>
 
-command-kicknonwhitelisted-description = Kicks all non-whitelisted players from the server.
+command-kicknonwhitelisted-description = Expulsar todos os jogadores que não estão na whitelist.
 command-kicknonwhitelisted-help = kicknonwhitelisted
 
-soft-player-cap-full = The server is full!
-panic-bunker-account-denied = This server is in Panic mode and you were rejected. Contact the server administrator for help.
+soft-player-cap-full = O servidor está cheio!
+panic-bunker-account-denied = Este servidor está em modo Pânico e você foi rejeitado. Entre em contato com o administrador do servidor para obter ajuda.

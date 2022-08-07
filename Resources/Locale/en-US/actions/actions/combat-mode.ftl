@@ -1,6 +1,6 @@
-action-name-combat = [color=red]Combat Mode[/color]
-action-description-combat = Enter combat mode.
+action-name-combat = [color=red]Modo Combate[/color]
+action-description-combat = Entra em modo combate.
 
 
-action-popup-combat = Combat mode enabled!
-action-popup-combat-disabling = Combat mode disabled.
+action-popup-combat = Modo de combate ligado!
+action-popup-combat-disabling = Modo de combate desligado.

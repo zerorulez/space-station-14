@@ -1,12 +1,12 @@
-devour-action-popup-message-structure = Your jaws dig into thick material..
-devour-action-popup-message-fail-target-not-valid = That doesn't look particularly edible.
-devour-action-popup-message-fail-target-alive = You can't consume creatures that are alive!
+devour-action-popup-message-structure = Suas mandíbulas adentram um material grosso..
+devour-action-popup-message-fail-target-not-valid = Isso não parece comestível.
+devour-action-popup-message-fail-target-alive = Você não pode consumir criaturas que estão vivas!
 
-dragon-spawn-action-popup-message-fail-no-eggs = You don't have the stamina to create a carp!
+dragon-spawn-action-popup-message-fail-no-eggs = Você não tem energia para criar uma carpa!
 
 
-action-name-devour = [color=red]Devour[/color]
-action-description-devour = Attempt to break a structure with your jaws or swallow a creature.
+action-name-devour = [color=red]Devorar[/color]
+action-description-devour = Tente quebrar uma estrutura com suas mandíbulas ou engolir uma criatura.
 
-action-name-carp-summon = Summon carp
-action-description-carp-summon = Summon a carp to aid you at seizing the station!
+action-name-carp-summon = Sumonar carpa
+action-description-carp-summon = Sumone uma carpa para te ajudar a tomar a estação!

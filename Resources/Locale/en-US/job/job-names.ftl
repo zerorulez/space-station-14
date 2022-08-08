@@ -30,7 +30,7 @@ job-name-bartender = bartender
 job-name-passenger = passageiro
 job-name-salvagespec = especialista em salvamento
 job-name-qm = intendente de carga
-job-name-cargoteh = técnico de carga
+job-name-cargotech = técnico de carga
 job-name-chef = chef de cozinha
 job-name-clown = palhaço
 job-name-ertleader = líder da ERT
@@ -38,3 +38,9 @@ job-name-ertengineer = engenheiro da ERT
 job-name-ertsecurity = segurança da ERT
 job-name-ertmedic = médico da ERT
 job-name-ertjanitor = zelador da ERT
+
+
+# Role timers - Make these alphabetical or I cut you
+JobAtmosphericTechnician = técnico atmosférico
+JobSalvageSpecialist = especialista em salvamento
+JobWarden = diretor de segurança

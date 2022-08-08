@@ -1,6 +1,7 @@
 # User interface
 comms-console-menu-title = Console de Comunicações
 comms-console-menu-announcement-placeholder = Aviso
+comms-console-menu-announcement-button = Anunciar
 comms-console-menu-call-shuttle = Chamar nave de emergência
 comms-console-menu-recall-shuttle = Chamar nave de emergência de volta
 

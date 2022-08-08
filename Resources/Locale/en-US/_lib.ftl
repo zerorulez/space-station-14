@@ -33,9 +33,11 @@ zzzz-fmt-power-joules = { TOSTRING($divided, "G3") } { $places ->
 }
 
 # Used internally by the THE() function.
-zzzz-the = { PROPER($ent) ->
-    *[false] o(a) { $ent }
-     [true] { $ent }
+zzzz-the = { GENDER($ent) ->
+    [male] o
+    [female] a
+    [epicene] os
+   *[neuter] os
     }
 
 # Used internally by the SUBJECT() function.

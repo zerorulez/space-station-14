@@ -10,6 +10,9 @@ reagent-desc-mold = Frequentemente encontrado em locais escuros e úmidos ou em 
 reagent-name-polytrinic-acid = polytrinic acid
 reagent-desc-polytrinic-acid = Uma substância química extremamente corrosiva. O menor toque dele derreterá a maioria das máscaras e capacetes, e causará danos extremos a qualquer um que entrar em contato direto com ele.
 
+reagent-name-chloral-hydrate = chloral hydrate
+reagent-desc-chloral-hydrate = In low doses, makes you drowsy. In higher doses, puts you to sleep. Overdoses deal toxin damage.
+
 reagent-name-fluorosulfuric-acid = fluorosulfuric acid
 reagent-desc-fluorosulfuric-acid = Uma substância química extremamente corrosiva.
 
@@ -45,3 +48,6 @@ reagent-desc-corpium = Um coquetel Syndicate, cuidadosamente colhido de várias 
 
 reagent-name-uncooked-animal-proteins = uncooked animal proteins
 reagent-desc-uncooked-animal-proteins = Isso é muito arriscado para os estômagos de formas de vida mais suaves digerirem.
+
+reagent-name-allicin = allicin
+reagent-desc-allicin = An organosulfur compound found in alliums like garlic, onions, and related plants.

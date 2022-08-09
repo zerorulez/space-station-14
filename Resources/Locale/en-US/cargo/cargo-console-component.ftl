@@ -32,6 +32,7 @@ cargo-console-insufficient-funds = Créditos insuficientes (necessita {$cost})
 cargo-console-paper-print-name = Encomenda #{$orderNumber}
 cargo-console-paper-print-text =
     Encomenda #{$orderNumber}
+    Item: {$itemName}
     Pedido por: {$requester}
     Justificativa: {$reason}
     Aprovado por: {$approver}
@@ -40,5 +41,5 @@ cargo-console-paper-print-text =
 cargo-shuttle-console-menu-title = Console da Nave da Cargo
 cargo-shuttle-console-station-unknown = Desconhecida
 cargo-shuttle-console-shuttle-not-found = Não encontrada
-cargo-shuttle-console-proximity = Perto demais de objetos próximos
 cargo-shuttle-console-organics = Formas de vida orgânica encontradas na nave
+cargo-no-shuttle = No cargo shuttle found!

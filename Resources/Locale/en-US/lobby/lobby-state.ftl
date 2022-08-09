@@ -7,3 +7,4 @@ lobby-state-ready-button-ready-up-state = Pronto
 lobby-state-player-status-not-ready = Não Pronto
 lobby-state-player-status-ready = Pronto
 lobby-state-player-status-observer = Observador
+lobby-state-player-status-station-time =  O tempo da estação é: {$stationTime}

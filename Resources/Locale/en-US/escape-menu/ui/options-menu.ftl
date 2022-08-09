@@ -7,7 +7,7 @@ ui-options-tab-audio = Audio
 ui-options-tab-network = Rede
 
 ui-options-apply = Aplicar
-ui-options-reset-all = Redefinir 
+ui-options-reset-all = Redefinir
 
 ## Audio menu
 
@@ -16,6 +16,7 @@ ui-options-midi-volume = Volume MIDI (Instrumento):
 ui-options-ambience-volume = Volume Ambiente:
 ui-options-ambience-max-sounds = Ambience simultaneous sounds:
 ui-options-lobby-music = Musica no Lobby & Fim do Round
+ui-options-restart-sounds = Round Restart Sounds
 ui-options-event-music = Música de Evento
 ui-options-admin-sounds = Tocar Som de Admin
 ui-options-station-ambience = Música ambiente da Estação
@@ -50,7 +51,7 @@ ui-options-vp-scale = Escala fixa do viewport: x{ $scale }
 ui-options-vp-integer-scaling = Dimensionamento inteiro (pode causar barras pretas/cortes)
 ui-options-vp-integer-scaling-tooltip = Se está opção estiver ativa, o viewport vai escalar usando um valor inteiro
                                         em resoluções específicas. Enquanto isto resulta em texturas nítidas, isto também significa
-                                        que barras pretas aparecerão no topo ou fundo da tela ou na 
+                                        que barras pretas aparecerão no topo ou fundo da tela ou na
                                         parte do viewport que não é visível.
 ui-options-vp-low-res = Viewport de Baixa Resolução
 ui-options-parallax-low-quality = Parallax de Baixa Qualidade (fundo)
@@ -70,6 +71,7 @@ ui-options-header-interaction-adv = Interação Avançada
 ui-options-header-ui = Interface do Usuário
 ui-options-header-misc = Miscelânea
 ui-options-header-hotbar = Hotbar
+ui-options-header-shuttle = Shuttle
 ui-options-header-map-editor = Editor de Mapa
 ui-options-header-dev = Desenvolvimento
 ui-options-header-general = Geral
@@ -156,6 +158,14 @@ ui-options-function-loadout6 = Hotbar Loadout 6
 ui-options-function-loadout7 = Hotbar Loadout 7
 ui-options-function-loadout8 = Hotbar Loadout 8
 ui-options-function-loadout9 = Hotbar Loadout 9
+
+ui-options-function-shuttle-strafe-up = Strafe up
+ui-options-function-shuttle-strafe-right = Strafe right
+ui-options-function-shuttle-strafe-left = Strafe left
+ui-options-function-shuttle-strafe-down = Strafe down
+ui-options-function-shuttle-rotate-left = Rotate left
+ui-options-function-shuttle-rotate-right = Rotate right
+ui-options-function-shuttle-brake = Brake
 
 ## Network menu
 

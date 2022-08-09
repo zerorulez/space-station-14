@@ -1,4 +1,4 @@
-signal-port-name-pressed = Pressionado 
+signal-port-name-pressed = Pressionado
 signal-port-description-pressed = Essa entrada é chamada sempre que o transmissor é pressionado.
 
 signal-port-name-on-transmitter = Ligado

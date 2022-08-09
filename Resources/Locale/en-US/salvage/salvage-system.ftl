@@ -13,6 +13,9 @@ salvage-system-report-activate-success = O imá de coleta está puxando um destr
 
 salvage-system-magnet-examined-inactive = O imã de coleta está inativo.
 salvage-system-magnet-examined-pulling-in = O imã de coleta está tentando puxar o destroço.
-salvage-system-magnet-examined-active = O imã de coleta está segurando o destroço. Consegue segurar por {$timeLeft} segundos.
+salvage-system-magnet-examined-active = O imã de coleta está segurando o destroço. Consegue segurar por { $timeLeft ->
+    [1] one second.
+    *[other] { $timeLeft } seconds.
+}
 salvage-system-magnet-examined-releasing = O imã de coleta está soltando o destroço.
 salvage-system-magnet-examined-cooling-down = O imã de coleta está esfriando.

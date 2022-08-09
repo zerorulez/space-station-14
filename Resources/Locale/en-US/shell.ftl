@@ -14,6 +14,7 @@ shell-only-players-can-run-this-command = Apenas jogadores podem executar esse c
 shell-need-exactly-one-argument = Precisa de um argumento.
 shell-wrong-arguments-number-need-specific = Precisa de {$properAmount} argumentos, os argumentos foram {$currentAmount}.
 shell-argument-must-be-number = Argumento precisa ser um numero.
+shell-argument-must-be-boolean = Argumento precisa ser um booleano.
 shell-wrong-arguments-number = Numero errado de argumentos.
 shell-need-between-arguments = Precisa de {$lower} para {$upper} argumentos!
 

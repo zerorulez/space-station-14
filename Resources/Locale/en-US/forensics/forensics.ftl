@@ -13,3 +13,6 @@ forensic-pad-already-used = Já foi usado.
 forensic-scanner-match-fiber = Correspondência entre as fibras encontrada!
 forensic-scanner-match-fingerprint = Correspondência entre as digitais encontrada!
 forensic-scanner-match-none = Não é possivel encontrar ligação!
+
+forensic-pad-fingerprint-name = {$entity}'s fingerprints
+forensic-pad-gloves-name = fibers from {$entity}

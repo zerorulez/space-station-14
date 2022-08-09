@@ -1,5 +1,7 @@
 ### Stunbaton component
 
+comp-stunbaton-stun = Stunned
+
 ## Used when examining the stunbaton
 
 comp-stunbaton-examined-on = A luz está [color=darkgreen]ligada[/color].

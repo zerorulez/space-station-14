@@ -18,3 +18,6 @@ tool-quality-pulsing-tool-name = Multitool
 
 tool-quality-slicing-name = Cortando
 tool-quality-slicing-tool-name = Faca
+
+tool-quality-sawing-name = Sawing
+tool-quality-sawing-tool-name = Saw

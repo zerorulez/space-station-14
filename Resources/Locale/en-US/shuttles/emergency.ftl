@@ -18,6 +18,7 @@ emergency-shuttle-good-luck = A nave de emergência foi incapaz de chegar na est
 emergency-shuttle-nearby = A nave de emergência não achou um local de pouso valido. Ela está nas proximidades.
 
 # Emergency shuttle console popup / announcement
+emergency-shuttle-console-no-early-launches = Early launch is disabled
 emergency-shuttle-console-auth-left = {$remaining} autorizaçoes para o lançamento antecipado.
 emergency-shuttle-console-auth-revoked = Antecipação de lançamento revogada, {$remaining} autorizações necessárias.
 emergency-shuttle-console-denied = Acesso negado

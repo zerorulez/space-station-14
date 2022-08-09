@@ -17,6 +17,7 @@ nuke-user-interface-first-status-input-code = INSIRA CÓDIGO
 nuke-user-interface-first-status-input-time = INSIRA TEMPO
 nuke-user-interface-first-status-device-ready = DISPOSITIVO PRONTO
 nuke-user-interface-first-status-device-armed = DISPOSTIIVO ATIVO
+nuke-user-interface-first-status-device-cooldown = DEACTIVATED
 nuke-user-interface-status-error = ERRO
 
 ## Lower status

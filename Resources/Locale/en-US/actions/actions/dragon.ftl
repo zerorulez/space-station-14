@@ -4,6 +4,7 @@ devour-action-popup-message-fail-target-alive = Você não pode consumir criatur
 
 dragon-spawn-action-popup-message-fail-no-eggs = Você não tem energia para criar uma carpa!
 
+
 action-name-devour = [color=red]Devorar[/color]
 action-description-devour = Tente quebrar uma estrutura com suas mandíbulas ou engolir uma criatura.
 
@@ -11,7 +12,7 @@ action-name-carp-summon = Sumonar carpa
 action-description-carp-summon = Sumone uma carpa para te ajudar a tomar a estação!
 
 # Rifts
-carp-rift-warning = A rift is causing an unnaturally large energy flux at {$location}. Stop it at all costs!
+carp-rift-warning = Uma fenda está causandoA rift is causing an unnaturally large energy flux at {$location}. Stop it at all costs!
 carp-rift-duplicate = Cannot have 2 charging rifts at the same time!
 carp-rift-examine = It is [color=yellow]{$percentage}%[/color] charged!
 carp-rift-max = You have reached your maximum amount of rifts

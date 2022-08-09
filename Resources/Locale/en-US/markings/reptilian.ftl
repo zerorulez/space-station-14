@@ -52,3 +52,8 @@ marking-LizardFrillsBig = Babados de Lagarto (Grandes)
 marking-LizardHornsDouble-horns_double = Chifres de Lagarto (Duplos)
 marking-LizardHornsDouble = Chifres de Lagarto (Duplos)
 
+marking-LizardFrillsAxolotl-frills_axolotl = Lizard Frills (Axolotl)
+marking-LizardFrillsAxolotl = Lizard Frills (Axolotl)
+
+marking-LizardFrillsHood-frills_hood = Lizard Frills (Hood)
+marking-LizardFrillsHood = Lizard Frills (Hood)

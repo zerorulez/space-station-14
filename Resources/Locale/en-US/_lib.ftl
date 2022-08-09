@@ -34,50 +34,50 @@ zzzz-fmt-power-joules = { TOSTRING($divided, "G3") } { $places ->
 
 # Used internally by the THE() function.
 zzzz-the = { GENDER($ent) ->
-    [male] o
-    [female] a
-    [epicene] os
-   *[neuter] os
-    }
+   *[male] o { $ent }
+    [female] a { $ent }
+    [epicene] os { $ent }
+    [neuter] as { $ent }
+    } 
 
 # Used internally by the SUBJECT() function.
 zzzz-subject-pronoun = { GENDER($ent) ->
-    [male] ele
+   *[male] ele
     [female] ela
     [epicene] eles
-   *[neuter] eles
+    [neuter] elas
    }
 
 # Used internally by the OBJECT() function.
 zzzz-object-pronoun = { GENDER($ent) ->
-    [male] dele
+   *[male] dele
     [female] dela
     [epicene] deles
-   *[neuter] deles
+    [neuter] delas
    }
 
 # Used internally by the POSS-PRONOUN() function.
 zzzz-possessive-pronoun = { GENDER($ent) ->
-    [male] dele
+   *[male] dele
     [female] dela
     [epicene] deles
-   *[neuter] deles
+    [neuter] delas
    }
 
 # Used internally by the POSS-ADJ() function.
 zzzz-possessive-adjective = { GENDER($ent) ->
-    [male] seu
+   *[male] seu
     [female] sua
     [epicene] seus
-   *[neuter] seus
+    [neuter] suas
    }
 
 # Used internally by the REFLEXIVE() function.
 zzzz-reflexive-pronoun = { GENDER($ent) ->
-    [male] ele mesmo
+   *[male] ele mesmo
     [female] ela mesma
     [epicene] eles mesmos
-   *[neuter] eles mesmos
+    [neuter] elas mesmas
    }
 
 # Used internally by the CONJUGATE-BE() function.

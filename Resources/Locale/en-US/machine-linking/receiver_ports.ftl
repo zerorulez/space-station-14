@@ -22,6 +22,18 @@ signal-port-description-close = Fecha um dispositivo.
 signal-port-name-trigger = Acionar
 signal-port-description-trigger = Aciona algum mecânismo no dispositivo.
 
+signal-port-name-order-sender = Order sender
+signal-port-description-order-sender = Cargo console order sender
+
+signal-port-name-order-receiver = Order receiver
+signal-port-description-order-receiver = Cargo console order receiver
+
+signal-port-name-pressurize = Pressurize
+signal-port-description-pressurize = Causes the device to starts releasing air until some target pressure is reached.
+
+signal-port-name-depressurize = Depressurize
+signal-port-description-depressurize = Causes the device to starts siphoning air until some target pressure is reached.
+
 signal-port-name-order-sender = Enviador de encomenda
 signal-port-description-order-sender = Enviador de encomenda do console da cargo
 

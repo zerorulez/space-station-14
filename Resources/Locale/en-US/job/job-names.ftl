@@ -39,7 +39,6 @@ job-name-ertsecurity = segurança da ERT
 job-name-ertmedic = médico da ERT
 job-name-ertjanitor = zelador da ERT
 
-
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = técnico atmosférico
 JobSalvageSpecialist = especialista em salvamento

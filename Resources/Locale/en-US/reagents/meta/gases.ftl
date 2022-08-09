@@ -15,3 +15,9 @@ reagent-desc-nitrogen = Um gás incolor, inodoro e inerte. Altamete estável.
 
 reagent-name-miasma = miasma
 reagent-desc-miasma = Fedido!
+
+reagent-name-nitrous-oxide = nitrous oxide
+reagent-desc-nitrous-oxide = You know how everything seems funnier when you're tired? Well...
+
+reagent-name-frezon = frezon
+reagent-desc-frezon = A highly effective coolant.. and hallucinogenic.

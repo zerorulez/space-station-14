@@ -1,3 +1,3 @@
-thruster-comp-enabled = O propulsor está [color={$enabledColor}]{$enabled}[/color].
-thruster-comp-nozzle-direction = O bico está na direção [color=yellow]{$direction}[/color].
-thruster-comp-nozzle-exposed = O bico está [color={$exposedColor}]{$exposed} exposto[/color] pro espaço.
+thruster-comp-enabled = The thruster is turned [color={$enabledColor}]{$enabled}[/color].
+thruster-comp-nozzle-direction = The nozzle is facing [color=yellow]{$direction}[/color].
+thruster-comp-nozzle-exposed = The nozzle [color={$exposedColor}]{$exposed} exposed[/color] to space.

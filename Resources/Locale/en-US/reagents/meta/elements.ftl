@@ -1,38 +1,38 @@
 reagent-name-aluminium = aluminium
-reagent-desc-aluminium = Um metal prateado, macio, não magnético e dúctil.
+reagent-desc-aluminium = A silver, soft, non-magnetic, and ductile metal.
 
 reagent-name-carbon = carbon
-reagent-desc-carbon = Um sólido preto e cristalino.
+reagent-desc-carbon = A black, crystalline solid.
 
 reagent-name-chlorine = chlorine
-reagent-desc-chlorine = Um gás amarelo-esverdeado que é tóxico para os seres humanos.
+reagent-desc-chlorine = A yellow-green gas which is toxic to humans.
 
 reagent-name-copper = copper
-reagent-desc-copper = Um metal macio, maleável e dúctil com condutividade térmica e elétrica muito alta.
+reagent-desc-copper = A soft, malleable, and ductile metal with very high thermal and electrical conductivity.
 
 reagent-name-fluorine = fluorine
-reagent-desc-fluorine = Um gás amarelo pálido altamente tóxico. Extremamente reativo.
+reagent-desc-fluorine = A highly toxic pale yellow gas. Extremely reactive.
 
 reagent-name-gold = gold
-reagent-desc-gold = O ouro é um metal denso, macio, brilhante e o metal mais maleável e dúctil conhecido.
+reagent-desc-gold = Gold is a dense, soft, shiny metal and the most malleable and ductile metal known.
 
 reagent-name-hydrogen = hydrogen
-reagent-desc-hydrogen = Um gás leve e inflamável.
+reagent-desc-hydrogen = A light, flammable gas.
 
 reagent-name-iodine = iodine
 reagent-desc-iodine = Commonly added to table salt as a nutrient. On its own it tastes far less pleasing.
 
 reagent-name-iron = iron
-reagent-desc-iron = Um metal cinza-prateado que forma óxidos de ferro (ferrugem) em contato com o ar. Comumente ligado com outros elementos para criar ligas como o aço.
+reagent-desc-iron = A silvery-grey metal which forms iron oxides (rust) with contact with air. Commonly alloyed with other elements to create alloys such as steel.
 
 reagent-name-lithium = lithium
-reagent-desc-lithium = Um metal alcalino branco prateado macio. É altamente reativo e inflama se entrar em contato com a água.
+reagent-desc-lithium = A soft, silvery-white alkali metal. It's highly reactive, and ignites if it makes contact with water.
 
 reagent-name-mercury = mercury
-reagent-desc-mercury = Um metal prateado que é líquido à temperatura ambiente. É altamente tóxico para os seres humanos.
+reagent-desc-mercury = A silver metal which is liquid at room temperature. It's highly toxic to humans.
 
 reagent-name-potassium = potassium
-reagent-desc-potassium = Um metal cinza macio e brilhante. Ainda mais reativo que o lítio.
+reagent-desc-potassium = A soft, shiny grey metal. Even more reactive than lithium.
 
 reagent-name-phosphorus = phosphorus
 reagent-desc-phosphorus = A reactive metal used in pyrotechnics and weapons.

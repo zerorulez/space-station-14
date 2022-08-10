@@ -1,8 +1,8 @@
 
-verb-trigger-timer-set = {$time} Segundos
-verb-trigger-timer-set-current = {$time} Segundos (atual)
-verb-trigger-timer-cycle = Atraso de Tempo de Ciclo
+verb-trigger-timer-set = {$time} Seconds
+verb-trigger-timer-set-current = {$time} Seconds (current)
+verb-trigger-timer-cycle = Cycle Time Delay
 
-examine-trigger-timer = O temporizador está definido para {$time} segundos.
+examine-trigger-timer = The timer is set to {$time} seconds.
 
-popup-trigger-timer-set = Temporizador definido para {$time} segundos.
+popup-trigger-timer-set = Timer set to {$time} seconds.

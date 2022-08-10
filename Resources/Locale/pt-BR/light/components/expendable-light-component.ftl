@@ -1,4 +1,4 @@
-expendable-light-start-verb = Start Light
+expendable-light-start-verb = Ligar luz
 
 expendable-light-spent-flare-name = spent flare
 expendable-light-spent-flare-desc = It looks like this flare has burnt out. What a bummer.

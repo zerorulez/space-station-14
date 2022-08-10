@@ -1,2 +1,2 @@
-docking-component-dock = Dock
-docking-component-undock = Undock
+docking-component-dock = Doca
+docking-component-undock = Desatracar
